@@ -1,0 +1,276 @@
+﻿@import "../bootstrap/css/bootstrap.min.css";
+@import 'https://fonts.googleapis.com/css?family=Exo+2:400,400i,700,700i&subset=cyrillic';
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=cyrillic';
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:700&subset=cyrillic,cyrillic-ext');
+/*----------- Variables Start----------------*/
+/*------- -Variables End ----------------------*/
+/*------------Common Functions Start----------*/
+.simple_transition {
+  transition: all 0.3s ease-in-out;
+}
+.btn {
+  width: 200px;
+  color: #373737;
+  border: 3px solid #f45c5d !important;
+  border-radius: 0 !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  background-color: transparent;
+}
+.btn:hover {
+  background-color: #f45c5d !important;
+  color: white !important;
+}
+.glyphicon {
+  font-weight: 900 !important;
+  font-size: 22px;
+  color: #f45c5d;
+  margin-right: 5px;
+  vertical-align: text-bottom;
+}
+.glyphicon-chevron-right,
+.glyphicon-chevron-left {
+  color: #FFFFFF !important;
+}
+/* ------- Common Functions End --------- */
+* {
+  font-family: 'Exo 2', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  transition: all 0.3s ease-in-out;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none !important;
+}
+a:link {
+  text-decoration: none !important;
+}
+h3 {
+  line-height: 40px !important;
+  text-align: center;
+  font-family: 'Ubuntu Mono', monospace !important;
+  font-weight: 700 !important;
+  color: #373737 !important;
+  border-bottom: 4px solid #f2f1f1;
+}
+h4 {
+  text-align: center;
+  color: #373737;
+}
+.block_header {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+.top_line {
+  position: relative;
+  width: 100%;
+  min-height: 40px;
+  height: auto;
+  line-height: 40px;
+  font-size: 14px;
+  padding-left: 50px;
+}
+.top_line .col-md-3 {
+  text-align: right;
+  margin-left: 20px;
+}
+.top_menu {
+  height: 70px;
+  background-color: #373737;
+  position: relative;
+  line-height: 70px;
+}
+.top_menu .logo {
+  height: 60px;
+}
+.top_menu .logo img {
+  height: 100%;
+}
+.top_menu ul {
+  margin-bottom: 0px !important;
+  text-align: right;
+  height: 70px;
+}
+.top_menu ul li {
+  display: inline;
+}
+.top_menu ul li a {
+  color: white;
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.top_menu ul li a:hover {
+  color: #f45c5d;
+}
+.slide1 {
+  position: relative;
+  width: 100%;
+}
+.slide1 img {
+  width: 100%;
+}
+.slide1 .slider_info {
+  position: absolute;
+  top: 0px;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  padding-top: 10%;
+}
+.slide1 .slider_info .btn {
+  margin: 10% 27%;
+}
+.slide1 .slider_info div {
+  font-size: 58px;
+  color: white;
+  text-shadow: black 2px 2px 4px;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+.slide1 .slider_info div:last-of-type {
+  color: #f45c5d;
+  font-size: 30px;
+  font-weight: 700;
+}
+.catalogue {
+  padding-top: 40px;
+}
+.catalogue .image_wraper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.catalogue .image_wraper img {
+  width: 100%;
+}
+.catalogue .masking {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  background-color: rgba(244, 92, 93, 0.5) !important;
+  padding: 23% 16%;
+}
+.catalogue .masking .btn {
+  position: absolute;
+  top: 41%;
+  left: 25%;
+  width: 54%;
+  color: #ffffff;
+  border-color: #ffffff !important;
+}
+.catalogue .masking .btn:hover {
+  background-color: #ffffff !important;
+  color: #f45c5d !important;
+}
+.catalogue .images {
+  width: 100%;
+}
+.catalogue .images .col-md-4:hover .masking {
+  visibility: visible;
+}
+.catalogue .images .col-md-4:hover img {
+  transform: scale(1.3);
+}
+.map {
+  padding-top: 40px;
+}
+.map .container {
+  margin-bottom: 30px;
+}
+.map .container .glyphicon {
+  vertical-align: sub;
+}
+.map .container .row div {
+  font-size: 20px;
+  line-height: 52px;
+}
+.map .container .row div:first-of-type {
+  text-align: right;
+}
+footer {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  color: white;
+  background-color: #373737;
+}
+footer #copyright {
+  font-size: 14px;
+}
+footer ul {
+  margin-bottom: 0px;
+}
+footer ul li {
+  display: inline;
+  font-size: 15px;
+  margin-right: 20px;
+}
+footer ul li a {
+  color: white;
+}
+footer ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.mainContent {
+  padding-top: 30px;
+}
+.mainContent .panel-default {
+  border-radius: 0px;
+  border: #f45c5d 2px solid;
+}
+.mainContent .panel-default .firstLevel li {
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 36px;
+}
+.mainContent .panel-default .firstLevel li a {
+  color: black;
+  width: 100%;
+  display: block;
+}
+.mainContent .panel-default .firstLevel li a:hover {
+  text-decoration: none;
+  color: #f45c5d;
+}
+.mainContent .panel-default .firstLevel li a:link {
+  text-decoration: none;
+}
+.mainContent .panel-default .firstLevel li span {
+  float: right;
+  line-height: 36px;
+}
+.mainContent .panel-default .firstLevel li .glyphicon {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400 !important;
+  vertical-align: baseline;
+}
+.mainContent .panel-default .firstLevel li .secondLevel li {
+  font-size: 14px;
+  padding-left: 15%;
+}
+.mainContent .panel-default .firstLevel li .secondLevel li:hover {
+  background-color: #f2f1f1;
+}
+.mainContent .panel-default .firstLevel li .secondLevel li:hover a {
+  color: #f45c5d !important;
+}
+.mainContent .panel-default .firstLevel li .secondLevel li a {
+  color: #6f6f6f !important;
+}
+.mainContent .panel-default .panel-heading {
+  background-color: #f45c5d;
+  border-radius: 0px;
+  font-weight: 900;
+  color: #fff;
+  font-size: 18px;
+}

@@ -1,0 +1,415 @@
+﻿@import "../bootstrap/css/bootstrap.min.css";
+
+@import 'https://fonts.googleapis.com/css?family=Exo+2:400,400i,700,700i&subset=cyrillic';
+
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=cyrillic';
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:700&subset=cyrillic,cyrillic-ext');
+
+
+/*----------- Variables Start----------------*/
+
+@red: #f45c5d;
+@grey: #373737;
+@lighter-grey: #6f6f6f;
+@light-grey: #f2f1f1;
+@baseFontSize: 14px;
+
+
+/*------- -Variables End ----------------------*/
+
+
+/*------------Common Functions Start----------*/
+
+
+.simple_transition {
+  transition: all 0.3s ease-in-out;
+}
+.btn {
+    width: 200px;   
+    color: @grey;
+    border: 3px solid @red !important;
+    border-radius: 0 !important;
+   font-size: @baseFontSize + 2px !important;
+    font-weight: 700 !important;
+    background-color: transparent;
+    
+    
+
+    &:hover {
+      background-color: @red !important;
+      color: white !important;
+    }
+}
+
+.glyphicon {
+          font-weight: 900 !important;
+          font-size: @baseFontSize + 8px;
+          color: @red;
+          margin-right: 5px;
+          vertical-align: text-bottom;
+    }
+
+.glyphicon-chevron-right, .glyphicon-chevron-left {
+      color: #FFFFFF !important;
+
+  }
+/* ------- Common Functions End --------- */
+* {
+  font-family: 'Exo 2', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  .simple_transition;
+ 
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none !important;
+    }
+
+    &:link {
+        text-decoration: none !important;
+             }
+
+}
+
+h3 {
+  line-height: 40px !important;
+  text-align: center;
+  font-family: 'Ubuntu Mono', monospace !important;
+  font-weight: 700 !important;
+  color: @grey !important;
+  border-bottom: 4px solid @light-grey;
+}
+
+h4 {
+  text-align: center;
+  color: #373737;
+}
+
+.block_header {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+
+
+.top_line {
+    position: relative;
+    width: 100%;
+    min-height: 40px;
+    height: auto;
+    line-height: 40px;
+    font-size: @baseFontSize;
+    padding-left: 50px;
+
+       
+    .col-md-3 {
+        text-align: right;
+        margin-left: 20px;
+    }
+}
+
+
+
+.top_menu {
+  height: 70px;
+  background-color: @grey;
+  position: relative;
+  line-height: 70px;
+
+  .logo{
+      height: 60px;
+
+      img{
+          height: 100%;
+      }
+  }
+
+ 
+  ul {
+      margin-bottom: 0px !important;
+      
+      text-align:right;
+      height: 70px;
+      
+      li {
+      display: inline;
+
+      a {
+          color: white;
+          margin-left: 40px;
+          font-size: @baseFontSize + 6px;
+          font-weight: 600;
+
+          &:hover {
+              color: @red;
+            }
+         }
+        }
+    }
+
+}
+
+
+
+
+
+.slide1 {
+  position: relative;
+  width: 100%;
+
+  img {
+      width: 100%;
+    }
+
+  
+  .slider_info {
+      position: absolute;
+      top: 0px;
+      font-size: @baseFontSize + 16px;
+      font-weight: 700;
+      background-color: rgba(255,255,255,0.5);
+      height: 100%;
+      padding-top: 10%;
+
+      
+      
+      .btn {
+          margin: 10% 27%;
+      }
+
+      div {
+              font-size: @baseFontSize + 44px;
+              color: white;
+              text-shadow: black 2px 2px 4px;
+              font-family: 'Roboto Slab', serif;
+              text-align: center;
+
+              &:last-of-type {
+                  color: @red;
+                  font-size: @baseFontSize + 16px;
+                  font-weight: 700;
+
+              }
+        }
+    }
+
+
+
+}
+.catalogue {
+  padding-top: 40px;
+
+  .image_wraper{
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+
+         img {
+              width: 100%;
+                  
+            }
+    }
+
+  .masking {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            visibility: hidden;
+            background-color: rgba(244,92,93,0.5) !important;
+            padding: 23% 16%;
+            
+
+            .btn {
+                position: absolute;
+                top: 41%;
+                left: 25%;
+                width: 54%;
+                color: #ffffff;
+                border-color: #ffffff !important;
+               
+                &:hover{
+                    background-color: #ffffff !important;
+                     color: @red !important;
+                     
+                    
+                    }
+            }
+   
+        }
+
+  .images {
+
+      width: 100%;
+
+      .col-md-4{
+      
+      &:hover .masking {
+            visibility: visible;
+        }
+      &:hover img {
+            transform: scale(1.3);
+
+         }
+    
+
+     }
+   }
+}
+
+.map {
+  padding-top: 40px;
+
+  .container {
+      margin-bottom: 30px;
+
+      .glyphicon {
+              vertical-align: sub
+            }
+
+      .row div {
+          font-size: @baseFontSize + 6px;
+          line-height: 52px;
+
+          &:first-of-type {
+              text-align: right;
+            }
+        }
+    }
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  color: white;
+  background-color: @grey;
+
+  #copyright {
+      font-size: @baseFontSize;
+    }
+
+  ul {
+    margin-bottom: 0px;
+
+    li {
+      display: inline;
+      font-size: @baseFontSize + 1px;
+      margin-right: 20px;
+      
+      
+
+      a {
+         color: white;
+
+         &:hover {
+              color: white;
+              text-decoration: underline;
+            }
+        }
+    }
+  }
+}
+ 
+.mainContent {
+    padding-top: 30px;
+
+    .panel-default {
+        border-radius: 0px;
+        border: @red 2px solid;
+
+       .firstLevel{
+           
+            li{
+                list-style-type: none;
+                font-size: @baseFontSize + 2px;
+                line-height: @baseFontSize + 22px;
+
+               a{
+
+                  color: black;
+                  width: 100%;
+                  display: block;
+
+                   &:hover {
+                       text-decoration: none;
+                       color:@red; 
+                       
+                   }
+
+                  
+                  &:link {
+                         text-decoration: none;
+                      
+                    } 
+               }
+
+               span {
+                  float: right;
+                  line-height: @baseFontSize + 22px;
+
+                   
+               }
+
+               .glyphicon {
+                        color: #000;
+                        font-size: @baseFontSize - 2px;
+                        font-weight: 400 !important;
+                        vertical-align: baseline;
+                                  }
+
+              
+               
+
+                .secondLevel {
+                     
+
+                         li {
+                         font-size: @baseFontSize;
+                         padding-left: 15%;
+                         
+
+                         &:hover {
+
+                             background-color:@light-grey;
+
+                             a{
+                                 color: @red !important;
+
+                              
+                             }
+                         }
+
+                       a {
+                           color: @lighter-grey !important;
+                       } 
+
+                    }
+              }
+            }
+
+            
+}
+
+        .panel-heading {
+            background-color: @red;
+            border-radius: 0px;
+            font-weight: 900;
+            color: #fff;
+            font-size: 18px;
+        }
+    }
+}
+
+
+
+
+
+
+

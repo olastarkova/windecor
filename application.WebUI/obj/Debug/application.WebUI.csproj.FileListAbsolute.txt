@@ -1,0 +1,256 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\ApplicationInsights.config
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\roslyn\csc.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\roslyn\System.Collections.Immutable.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\roslyn\vbc.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\roslyn\VBCSCompiler.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\roslyn\VBCSCompiler.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\application.WebUI.dll.config
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\application.WebUI.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\application.WebUI.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Castle.Core.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\EntityFramework.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\EntityFramework.SqlServer.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Microsoft.AI.Web.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Microsoft.AI.WindowsServer.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Microsoft.ApplicationInsights.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Microsoft.Web.Infrastructure.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Moq.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Ninject.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\System.Web.Helpers.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\System.Web.Mvc.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\System.Web.Razor.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\System.Web.Webpages.Deployment.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\System.Web.Webpages.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\System.Web.Webpages.Razor.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Castle.Core.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\EntityFramework.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\EntityFramework.SqlServer.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Microsoft.AI.Web.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Microsoft.AI.WindowsServer.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Microsoft.ApplicationInsights.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Moq.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\Ninject.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\System.Web.Razor.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\System.Web.Webpages.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\System.Web.Webpages.Deployment.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\System.Web.Webpages.Razor.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\System.Web.Helpers.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\System.Web.Mvc.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\ru\System.Web.Razor.resources.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\ru\System.Web.Webpages.resources.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\ru\System.Web.Webpages.Deployment.resources.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\ru\System.Web.Webpages.Razor.resources.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\ru\System.Web.Helpers.resources.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\ru\System.Web.Mvc.resources.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\obj\Debug\application.WebUI.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\obj\Debug\application.WebUI.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\obj\Debug\application.WebUI.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\application.Domain.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.WebUI\bin\application.Domain.pdb
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\ApplicationInsights.config
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\roslyn\csc.exe
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\roslyn\vbc.exe
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\application.WebUI.dll.config
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\application.WebUI.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\application.WebUI.pdb
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\application.Domain.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Castle.Core.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\EntityFramework.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Microsoft.AI.Web.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Moq.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Ninject.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\System.Web.Helpers.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\System.Web.Mvc.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\System.Web.Razor.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\System.Web.Webpages.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\System.Web.Webpages.Razor.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\application.Domain.pdb
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Castle.Core.xml
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\EntityFramework.xml
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Microsoft.AI.Web.xml
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Moq.xml
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\Ninject.xml
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\System.Web.Razor.xml
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\System.Web.Webpages.xml
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\System.Web.Webpages.Razor.xml
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\System.Web.Helpers.xml
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\System.Web.Mvc.xml
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\ru\System.Web.Webpages.resources.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\ru\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\ru\System.Web.Webpages.Razor.resources.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\obj\Debug\application.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\obj\Debug\application.WebUI.dll
+C:\Users\Olga\Desktop\application.starkov\application.WebUI\obj\Debug\application.WebUI.pdb
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\ApplicationInsights.config
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\roslyn\csc.exe
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\roslyn\System.Collections.Immutable.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\roslyn\vbc.exe
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\roslyn\VBCSCompiler.exe
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\roslyn\VBCSCompiler.exe.config
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\application.WebUI.dll.config
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\application.WebUI.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\application.WebUI.pdb
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\application.Domain.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Castle.Core.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\EntityFramework.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\EntityFramework.SqlServer.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Microsoft.AI.DependencyCollector.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Microsoft.AI.Web.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Microsoft.AI.WindowsServer.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Microsoft.ApplicationInsights.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Microsoft.Web.Infrastructure.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Moq.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Ninject.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\System.Web.Helpers.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\System.Web.Mvc.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\System.Web.Razor.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\System.Web.Webpages.Deployment.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\System.Web.Webpages.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\System.Web.Webpages.Razor.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\application.Domain.pdb
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Castle.Core.xml
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\EntityFramework.xml
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\EntityFramework.SqlServer.xml
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Microsoft.AI.DependencyCollector.xml
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Microsoft.AI.Web.xml
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Microsoft.AI.WindowsServer.xml
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Microsoft.ApplicationInsights.xml
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Moq.xml
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\Ninject.xml
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\System.Web.Razor.xml
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\System.Web.Webpages.xml
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\System.Web.Webpages.Deployment.xml
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\System.Web.Webpages.Razor.xml
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\System.Web.Helpers.xml
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\System.Web.Mvc.xml
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\ru\System.Web.Razor.resources.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\ru\System.Web.Webpages.resources.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\ru\System.Web.Webpages.Deployment.resources.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\ru\System.Web.Webpages.Razor.resources.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\ru\System.Web.Helpers.resources.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\bin\ru\System.Web.Mvc.resources.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\obj\Debug\application.WebUI.csprojResolveAssemblyReference.cache
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\obj\Debug\application.WebUI.dll
+E:\Docs\WinDecor\WinDecor.by\application.starkov\application.WebUI\obj\Debug\application.WebUI.pdb
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\ApplicationInsights.config
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\roslyn\csc.exe
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\roslyn\System.Collections.Immutable.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\roslyn\vbc.exe
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\roslyn\VBCSCompiler.exe
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\roslyn\VBCSCompiler.exe.config
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\application.WebUI.dll.config
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\application.WebUI.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\application.WebUI.pdb
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\application.Domain.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Castle.Core.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\EntityFramework.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\EntityFramework.SqlServer.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Microsoft.AI.DependencyCollector.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Microsoft.AI.Web.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Microsoft.AI.WindowsServer.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Microsoft.ApplicationInsights.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Microsoft.Web.Infrastructure.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Moq.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Ninject.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\System.Web.Helpers.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\System.Web.Mvc.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\System.Web.Razor.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\System.Web.Webpages.Deployment.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\System.Web.Webpages.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\System.Web.Webpages.Razor.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\application.Domain.pdb
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Castle.Core.xml
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\EntityFramework.xml
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\EntityFramework.SqlServer.xml
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Microsoft.AI.DependencyCollector.xml
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Microsoft.AI.Web.xml
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Microsoft.AI.WindowsServer.xml
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Microsoft.ApplicationInsights.xml
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Moq.xml
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\Ninject.xml
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\System.Web.Razor.xml
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\System.Web.Webpages.xml
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\System.Web.Webpages.Deployment.xml
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\System.Web.Webpages.Razor.xml
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\System.Web.Helpers.xml
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\System.Web.Mvc.xml
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\ru\System.Web.Razor.resources.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\ru\System.Web.Webpages.resources.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\ru\System.Web.Webpages.Deployment.resources.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\ru\System.Web.Webpages.Razor.resources.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\ru\System.Web.Helpers.resources.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\bin\ru\System.Web.Mvc.resources.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\obj\Debug\application.WebUI.csprojResolveAssemblyReference.cache
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\obj\Debug\application.WebUI.dll
+E:\Docs\WinDecor\WinDecor.by\windecor.by\application.WebUI\obj\Debug\application.WebUI.pdb

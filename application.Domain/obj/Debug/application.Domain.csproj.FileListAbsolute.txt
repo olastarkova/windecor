@@ -1,0 +1,20 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.Domain\bin\Debug\application.Domain.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.Domain\bin\Debug\application.Domain.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.Domain\bin\Debug\System.Web.Mvc.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.Domain\obj\Debug\application.Domain.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.Domain\obj\Debug\application.Domain.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.Domain\obj\Debug\application.Domain.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.Domain\bin\Debug\application.Domain.dll.config
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.Domain\bin\Debug\EntityFramework.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.Domain\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.Domain\bin\Debug\EntityFramework.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\aplication.starkov\application.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Olga\Desktop\application.starkov\application.Domain\bin\Debug\application.Domain.dll.config
+C:\Users\Olga\Desktop\application.starkov\application.Domain\bin\Debug\application.Domain.dll
+C:\Users\Olga\Desktop\application.starkov\application.Domain\bin\Debug\application.Domain.pdb
+C:\Users\Olga\Desktop\application.starkov\application.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Olga\Desktop\application.starkov\application.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Olga\Desktop\application.starkov\application.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Olga\Desktop\application.starkov\application.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Olga\Desktop\application.starkov\application.Domain\obj\Debug\application.Domain.dll
+C:\Users\Olga\Desktop\application.starkov\application.Domain\obj\Debug\application.Domain.pdb
