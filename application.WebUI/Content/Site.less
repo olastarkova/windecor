@@ -331,15 +331,20 @@ footer {
                 font-size: @baseFontSize + 2px;
                 line-height: @baseFontSize + 22px;
 
+                div{
+                    position: relative;
+
+                   }
+
                a{
 
-                  color: black;
-                  width: 100%;
+                  color: black !important;
+                  width: 90%;
                   display: block;
 
                    &:hover {
                        text-decoration: none;
-                       color:@red; 
+                       color:@red !important; 
                        
                    }
 
@@ -350,18 +355,15 @@ footer {
                     } 
                }
 
-               span {
-                  float: right;
-                  line-height: @baseFontSize + 22px;
-
-                   
-               }
-
+               
                .glyphicon {
                         color: #000;
                         font-size: @baseFontSize - 2px;
                         font-weight: 400 !important;
-                        vertical-align: baseline;
+                        position: absolute;
+                        width: 10%;
+                        top: 30%;
+                        left: 90%;
                                   }
 
               

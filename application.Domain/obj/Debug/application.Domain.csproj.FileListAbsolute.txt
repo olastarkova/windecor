@@ -18,3 +18,13 @@ C:\Users\Olga\Desktop\application.starkov\application.Domain\bin\Debug\EntityFra
 C:\Users\Olga\Desktop\application.starkov\application.Domain\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Olga\Desktop\application.starkov\application.Domain\obj\Debug\application.Domain.dll
 C:\Users\Olga\Desktop\application.starkov\application.Domain\obj\Debug\application.Domain.pdb
+E:\Docs\GITHUB\windecor.by\application.Domain\bin\Debug\application.Domain.dll.config
+E:\Docs\GITHUB\windecor.by\application.Domain\bin\Debug\application.Domain.dll
+E:\Docs\GITHUB\windecor.by\application.Domain\bin\Debug\application.Domain.pdb
+E:\Docs\GITHUB\windecor.by\application.Domain\bin\Debug\EntityFramework.dll
+E:\Docs\GITHUB\windecor.by\application.Domain\bin\Debug\EntityFramework.SqlServer.dll
+E:\Docs\GITHUB\windecor.by\application.Domain\bin\Debug\EntityFramework.xml
+E:\Docs\GITHUB\windecor.by\application.Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\Docs\GITHUB\windecor.by\application.Domain\obj\Debug\application.Domain.csprojResolveAssemblyReference.cache
+E:\Docs\GITHUB\windecor.by\application.Domain\obj\Debug\application.Domain.dll
+E:\Docs\GITHUB\windecor.by\application.Domain\obj\Debug\application.Domain.pdb

@@ -232,27 +232,29 @@ footer ul li a:hover {
   font-size: 16px;
   line-height: 36px;
 }
+.mainContent .panel-default .firstLevel li div {
+  position: relative;
+}
 .mainContent .panel-default .firstLevel li a {
-  color: black;
-  width: 100%;
+  color: black !important;
+  width: 90%;
   display: block;
 }
 .mainContent .panel-default .firstLevel li a:hover {
   text-decoration: none;
-  color: #f45c5d;
+  color: #f45c5d !important;
 }
 .mainContent .panel-default .firstLevel li a:link {
   text-decoration: none;
-}
-.mainContent .panel-default .firstLevel li span {
-  float: right;
-  line-height: 36px;
 }
 .mainContent .panel-default .firstLevel li .glyphicon {
   color: #000;
   font-size: 12px;
   font-weight: 400 !important;
-  vertical-align: baseline;
+  position: absolute;
+  width: 10%;
+  top: 30%;
+  left: 90%;
 }
 .mainContent .panel-default .firstLevel li .secondLevel li {
   font-size: 14px;
