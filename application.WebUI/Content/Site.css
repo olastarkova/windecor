@@ -29,7 +29,8 @@
   vertical-align: text-bottom;
 }
 .glyphicon-chevron-right,
-.glyphicon-chevron-left {
+.glyphicon-chevron-left,
+.glyphicon-menu-hamburger {
   color: #FFFFFF !important;
 }
 /* ------- Common Functions End --------- */
@@ -38,6 +39,9 @@
   margin: 0px;
   padding: 0px;
   transition: all 0.3s ease-in-out;
+}
+body {
+  min-width: 320px;
 }
 a {
   text-decoration: none;
@@ -54,7 +58,7 @@ h3 {
   font-family: 'Ubuntu Mono', monospace !important;
   font-weight: 700 !important;
   color: #373737 !important;
-  border-bottom: 4px solid #f2f1f1;
+  border-bottom: 4px solid #d2d2d2;
 }
 h4 {
   text-align: center;
@@ -63,7 +67,7 @@ h4 {
 .block_header {
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 .top_line {
   position: relative;
@@ -72,17 +76,23 @@ h4 {
   height: auto;
   line-height: 40px;
   font-size: 14px;
-  padding-left: 50px;
+  text-align: center;
 }
-.top_line .col-md-3 {
+.top_line .col-md-2 {
   text-align: right;
-  margin-left: 20px;
+  padding: 0px;
 }
 .top_menu {
   height: 70px;
   background-color: #373737;
   position: relative;
   line-height: 70px;
+}
+.top_menu .image_wraper {
+  text-align: right;
+}
+.top_menu .image_wraper img {
+  height: 40px;
 }
 .top_menu .logo {
   height: 60px;
@@ -107,6 +117,10 @@ h4 {
 .top_menu ul li a:hover {
   color: #f45c5d;
 }
+#mobile_menu {
+  position: absolute;
+  z-index: 1000;
+}
 .slide1 {
   position: relative;
   width: 100%;
@@ -124,12 +138,19 @@ h4 {
   padding-top: 10%;
 }
 .slide1 .slider_info .btn {
-  margin: 10% 27%;
+  margin: 10% auto;
+  display: block;
+}
+.slide1 .slider_info .cneter {
+  width: 100%;
+}
+.slide1 .slider_info .cneter a {
+  margin: 10px auto;
 }
 .slide1 .slider_info div {
   font-size: 58px;
-  color: white;
-  text-shadow: black 2px 2px 4px;
+  color: #373737;
+  text-shadow: #6f6f6f 2px 2px 4px;
   font-family: 'Roboto Slab', serif;
   text-align: center;
 }
@@ -145,6 +166,7 @@ h4 {
   position: relative;
   width: 100%;
   overflow: hidden;
+  margin-bottom: 25px;
 }
 .catalogue .image_wraper img {
   width: 100%;
@@ -188,6 +210,9 @@ h4 {
 .map .container .glyphicon {
   vertical-align: sub;
 }
+.map .container .glyphicon-map-marker {
+  vertical-align: initial;
+}
 .map .container .row div {
   font-size: 20px;
   line-height: 52px;
@@ -218,7 +243,7 @@ footer ul li a {
 }
 footer ul li a:hover {
   color: white;
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 .mainContent {
   padding-top: 30px;
@@ -261,7 +286,7 @@ footer ul li a:hover {
   padding-left: 15%;
 }
 .mainContent .panel-default .firstLevel li .secondLevel li:hover {
-  background-color: #f2f1f1;
+  background-color: #d2d2d2;
 }
 .mainContent .panel-default .firstLevel li .secondLevel li:hover a {
   color: #f45c5d !important;
@@ -276,3 +301,69 @@ footer ul li a:hover {
   color: #fff;
   font-size: 18px;
 }
+.contacts div {
+  font-size: 16px;
+  line-height: 45px;
+}
+.contacts div:last-of-type {
+  margin-bottom: 10px;
+}
+/*-----------Media Queries Start-----------*/
+@media screen and (max-width: 767px) {
+  .top_menu {
+    height: 50px;
+    line-height: 50px;
+  }
+  .top_menu .image_wraper img {
+    height: 30px;
+  }
+  .top_menu .logo {
+    height: 40px;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  .catalogue .image_wraper {
+    width: 70%;
+    margin: 0 auto 20px;
+  }
+  .contacts div {
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .glyphicon {
+    font-size: 20px;
+  }
+  .slider .slider_info div {
+    font-size: 36px;
+  }
+  .slider .slider_info div:last-of-type {
+    font-size: 24px;
+  }
+  .slider .slider_info .btn {
+    font-size: 14px !important;
+    width: 150px;
+  }
+  .map .container .row h4 {
+    font-size: 16px;
+  }
+  .map .container .row div {
+    text-align: center;
+    font-size: 16px;
+    line-height: 34px;
+  }
+  .map .container .row div:first-of-type {
+    text-align: center;
+  }
+  footer {
+    height: 40px;
+    line-height: 40px;
+  }
+  footer #copyright {
+    text-align: center;
+    font-size: 12px;
+  }
+}
+/*-----------Media Queries End-----------*/

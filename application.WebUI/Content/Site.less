@@ -7,12 +7,15 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:700&subset=cyrillic,cyrillic-ext');
 
 
+
+
+
 /*----------- Variables Start----------------*/
 
 @red: #f45c5d;
 @grey: #373737;
 @lighter-grey: #6f6f6f;
-@light-grey: #f2f1f1;
+@light-grey: #d2d2d2;
 @baseFontSize: 14px;
 
 
@@ -50,10 +53,12 @@
           vertical-align: text-bottom;
     }
 
-.glyphicon-chevron-right, .glyphicon-chevron-left {
+.glyphicon-chevron-right, .glyphicon-chevron-left,  .glyphicon-menu-hamburger {
       color: #FFFFFF !important;
 
   }
+
+
 /* ------- Common Functions End --------- */
 * {
   font-family: 'Exo 2', sans-serif;
@@ -61,6 +66,10 @@
   padding: 0px;
   .simple_transition;
  
+}
+
+body {
+    min-width: 320px;
 }
 
 a {
@@ -93,7 +102,7 @@ h4 {
 .block_header {
     padding-left: 15px;
     padding-right: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 
 
@@ -105,12 +114,13 @@ h4 {
     height: auto;
     line-height: 40px;
     font-size: @baseFontSize;
-    padding-left: 50px;
+    text-align: center;
 
-       
-    .col-md-3 {
+    
+           
+    .col-md-2 {
         text-align: right;
-        margin-left: 20px;
+       padding: 0px;
     }
 }
 
@@ -121,6 +131,16 @@ h4 {
   background-color: @grey;
   position: relative;
   line-height: 70px;
+      
+ 
+  .image_wraper {
+     
+      text-align: right;
+
+      img {
+        height: 40px;
+        }
+  }
 
   .logo{
       height: 60px;
@@ -156,7 +176,10 @@ h4 {
 }
 
 
-
+#mobile_menu {
+    position: absolute;
+    z-index: 1000;
+}
 
 
 .slide1 {
@@ -176,17 +199,27 @@ h4 {
       background-color: rgba(255,255,255,0.5);
       height: 100%;
       padding-top: 10%;
-
+      
       
       
       .btn {
-          margin: 10% 27%;
+          margin: 10% auto;
+          display: block;
+      }
+
+      .cneter {
+
+          width: 100%;
+
+          a {
+              margin: 10px auto;
+          }
       }
 
       div {
               font-size: @baseFontSize + 44px;
-              color: white;
-              text-shadow: black 2px 2px 4px;
+              color: @grey;
+              text-shadow: @lighter-grey 2px 2px 4px;
               font-family: 'Roboto Slab', serif;
               text-align: center;
 
@@ -209,6 +242,7 @@ h4 {
         position: relative;
         width: 100%;
         overflow: hidden;
+        margin-bottom: 25px;
 
          img {
               width: 100%;
@@ -272,6 +306,10 @@ h4 {
       .glyphicon {
               vertical-align: sub
             }
+      .glyphicon-map-marker {
+          vertical-align: initial;
+      }
+
 
       .row div {
           font-size: @baseFontSize + 6px;
@@ -310,7 +348,7 @@ footer {
 
          &:hover {
               color: white;
-              text-decoration: underline;
+              text-decoration: underline !important;
             }
         }
     }
@@ -409,9 +447,109 @@ footer {
     }
 }
 
+.contacts {
+    div {
+        font-size: 16px;
+        line-height: 45px;
+
+        &:last-of-type {
+            margin-bottom: 10px;
+        }
+    }
+
+
+}
 
 
 
 
 
+/*-----------Media Queries Start-----------*/
+
+@media screen and (max-width: 767px) {
+    .top_menu {
+            height: 50px;
+            line-height: 50px;
+
+            .image_wraper img{
+                height: 30px;
+            }
+
+            .logo {
+                    height: 40px;
+                 }
+            }
+
+    h3{
+        font-size: 20px !important;
+    }
+   
+    .catalogue .image_wraper {
+            width: 70%;
+            margin: 0 auto 20px;
+    }
+
+    .contacts {
+            div {
+                font-size: 14px;
+                line-height: 30px;
+                }
+            }
+} 
+
+
+@media screen and (max-width: 991px) {
+
+             .glyphicon {
+                           font-size: 20px;
+                       }
+
+            .slider .slider_info {
+                div {
+                    font-size: 36px;
+
+                    &:last-of-type {
+                        font-size: 24px;
+                    }
+                }
+                
+                .btn {
+                    font-size: 14px !important;
+                    width: 150px;
+                }
+
+            }
+
+           .map .container .row {
+               h4 {
+
+               font-size: 16px;
+               }
+
+              
+
+                div {
+                    text-align: center;
+                    font-size: 16px;
+                    line-height: 34px;
+
+                    &:first-of-type {
+                        text-align: center;
+                    }
+                }
+            }
+
+           footer {
+               height: 40px;
+               line-height: 40px;
+
+               #copyright {
+               text-align: center;
+               font-size: 12px;
+           }
+           }
+
+           
+    }
+/*-----------Media Queries End-----------*/
 

@@ -7,8 +7,8 @@ using application.Domain.Enitites;
 
 namespace application.Domain.Abstract
 {
-    public interface IroshtoryReopository
+    public interface IRoshtoryReopository
     {
-        IQueryable<rolshtory> rolshtorys { get; }
+        IQueryable<Rolshtory> rolshtorys { get; }
     }
 }

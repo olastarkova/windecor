@@ -12,7 +12,10 @@ namespace application.WebUI
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-
+            routes.MapRoute(
+                null,
+                "Page{page}",
+                new { Controller = "Product", action = "List" });
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

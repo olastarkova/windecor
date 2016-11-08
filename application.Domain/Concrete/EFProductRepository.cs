@@ -8,10 +8,10 @@ using application.Domain.Enitites;
 
 namespace application.Domain.Concrete
 {
-    public class EFProductRepository : IroshtoryReopository
+    public class EFProductRepository : IRoshtoryReopository
     {
         private EFDbContext context = new EFDbContext();
-        public IQueryable<rolshtory> rolshtorys
+        public IQueryable<Rolshtory> rolshtorys
         {
             get { return context.rolshtorys; }
         }

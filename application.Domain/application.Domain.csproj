@@ -51,10 +51,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\IroshtoryReopository.cs" />
+    <Compile Include="Abstract\IRoshtoryReopository.cs" />
     <Compile Include="Concrete\EFDbContext.cs" />
     <Compile Include="Concrete\EFProductRepository.cs" />
-    <Compile Include="Enitites\rolshtory.cs" />
+    <Compile Include="Enitites\Rolshtory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

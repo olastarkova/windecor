@@ -1,4 +1,8 @@
-﻿@{ }
+﻿@model application.WebUI.Models.ProductsListViewModel
+@{
+    ViewBag.Title = "Продукты";
+}
+@{ }
 
 <section class="mainContent">
     <div class="container">
@@ -56,4 +60,10 @@
         </div>
     </div>
 </section>
-
+@foreach(var p in Model.Products)
+{
+    Html.RenderPartial("ProductSummary", p);
+}
+<div class="pager">
+    @Html.PageLinks(Model.PagingInfo, x => Url.Action("List", new { page = x }))
+</div>

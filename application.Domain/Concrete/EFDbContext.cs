@@ -10,6 +10,6 @@ namespace application.Domain.Concrete
 {
     public class EFDbContext : DbContext
     {
-        public DbSet<rolshtory> rolshtorys { get; set; }
+        public DbSet<Rolshtory> rolshtorys { get; set; }
     }
 }
