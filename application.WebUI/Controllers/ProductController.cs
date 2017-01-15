@@ -12,33 +12,65 @@ namespace application.WebUI.Controllers
 {
     public class ProductController : Controller
     {
-        public int PageSize = 4; //Колличество товара на странице
+        public int PageSize = 10000; //Колличество товара на странице
 
-        public IRoshtoryReopository repository;
+        public IProductReopository repository;
 
-        public ProductController(IRoshtoryReopository rolshotyRepository)
+        public ProductController(IProductReopository ProductRepository)
         {
-            repository = rolshotyRepository;
+            repository = ProductRepository;
         }
 
         // GET: Product
-        public ViewResult List(int page = 1)
+        public ViewResult List(string category, int page = 1)
         {
-            ProductsListViewModel viewModel = new ProductsListViewModel
+
+            var products = repository.Products.AsQueryable();
+            if (category != null)
             {
-                Products = repository.rolshtorys
-                .OrderBy(p => p.Id)
-                .Skip((page - 1) * PageSize)
-                .Take(PageSize),
-                PagingInfo = new PagingInfo
-                {
-                    CurrentPage = page,
-                    ItemsPerPage = PageSize,
-                    TotalItems = repository.rolshtorys.Count()
-                }
-                };
-            return View(viewModel); 
-               
-        }  
+                products = products.Where(p => p.CategoryEntity.Category == category);
+
+            }
+
+            products = products
+               .OrderBy(p => p.Id)
+               .Skip((page - 1) * PageSize)
+               .Take(PageSize);
+            var viewModel = new ProductsListViewModel
+            {
+                Products = products,
+
+                //PagingInfo = new PagingInfo
+                //{
+                //    CurrentPage = page,
+                //    ItemsPerPage = PageSize,
+                //    TotalItems = category == null ?
+                //    repository.Products.Count() :
+                //    repository.Products.Where(e => e.Category == category).Count()
+                //},
+                CurrentCategory = category
+            };
+            return View(viewModel);
+
+        }
+        public ViewResult Details(int? collectionId)
+        {
+            Product query = repository.Products.FirstOrDefault(p => p.Id == collectionId);
+
+            return View (query);
+        }
+        //public FileContentResult getImage(int productId)
+        //{
+        //    Product rol = repository.rolshtorys.FirstOrDefault(p => p.Id == productId);
+        //    if(rol !=null)
+        //    {
+        //        return File(rol.ImageData, rol.ImageMimeType);
+
+        //    }
+        //    else
+        //    {
+        //        return null;
+        //    }
+        //}
     }
 }

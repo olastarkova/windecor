@@ -1,0 +1,45 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+<html>
+<head>
+    @{ Html.RenderPartial("Head"); }
+    <meta name="viewport" content="width=device-width" />
+    <title>Рольшторы</title>
+</head>
+<body>
+    @{ Html.RenderPartial("Header");
+        Html.RenderPartial("TopMenu");
+
+    }
+    <section class="rolCollections">
+        <div class="container">
+            <div class="row">
+                <div class="hidden-xs col-sm-3 col-md-2  sideBar">
+                    <div class="panel panel-default">
+                        <div class="panel-heading text-uppercase">Категории</div>
+                        <div class="panel-body">
+                            <div>
+                                <ul class="categories">
+                                    <li>
+                                        @{ Html.RenderAction("Menu", "Nav"); }
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xs-12  col-sm-9 col-md-10  productContent" id="products">@RenderBody()</div>
+            </div>
+        </div>
+    </section>
+    @{ Html.RenderPartial("Footer"); }
+</body>
+
+
+
+</html>

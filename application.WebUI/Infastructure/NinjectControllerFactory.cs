@@ -30,7 +30,7 @@ namespace application.WebUI.Infastructure
         {
 
          
-            ninjectKernel.Bind<IRoshtoryReopository>().To<EFProductRepository>();
+            ninjectKernel.Bind<IProductReopository>().To<EFProductRepository>();
             //Добавление привязок
         }
     }

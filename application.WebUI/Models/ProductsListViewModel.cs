@@ -6,9 +6,10 @@ using application.Domain.Enitites;
 
 namespace application.WebUI.Models
 {
-    public class ProductsListViewModel
+    public class ProductsListViewModel 
     {
-        public  IEnumerable<Rolshtory> Products { get; set;}
+        public IQueryable<Product> Products { get; set;}
+        public IQueryable<rolcategory> rolCategories { get; set; }
         public PagingInfo PagingInfo { get; set; }
         public string CurrentCategory { get; set; }
 

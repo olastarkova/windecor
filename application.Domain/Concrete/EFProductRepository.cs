@@ -8,14 +8,42 @@ using application.Domain.Enitites;
 
 namespace application.Domain.Concrete
 {
-    public class EFProductRepository : IRoshtoryReopository
+    public class EFProductRepository : IProductReopository
     {
         private EFDbContext context = new EFDbContext();
-        public IQueryable<Rolshtory> rolshtorys
+        public IQueryable<Product> Products
         {
-            get { return context.rolshtorys; }
+            get { return context.Products; }
+        }
+        public IQueryable<rolcategory> rolCategories
+        {
+            get { return context.rolCategories; }
+        }
+        public IQueryable<Rolcollection_colors> Rolcollections
+        {
+            get { return context.rolcollection; }
+        }
+        public IQueryable<Rolcolors> rolColors
+        {
+            get { return context.rolColors; }
+        }
+        public IQueryable<Rolsize> rolSize
+        {
+            get { return context.rolSize; }
+        }
+        public IQueryable<RolTypes> rolTypes
+        {
+            get { return context.rolTypes; }
         }
 
+        public void SaveProduct(Product rolshtory)
+        {
+            if (rolshtory.Id == 0)
+            {
+                context.Products.Add(rolshtory);
+            }  
+            context.SaveChanges();
+        }
 
     }
 }
