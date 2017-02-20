@@ -16,7 +16,7 @@ namespace application.Domain.Concrete
             Database.SetInitializer<EFDbContext>(new ApplicationDbIntializer());
         }
         public DbSet<Product> Products { get; set; }
-        public DbSet<rolcategory> rolCategories { get; set; }
+        public DbSet<Rolcategory> rolCategories { get; set; }
         public DbSet<Rolcollection_colors> rolcollection { get; set; }
         public DbSet<Rolcolors> rolColors { get; set; }
         public DbSet<Rolsize> rolSize { get; set; }

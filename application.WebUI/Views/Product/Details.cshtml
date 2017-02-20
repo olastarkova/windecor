@@ -8,17 +8,87 @@
 
 <html>
 <head>
+    @{ Html.RenderPartial("Head"); }
     <meta name="viewport" content="width=device-width" />
     <title>Details</title>
 </head>
 <body>
-    <div>
-        <h4>@Model.Price</h4>
-        <h5>@Model.Description</h5>
-      
-    </div>
-    <p>
-        @Html.ActionLink("Back to List", "Index")
-    </p>
-</body>
-</html>
+    @{ Html.RenderPartial("Header");
+        Html.RenderPartial("TopMenu");
+
+    }
+    @*<div>
+            <h4>@Model.Price</h4>
+            <h5>@Model.Description</h5>
+
+        </div>
+        <p>
+            @Html.ActionLink("Back to List", "Index")
+        </p>*@
+
+    <section class="itemDetails">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="breadcrumbs">
+                        <a href="~/Product/List">Все коллекции</a>
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-md-5 col-sm-offset-0 leftImage">
+                    <div id="mainImage" class="imageWraper">
+                        <img src="~/Content/img/RolCollections/@Model.Id/1.png" />
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-7">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h1>@Model.Name</h1>
+                        </div>
+                        <div class="col-xs-12">
+                            <p>@Model.Description</p>
+                        </div>
+                        <!--  <div class="col-xs-12 price">
+                            <h2>10руб</h2>
+                        </div> -->
+                        <div id="color" class="col-xs-12">
+                            <h4>
+                                Цвет: <span>@*{ Html.RenderAction("FirstColorEnumeration", "Color", new { Model.Id }); }*@</span>
+                                </h4>
+                            </div>
+                            <div class="col-xs-12 colors">
+                                <div class="row">
+                                    <span>@{ Html.RenderAction("ColorEnumeration", "Color", new { Model.Id }); }</span>
+                                </div>
+
+                            </div>
+                            <div id="size" class="col-xs-12">
+                                <h4>Размеры(ШxВ)см:</h4>
+                            </div>
+                            <div class="col-xs-12">
+                                <h5>Мини:</h5>
+
+                            </div>
+                            <div class="col-xs-12 sizes">
+                                <div class="row">
+
+                                    @{ Html.RenderAction("SizeRol", "SizeRol"); }
+
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <h5>Универсальные:</h5>
+                            </div>
+                            <div class="col-xs-12 sizes">
+                                <div class="row">
+                                    @{ Html.RenderAction("SizeUniversal", "SizeRol", new { Model.CategoryEntity.Id }); }
+                                </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        @{ Html.RenderPartial("Footer"); }
+    </body>
+    </html>

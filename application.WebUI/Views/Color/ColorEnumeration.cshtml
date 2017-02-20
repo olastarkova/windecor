@@ -1,0 +1,18 @@
+﻿@model IEnumerable<application.Domain.Enitites.Rolcollection_colors>
+
+@{
+    Layout = null;
+}
+
+@foreach (var color in Model)
+{
+    <div class='col-xs-2 col-md-1'>
+        <input type='radio' id='@color.ID' name='rolColors' />
+        <label for='@color.ID'>
+            <div class='imageWraper color'>
+                <img class='shadow' src='~/Content/img/RolCollections/@color.collectionEntity.Id/small-@color.ID&#046;jpg' />
+            </div>
+        </label>
+    </div>
+       //s @color.colorsEntity.Color
+        }

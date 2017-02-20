@@ -16,7 +16,7 @@ namespace application.Domain.Enitites
         //public string Category { get; set; }
         //public int RolcategoryID { get; set; }
 
-        public virtual rolcategory CategoryEntity { get; set; }
-        //public virtual Rolcollection_colors Rolcollection_colorEntity { get; set; }
+        public virtual Rolcategory CategoryEntity { get; set; }
+       // public virtual Rolcollection_colors Rolcollection_colorEntity { get; set; }
     }
 }

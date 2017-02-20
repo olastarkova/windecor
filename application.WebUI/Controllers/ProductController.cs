@@ -53,11 +53,11 @@ namespace application.WebUI.Controllers
             return View(viewModel);
 
         }
-        public ViewResult Details(int? collectionId)
+        public ViewResult Details(int? id)
         {
-            Product query = repository.Products.FirstOrDefault(p => p.Id == collectionId);
+            Product query = repository.Products.Where(p => p.Id == id).FirstOrDefault();
 
-            return View (query);
+            return View(query);
         }
         //public FileContentResult getImage(int productId)
         //{

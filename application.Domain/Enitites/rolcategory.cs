@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace application.Domain.Enitites
 {
-   public class rolcategory
+   public class Rolcategory
     {
         public int Id { get; set; }
         public string Category { get; set; }

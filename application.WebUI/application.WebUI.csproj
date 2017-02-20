@@ -150,9 +150,35 @@
     </None>
     <None Include="Content\Site.less" />
     <Content Include="Content\img\bg.png" />
+    <Content Include="Content\img\karnizy\1.jpg" />
+    <Content Include="Content\img\karnizy\2.jpg" />
+    <Content Include="Content\img\karnizy\3.jpg" />
+    <Content Include="Content\img\karnizy\4.jpg" />
+    <Content Include="Content\img\karnizy\5.jpg" />
+    <Content Include="Content\img\karnizy\6.jpg" />
     <Content Include="Content\img\karnizy_img.jpg" />
     <Content Include="Content\img\logo.png" />
     <Content Include="Content\img\mobile_menu.png" />
+    <Content Include="Content\img\RolCollections\1.jpg" />
+    <Content Include="Content\img\RolCollections\10.jpg" />
+    <Content Include="Content\img\RolCollections\11.jpg" />
+    <Content Include="Content\img\RolCollections\12.jpg" />
+    <Content Include="Content\img\RolCollections\13.jpg" />
+    <Content Include="Content\img\RolCollections\14.jpg" />
+    <Content Include="Content\img\RolCollections\15.jpg" />
+    <Content Include="Content\img\RolCollections\16.jpg" />
+    <Content Include="Content\img\RolCollections\17.jpg" />
+    <Content Include="Content\img\RolCollections\18.jpg" />
+    <Content Include="Content\img\RolCollections\19.jpg" />
+    <Content Include="Content\img\RolCollections\2.jpg" />
+    <Content Include="Content\img\RolCollections\20.jpg" />
+    <Content Include="Content\img\RolCollections\3.jpg" />
+    <Content Include="Content\img\RolCollections\4.jpg" />
+    <Content Include="Content\img\RolCollections\5.jpg" />
+    <Content Include="Content\img\RolCollections\6.jpg" />
+    <Content Include="Content\img\RolCollections\7.jpg" />
+    <Content Include="Content\img\RolCollections\8.jpg" />
+    <Content Include="Content\img\RolCollections\9.jpg" />
     <Content Include="Content\img\slide1.jpg" />
     <Content Include="Content\img\slide5.jpg" />
     <Content Include="Content\img\slide3.jpg" />
@@ -178,15 +204,19 @@
     <Content Include="scripts\less-2.7.1.js" />
     <Content Include="scripts\main.js" />
     <Content Include="scripts\modernizr-2.6.2.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\ColorController.cs" />
     <Compile Include="Controllers\ContactsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NavController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\SizeRolController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -219,6 +249,10 @@
     <Content Include="Views\Shared\TopMenu.cshtml" />
     <Content Include="Views\Shared\Footer.cshtml" />
     <Content Include="Views\Product\Details.cshtml" />
+    <Content Include="Views\Color\ColorEnumeration.cshtml" />
+    <Content Include="Views\SizeRol\SizeRol.cshtml" />
+    <Content Include="Views\SizeRol\SizeUniversal.cshtml" />
+    <Content Include="Views\Color\FirstColorEnumeration.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -228,6 +262,26 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\img\RolCollections\10\" />
+    <Folder Include="Content\img\RolCollections\11\" />
+    <Folder Include="Content\img\RolCollections\12\" />
+    <Folder Include="Content\img\RolCollections\13\" />
+    <Folder Include="Content\img\RolCollections\14\" />
+    <Folder Include="Content\img\RolCollections\15\" />
+    <Folder Include="Content\img\RolCollections\16\" />
+    <Folder Include="Content\img\RolCollections\17\" />
+    <Folder Include="Content\img\RolCollections\18\" />
+    <Folder Include="Content\img\RolCollections\19\" />
+    <Folder Include="Content\img\RolCollections\1\" />
+    <Folder Include="Content\img\RolCollections\20\" />
+    <Folder Include="Content\img\RolCollections\2\" />
+    <Folder Include="Content\img\RolCollections\3\" />
+    <Folder Include="Content\img\RolCollections\4\" />
+    <Folder Include="Content\img\RolCollections\5\" />
+    <Folder Include="Content\img\RolCollections\6\" />
+    <Folder Include="Content\img\RolCollections\7\" />
+    <Folder Include="Content\img\RolCollections\8\" />
+    <Folder Include="Content\img\RolCollections\9\" />
     <Folder Include="Views\Admin\" />
   </ItemGroup>
   <ItemGroup>

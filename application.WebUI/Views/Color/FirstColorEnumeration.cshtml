@@ -1,0 +1,10 @@
+﻿@model IEnumerable<application.Domain.Enitites.Rolcollection_colors>
+
+@{
+    Layout = null;
+}
+
+@foreach (var color in Model)
+{
+    @color.colorsEntity.Color
+}

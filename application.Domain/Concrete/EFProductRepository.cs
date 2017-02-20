@@ -15,7 +15,7 @@ namespace application.Domain.Concrete
         {
             get { return context.Products; }
         }
-        public IQueryable<rolcategory> rolCategories
+        public IQueryable<Rolcategory> rolCategories
         {
             get { return context.rolCategories; }
         }

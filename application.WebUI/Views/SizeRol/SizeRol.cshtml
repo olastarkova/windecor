@@ -1,0 +1,14 @@
+﻿@model IEnumerable<application.Domain.Enitites.Rolsize>
+    @{ 
+        Layout = null;
+    }
+
+@foreach (var mini in Model)
+{
+    <div class='col-xs-3 col-md-2'>
+        <input type="radio" name="sizesMini" id="@mini.Id" />
+        <label for="@mini.Id" class="">
+            <span>@mini.Size</span>
+        </label>
+    </div>
+        }

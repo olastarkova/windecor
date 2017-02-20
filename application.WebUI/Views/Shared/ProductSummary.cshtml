@@ -1,20 +1,21 @@
 ﻿@model application.Domain.Enitites.Product
+    
 
 <div class='col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4'>
     <div class='rolCollection'>
-        <a href="">
+        <a href="~/Product/Details/@Model.Id">
             <div class='imageWrapper'>
                 
-                <img src="~/Content/img/karnizy_img.jpg" alt="@Model.Name"/>
+                <img src="~/Content/img/RolCollections/@Model.Id&#046;jpg" alt="@Model.Name"/>
             </div>
             <div class="collectionName">@Model.Name</div>
-            @Html.ActionLink("Подробнее", "Details", new { Model.Id })
+          @* @Html.ActionLink("Подробнее", "Details", new { Model.Id })*@
         </a>
     </div>
 </div>
 
 
-@*<div class="item">
+@*<div class="item">s
 
     <h2>@Model.Category</h2>
     <h3>@Model.Name</h3>

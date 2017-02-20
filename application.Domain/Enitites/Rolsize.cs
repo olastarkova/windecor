@@ -11,6 +11,7 @@ namespace application.Domain.Enitites
         public int Id { get; set; }
         public string Size { get; set; }
         public int TypyId { get; set; }
+        public bool IsDayNight { get; set;}
 
         public virtual RolTypes typesCollection { get; set; }
    }

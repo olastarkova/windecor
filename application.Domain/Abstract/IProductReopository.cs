@@ -10,7 +10,7 @@ namespace application.Domain.Abstract
     public interface IProductReopository
     {
         IQueryable<Product> Products { get; }
-        IQueryable<rolcategory> rolCategories { get; }
+        IQueryable<Rolcategory> rolCategories { get; }
         IQueryable<Rolcollection_colors> Rolcollections { get; }
         IQueryable<Rolcolors> rolColors { get; }
         IQueryable<Rolsize> rolSize { get; }

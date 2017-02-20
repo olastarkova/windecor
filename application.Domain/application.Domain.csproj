@@ -57,7 +57,7 @@
     <Compile Include="Concrete\EFProductRepository.cs" />
     <Compile Include="Enitites\Cart.cs" />
     <Compile Include="Enitites\Product.cs" />
-    <Compile Include="Enitites\rolcategory.cs" />
+    <Compile Include="Enitites\Rolcategory.cs" />
     <Compile Include="Enitites\Rolcollection_colors.cs" />
     <Compile Include="Enitites\Rolcolors.cs" />
     <Compile Include="Enitites\Rolsize.cs" />
