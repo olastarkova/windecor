@@ -572,6 +572,10 @@ footer {
                 padding: 5px;
                 width: 100%;
                 border: transparent;
+                
+                img{
+                    cursor: pointer;
+                }
 
                 span{
                     display:inline-block;
@@ -582,6 +586,7 @@ footer {
                     cursor:default;
 
                 }
+    
             
              .color, .truba {
             width: 100%;
@@ -640,7 +645,7 @@ footer {
         input {
             display: none;
             
-            &:checked + label > div {
+            &:checked + label{
             border: 2px solid black;
             transition: all 0s ease-in;
 

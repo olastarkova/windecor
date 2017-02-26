@@ -23,7 +23,7 @@ namespace application.WebUI.Controllers
         }
         public PartialViewResult FirstColorEnumeration(int? id)
         {
-            var query = _repository.Rolcollections.Where(p => p.collectionEntity.Id == id).FirstOrDefault();
+            var query = _repository.Rolcollections.Where(p => p.collectionEntity.Id == id).ToList().Take(1);
 
             return PartialView(query);
         }

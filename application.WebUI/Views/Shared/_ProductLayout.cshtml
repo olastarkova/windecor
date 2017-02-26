@@ -18,22 +18,24 @@
     <section class="rolCollections">
         <div class="container">
             <div class="row">
-                <div class="hidden-xs col-sm-3 col-md-2  sideBar">
+                <div class="hidden-xs col-sm-3 sideBar">
                     <div class="panel panel-default">
                         <div class="panel-heading text-uppercase">Категории</div>
                         <div class="panel-body">
-                            <div>
-                                <ul class="categories">
+                            <div id="categories">
+                                <ul class="firstLevel rolCategoriesFL">
                                     <li>
-                                        @{ Html.RenderAction("Menu", "Nav"); }
-
+                                        <ul class="secondLevel rolCategoriesSL">
+                                            @{ Html.RenderAction("Menu", "Nav"); }
+                                        </ul>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
 
                 </div>
-                <div class="col-xs-12  col-sm-9 col-md-10  productContent" id="products">@RenderBody()</div>
+                <div class="col-xs-12  col-sm-9  productContent" id="products">@RenderBody()</div>
             </div>
         </div>
     </section>

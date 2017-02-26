@@ -52,12 +52,13 @@
                         </div> -->
                         <div id="color" class="col-xs-12">
                             <h4>
-                                Цвет: <span>@*{ Html.RenderAction("FirstColorEnumeration", "Color", new { Model.Id }); }*@</span>
+                                Цвет: @{ Html.RenderAction("FirstColorEnumeration", "Color", new { Model.Id }); }
                                 </h4>
                             </div>
+                        
                             <div class="col-xs-12 colors">
                                 <div class="row">
-                                    <span>@{ Html.RenderAction("ColorEnumeration", "Color", new { Model.Id }); }</span>
+                                    @{ Html.RenderAction("ColorEnumeration", "Color", new { Model.Id }); }
                                 </div>
 
                             </div>

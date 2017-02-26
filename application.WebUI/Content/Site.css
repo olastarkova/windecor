@@ -389,6 +389,10 @@ footer ul li a:hover {
   width: 100%;
   border: transparent;
 }
+.itemDetails .colors .row label img,
+.itemDetails .sizes .row label img {
+  cursor: pointer;
+}
 .itemDetails .colors .row label span,
 .itemDetails .sizes .row label span {
   display: inline-block;
@@ -448,8 +452,8 @@ footer ul li a:hover {
 .itemDetails .sizes input {
   display: none;
 }
-.itemDetails .colors input:checked + label > div,
-.itemDetails .sizes input:checked + label > div {
+.itemDetails .colors input:checked + label,
+.itemDetails .sizes input:checked + label {
   border: 2px solid black;
   transition: all 0s ease-in;
 }
