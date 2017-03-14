@@ -1,0 +1,50 @@
+﻿@model application.Domain.Enitites.EavesCollection
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    @{ Html.RenderPartial("Head"); }
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    @{ Html.RenderPartial("Header");
+        Html.RenderPartial("TopMenu");
+
+    }
+    <section class="rolCollections itemDetails content">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="breadcrumbs">
+                        <a href="~/Eaves/Series">Все серии</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="imageWraper">
+                        <img src='~/Content/img/karnizy/@(Model.Id).jpg' alt='"@Model.Name' />
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h1>Карнизы серии @Model.Name</h1>
+                        </div>
+                        <div class="col-xs-12">
+                            <p>@Model.Details</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row productContent itemList">
+             @{Html.RenderAction("EavesItems", "Eaves", new { Model.Id }); }
+            </div>
+        </div>
+    </section>
+    @{ Html.RenderPartial("Footer"); }
+
+</body>
+</html>

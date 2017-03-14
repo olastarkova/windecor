@@ -1,0 +1,25 @@
+﻿@model IEnumerable<application.Domain.Enitites.EavesCollectionItem>
+
+
+@foreach (var item in Model)
+{
+    <div class='col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4'>
+        <div class='rolCollection item'>
+            <a href='~/Eaves/ItemDetails/@item.Id'>
+                <div class='collectionName'>@item.eavesItemsEntity.Name</div>
+                <div class='imageWrapper'>
+                    <img src='~/Content/img/karnizy/items/@(item.eavesItemsEntity.Id).jpg' alt='@item.eavesItemsEntity.Name' />
+                </div>
+            </a>
+        </div>
+    </div>
+ }
+
+
+
+
+
+
+
+
+

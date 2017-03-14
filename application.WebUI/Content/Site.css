@@ -36,6 +36,28 @@
 .glyphicon-menu-hamburger {
   color: #FFFFFF !important;
 }
+input {
+  display: none;
+}
+input[type=checkbox] + label {
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  background-size: 14px;
+  background-position-y: center;
+  cursor: pointer;
+}
+input[type="checkbox"]:not(:checked) + label {
+  background-image: url('img/checkbox_unchecked.png');
+  transition: all ease 0.2s;
+}
+input[type=checkbox]:checked + label {
+  background-image: url('img/checkbox_checked.png');
+  transition: all ease 0.2s;
+}
+label {
+  font-weight: 400;
+  position: relative;
+}
 /* ------- Common Functions End --------- */
 * {
   font-family: 'Exo 2', sans-serif;
@@ -50,7 +72,6 @@ body {
   min-width: 320px;
   height: 100%;
   position: relative;
-  background-color: #000;
 }
 .content {
   min-height: calc(100vh - 180px);
@@ -274,6 +295,12 @@ footer ul li a:hover {
 .rolCollections .panel-default {
   border-radius: 0px;
   border: #f45c5d 2px solid;
+  /*#vendors {
+            li {
+                line-height: 16px;
+                margin-top: 10px;
+            }
+        }*/
 }
 .rolCollections .panel-default .panel-heading {
   background-image: none;
@@ -288,7 +315,7 @@ footer ul li a:hover {
 .rolCollections .panel-default .firstLevel li {
   list-style-type: none;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 2;
   margin-left: 16px;
 }
 .rolCollections .panel-default .firstLevel li a {
@@ -311,10 +338,12 @@ footer ul li a:hover {
 }
 .rolCollections .panel-default .firstLevel li .secondLevel li:hover {
   background-color: #d2d2d2;
-  color: #f45c5d !important;
 }
 .rolCollections .panel-default .firstLevel li .secondLevel li a {
   color: #6f6f6f !important;
+}
+.rolCollections .panel-default .firstLevel li .secondLevel li a:hover {
+  color: #f45c5d !important;
 }
 .contacts div {
   font-size: 16px;
@@ -378,6 +407,10 @@ footer ul li a:hover {
 .itemDetails h4 {
   margin-top: 20px;
 }
+.itemDetails .colors input:checked + label {
+  border: 2px solid black;
+  transition: all 0s ease-in;
+}
 .itemDetails .colors .row,
 .itemDetails .sizes .row {
   padding-left: 15px !important;
@@ -388,6 +421,7 @@ footer ul li a:hover {
   padding: 5px;
   width: 100%;
   border: transparent;
+  font-weight: 400;
 }
 .itemDetails .colors .row label img,
 .itemDetails .sizes .row label img {
@@ -447,20 +481,6 @@ footer ul li a:hover {
   cursor: pointer !important;
   font-weight: 400 !important;
   width: 100%;
-}
-.itemDetails .colors input,
-.itemDetails .sizes input {
-  display: none;
-}
-.itemDetails .colors input:checked + label,
-.itemDetails .sizes input:checked + label {
-  border: 2px solid black;
-  transition: all 0s ease-in;
-}
-.itemDetails .colors input:checked + .size,
-.itemDetails .sizes input:checked + .size {
-  border-color: black;
-  transition: all 0s ease-in;
 }
 .rolCollections {
   padding-top: 40px;

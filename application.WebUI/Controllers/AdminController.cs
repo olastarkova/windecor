@@ -12,9 +12,9 @@ namespace application.WebUI.Controllers
 {
     public class AdminController : Controller
     {
-        public IProductReopository repository;
+        public IRolReopository repository;
 
-        public AdminController(IProductReopository rolshotyRepository)
+        public AdminController(IRolReopository rolshotyRepository)
         {
             repository = rolshotyRepository;
         }

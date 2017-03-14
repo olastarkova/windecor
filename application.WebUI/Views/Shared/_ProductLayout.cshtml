@@ -19,17 +19,34 @@
         <div class="container">
             <div class="row">
                 <div class="hidden-xs col-sm-3 sideBar">
-                    <div class="panel panel-default">
-                        <div class="panel-heading text-uppercase">Категории</div>
-                        <div class="panel-body">
-                            <div id="categories">
-                                <ul class="firstLevel rolCategoriesFL">
-                                    <li>
-                                        <ul class="secondLevel rolCategoriesSL">
-                                            @{ Html.RenderAction("Menu", "Nav"); }
-                                        </ul>
-                                    </li>
-                                </ul>
+                    <div class="col-xs-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading text-uppercase">Категории</div>
+                            <div class="panel-body">
+                                <div id="categories">
+                                    <ul class="firstLevel rolCategoriesFL">
+                                        <li>
+                                            <ul class="secondLevel rolCategoriesSL">
+                                                @{ Html.RenderAction("Menu", "Nav"); }
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading text-uppercase">Производители</div>
+                            <div class="panel-body">
+                                <div id="vendors">
+                                    <ul class="firstLevel rolCategoriesFL">
+                                        <li>
+                                            <input type="checkbox" checked id="vendor1" />
+                                            <label for="vendor1">Karten (Польша)</label>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -41,7 +58,4 @@
     </section>
     @{ Html.RenderPartial("Footer"); }
 </body>
-
-
-
 </html>

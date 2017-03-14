@@ -1,27 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using application.Domain.Abstract;
-using application.WebUI.Models;
+
 
 namespace application.WebUI.Controllers
 {
     public class NavController : Controller
     {
-        private IProductReopository repository;
+        private IRolReopository _repository;
 
-        public NavController(IProductReopository repo)
+        public NavController(IRolReopository repo)
         {
-            repository = repo;
+            _repository = repo;
         }
-        // GET: Nav
-       public PartialViewResult Menu(string category=null)
-        {
-            //ViewBag.SelectedCategory = category;
 
-            IEnumerable<string> categories = repository.rolCategories
+        // GET: Nav
+        public PartialViewResult Menu(string category = null)
+        {
+            IEnumerable<string> categories = _repository.rolCategories
                 .Select(c => c.Category)
                 .OrderBy(c => c);
 

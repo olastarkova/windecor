@@ -1,0 +1,6 @@
+﻿@model IEnumerable<application.Domain.Enitites.EavesItemsColor>
+
+@foreach(var eavesFirstColor in Model)
+{
+    @eavesFirstColor.eavesColorsEntity.ColorName
+}

@@ -1,0 +1,30 @@
+﻿@model IEnumerable<application.Domain.Enitites.EavesItemsColor>
+
+@*@for (int i = 0; i < @Model.Count(); i++)
+{
+    @Model[i].Id
+}*@
+
+@{var i = 0; }
+@foreach (var eavesColor in Model)
+{
+    if (i == 0)
+    {
+        <div class='col-xs-2 col-md-1'>
+            <input type='radio' id='@eavesColor.eavesColorsEntity.Id' name='colors' checked />
+            <label for='@eavesColor.eavesColorsEntity.Id' class='imageWraper color'>
+                <img class='shadow' src='~/Content/img/karnizy/colors/@(eavesColor.eavesColorsEntity.Id).jpg' />
+            </label>
+        </div>
+    }
+    else
+    {
+        <div class='col-xs-2 col-md-1'>
+            <input type='radio' id='@eavesColor.eavesColorsEntity.Id' name='colors' />
+            <label for='@eavesColor.eavesColorsEntity.Id' class='imageWraper color'>
+                <img class='shadow' src='~/Content/img/karnizy/colors/@(eavesColor.eavesColorsEntity.Id).jpg' />
+            </label>
+        </div>
+    }
+    i++;
+}

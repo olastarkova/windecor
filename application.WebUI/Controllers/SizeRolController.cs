@@ -9,9 +9,9 @@ namespace application.WebUI.Controllers
 {
     public class SizeRolController : Controller
     {
-        private IProductReopository _repository;
+        private IRolReopository _repository;
 
-        public SizeRolController(IProductReopository repo)
+        public SizeRolController(IRolReopository repo)
         {
             _repository = repo;
         }

@@ -14,9 +14,9 @@ namespace application.WebUI.Controllers
     {
         public int PageSize = 10000; //Колличество товара на странице
 
-        public IProductReopository repository;
+        public IRolReopository repository;
 
-        public ProductController(IProductReopository ProductRepository)
+        public ProductController(IRolReopository ProductRepository)
         {
             repository = ProductRepository;
         }

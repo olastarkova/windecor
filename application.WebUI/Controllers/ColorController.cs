@@ -10,8 +10,8 @@ namespace application.WebUI.Controllers
 {
     public class ColorController : Controller
     {
-        private IProductReopository _repository;
-        public ColorController(IProductReopository repo)
+        private IRolReopository _repository;
+        public ColorController(IRolReopository repo)
         {
             _repository = repo;
         }
@@ -27,5 +27,12 @@ namespace application.WebUI.Controllers
 
             return PartialView(query);
         }
+        [HttpPost]
+        public ActionResult ChangeColorName(int? id)
+        {
+            var query = _repository.Rolcollections.Where(p => p.ID == id).ToList().Take(1);
+
+            return PartialView(query);
+         }
     }
 }

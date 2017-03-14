@@ -1,0 +1,11 @@
+﻿@model application.WebUI.Models.ProductsListViewModel
+@{
+    ViewBag.Title = "Карнизы";
+    Layout = "~/Views/Shared/_EavesLayout.cshtml";
+}
+
+
+@foreach (var eavesCollection in Model.EavesCollection)
+{
+    Html.RenderPartial("EavesSummary", eavesCollection);
+}

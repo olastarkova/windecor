@@ -51,17 +51,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\IProductReopository.cs" />
+    <Compile Include="Abstract\IEavesRepository.cs" />
+    <Compile Include="Abstract\IRolReopository.cs" />
+    <Compile Include="Concrete\ApplicationDbEavesIntializer.cs" />
     <Compile Include="Concrete\ApplicationDbIntializer.cs" />
     <Compile Include="Concrete\EFDbContext.cs" />
-    <Compile Include="Concrete\EFProductRepository.cs" />
-    <Compile Include="Enitites\Cart.cs" />
-    <Compile Include="Enitites\Product.cs" />
-    <Compile Include="Enitites\Rolcategory.cs" />
-    <Compile Include="Enitites\Rolcollection_colors.cs" />
-    <Compile Include="Enitites\Rolcolors.cs" />
-    <Compile Include="Enitites\Rolsize.cs" />
-    <Compile Include="Enitites\RolTypes.cs" />
+    <Compile Include="Concrete\EFDbEavesContex.cs" />
+    <Compile Include="Concrete\EFEavesRepository.cs" />
+    <Compile Include="Concrete\EFRolRepository.cs" />
+    <Compile Include="Entities\Cart.cs" />
+    <Compile Include="Entities\EavesCatogory.cs" />
+    <Compile Include="Entities\EavesCollectionFastenings.cs" />
+    <Compile Include="Entities\EavesCollectionFasteningsByColor.cs" />
+    <Compile Include="Entities\EavesCollectionItem.cs" />
+    <Compile Include="Entities\EavesCollectionRing.cs" />
+    <Compile Include="Entities\EavesCollection.cs" />
+    <Compile Include="Entities\EavesCollectionType.cs" />
+    <Compile Include="Entities\EavesColor.cs" />
+    <Compile Include="Entities\EavesFastening.cs" />
+    <Compile Include="Entities\EavesItem.cs" />
+    <Compile Include="Entities\EavesItemsColor.cs" />
+    <Compile Include="Entities\EavesSize.cs" />
+    <Compile Include="Entities\EavesType.cs" />
+    <Compile Include="Entities\EavesVendor.cs" />
+    <Compile Include="Entities\Pipe.cs" />
+    <Compile Include="Entities\PipesColor.cs" />
+    <Compile Include="Entities\PipesSize.cs" />
+    <Compile Include="Entities\Product.cs" />
+    <Compile Include="Entities\Ring.cs" />
+    <Compile Include="Entities\Rolcategory.cs" />
+    <Compile Include="Entities\Rolcollection_colors.cs" />
+    <Compile Include="Entities\Rolcolors.cs" />
+    <Compile Include="Entities\Rolsize.cs" />
+    <Compile Include="Entities\RolTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

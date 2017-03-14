@@ -5,8 +5,8 @@
 @foreach (var universal in Model)
 {
     <div class='col-xs-3 col-md-2'>
-        <input type="radio" name="sizesMini" id="@universal.Id" />
-        <label for="@universal.Id" class="">
+        <input type="radio" name="sizesMini" value="sizeUniver-@universal.Id" />
+        <label for="sizeUniver-@universal.Id" class="">
             <span>@universal.Size</span>
         </label>
     </div>

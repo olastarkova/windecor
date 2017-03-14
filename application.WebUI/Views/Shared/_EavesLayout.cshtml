@@ -1,0 +1,62 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    @{ Html.RenderPartial("Head"); }
+    <meta name="viewport" content="width=device-width" />
+    <title>Рольшторы</title>
+</head>
+<body>
+    @{ Html.RenderPartial("Header");
+        Html.RenderPartial("TopMenu");
+    }
+    <section class="rolCollections">
+        <div class="container">
+            <div class="row">
+                <div class="hidden-xs col-sm-3 col-md-3  sideBar">
+                    <div class="col-xs-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading text-uppercase">Категории</div>
+                            <div class="panel-body">
+                                <div id="karnizyCategories">
+                                    <ul class="firstLevel karnizyCategoriesFL">
+                                        <li>
+                                            <a data-vendorId='1'>@{ Html.RenderAction("EavesMenu", "EavesNav"); }</a>
+                                            <ul class="secondLevel karnizyCategoriesSL"></ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading text-uppercase">Производители</div>
+                            <div class="panel-body">
+                                <div id="vendors">
+                                    <ul class="firstLevel rolCategoriesFL">
+                                        <li>
+                                            <input type="checkbox" checked id="vendor1" />
+                                            <label for="vendor1">Marcin Dekor (Польша)</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12  col-sm-9 col-md-9  productContent" id="products">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @{ Html.RenderPartial("Footer"); }
+</body>
+</html>
