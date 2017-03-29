@@ -1,6 +1,7 @@
 ﻿@model application.Domain.Enitites.EavesCollection
 @{
     Layout = null;
+    
 }
 
 <!DOCTYPE html>
@@ -8,9 +9,9 @@
 <head>
     @{ Html.RenderPartial("Head"); }
     <meta name="viewport" content="width=device-width" />
-    <title>Details</title>
+    <title>Карнизы серии @Model.Name</title>
 </head>
-<body>
+<body> 
     @{ Html.RenderPartial("Header");
         Html.RenderPartial("TopMenu");
 

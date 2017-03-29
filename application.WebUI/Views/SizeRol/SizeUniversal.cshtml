@@ -2,13 +2,14 @@
 @{
     Layout = null;
 }
+
+
 @foreach (var universal in Model)
 {
     <div class='col-xs-3 col-md-2'>
-        <input type="radio" name="sizesMini" value="sizeUniver-@universal.Id" />
-        <label for="sizeUniver-@universal.Id" class="">
+        <input type="radio" name="sizes" id="size-@universal.Id" value="@universal.Id" />
+        <label for="size-@universal.Id" >
             <span>@universal.Size</span>
         </label>
     </div>
-   
 }

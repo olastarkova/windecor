@@ -10,7 +10,8 @@ namespace application.Domain.Enitites
     {
         public int Id { get; set; }
         
-        public virtual EavesCatogory eavesCategoriesEntity { get; set; }
+        public virtual EavesCollection eavesCollectionEntity { get; set; }
         public virtual EavesType eavesTypesEntity { get; set; }
+        public virtual EavesColor eavesColorsEntity { get; set; }
     }
 }

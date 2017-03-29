@@ -9,13 +9,14 @@
     @{ Html.RenderPartial("Head"); }
     <meta name="viewport" content="width=device-width" />
     <title>Рольшторы</title>
+    
 </head>
 <body>
     @{ Html.RenderPartial("Header");
         Html.RenderPartial("TopMenu");
 
     }
-    <section class="rolCollections">
+    <section class="rolCollections content">
         <div class="container">
             <div class="row">
                 <div class="hidden-xs col-sm-3 sideBar">
@@ -41,9 +42,9 @@
                             <div class="panel-body">
                                 <div id="vendors">
                                     <ul class="firstLevel rolCategoriesFL">
-                                        <li>
-                                            <input type="checkbox" checked id="vendor1" />
-                                            <label for="vendor1">Karten (Польша)</label>
+                                        <li><a>Karten (Польша)</a>
+                                            @*<input type="checkbox" checked id="vendor1" />
+                                            <label for="vendor1">Karten (Польша)</label>*@
                                         </li>
                                     </ul>
                                 </div>

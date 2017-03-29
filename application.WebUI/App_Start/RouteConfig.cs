@@ -20,7 +20,8 @@ namespace application.WebUI
                null,
                "{category}",
                new { Controller = "Product", action = "List", page = 1 });
-            routes.MapRoute(
+          
+             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }

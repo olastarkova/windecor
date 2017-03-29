@@ -1,4 +1,5 @@
 ﻿@model application.Domain.Enitites.EavesCollectionItem
+
 @{
     Layout = null;
 }
@@ -7,7 +8,7 @@
 <head>
     @{ Html.RenderPartial("Head"); }
     <meta name="viewport" content="width=device-width" />
-    <title>Details</title>
+    <title>@Model.eavesItemsEntity.Name @Model.eavesCollectionEntity.Name</title>
 </head>
 <body>
     @{ Html.RenderPartial("Header");
@@ -22,7 +23,7 @@
                         <a href="~/Eaves/Series">Все серии</a><span> / </span><a href="~/Eaves/Details/@Model.eavesCollectionEntity.Id">Серия @Model.eavesCollectionEntity.Name</a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-5">
+                <div class="hidden-xs col-sm-5">
                     <div class="imageWraper">
                         <img src='~/Content/img/karnizy/items/@(Model.eavesItemsEntity.Id).jpg' />
                     </div>
@@ -31,6 +32,11 @@
                     <div class="col-xs-12">
                         <h1>@Model.eavesItemsEntity.Name @Model.eavesCollectionEntity.Name</h1>
                     </div>
+                    <div class="col-xs-12 hidden-sm  hidden-md hidden-lg">
+                        <div class="imageWraper">
+                            <img src='~/Content/img/karnizy/items/@(Model.eavesItemsEntity.Id).jpg' />
+                        </div>
+                    </div>
                     <div class="col-xs-12">
                         <p>@Model.Description</p>
                     </div>
@@ -38,7 +44,7 @@
                         <h4>
                             Цвет элементов:
                             <span id="color">
-                                 @{ Html.RenderAction("FirstEavesColor", "Eaves", new { Model.Id}); }
+                                @{ Html.RenderAction("FirstEavesColor", "Eaves", new { Model.Id }); }
                             </span>
                         </h4>
                     </div>
@@ -47,11 +53,77 @@
                             @{ Html.RenderAction("EavesColor", "Eaves", new { Model.Id }); }
                         </div>
                     </div>
+                    <div class="col-xs-12">
+                        <h4>
+                            Варианты труб (зависит от цвета):
+                            <span id="truba">
+                                @{ Html.RenderAction("PipeEaves", "Eaves", new { Model.eavesCollectionEntity.Id }); }
+                            </span>
+                        </h4>
+                    </div>
+                    <div class="col-xs-12 colors">
+                        <div id="truby" class="row">
+                            @{ Html.RenderAction("PipeEavesAllColors", "Eaves", new { id = Model.eavesCollectionEntity.Id, id2 = Model.Id }); }
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <h4>
+                            Стандартная длина карниза (см): <span id="size"></span>
+                        </h4>
+                    </div>
+                    <div class="col-xs-12 sizes">
+                        <div id="sizes" class="row">
+                            @{ Html.RenderAction("PipeSizeAll", "Eaves", new { Model.eavesCollectionEntity.Id });}
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <h4>
+                            Вид карниза: <span id="type">
+
+                            </span>
+                        </h4>
+                    </div>
+                    <div class="col-xs-12 types">
+                        <div id="types" class="row">
+                            @{ Html.RenderAction("PipeItemAll", "Eaves", new { id = Model.eavesCollectionEntity.Id, id2 = Model.Id });}
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <h4>
+                            Варианты крепления: <span id="krepleniye">
+                                @{ Html.RenderAction("PipeFasteningNameAll", "Eaves", new { id = Model.eavesCollectionEntity.Id, id2 = Model.Id });}
+                            </span>
+                        </h4>
+                    </div>
+                    <div class="col-xs-12 krepleniya">
+                        <div id="krepleniya" class="row">
+                            @{ Html.RenderAction("PipeFasteningAll", "Eaves", new { id = Model.eavesCollectionEntity.Id, id2 = Model.Id });}
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <h4>
+                            Варианты колец: <span id="kolco">
+                                @{ Html.RenderAction("PipeRingNameAll", "Eaves", new { id = Model.eavesCollectionEntity.Id, id2 = Model.Id });}
+                            </span>
+                        </h4>
+                    </div>
+                    <div class="col-xs-12 kolca">
+                        <div id="kolca" class="row">
+                            @{ Html.RenderAction("PipeRingAll", "Eaves", new { id = Model.eavesCollectionEntity.Id, id2 = Model.Id });}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
+    <script type="text/javascript">
+        var changeEavesColorNameUrl = "@(Url.Action("ChangePipeEavesAllColors", "Eaves"))";
+        var changePipeList = "@(Url.Action("ChangePipeList", "Eaves"))";
+        var collectionId = @Model.eavesCollectionEntity.Id;
+        var changePipeNameUrl = "@(Url.Action("ChangePipeName", "Eaves"))";
+        var changeSizeListUrl = "@(Url.Action("ChangeSizeList", "Eaves"))";
+        var changeFasteningName = "@(Url.Action("ChangeFasteningName", "Eaves"))";
+    </script>
     @{ Html.RenderPartial("Footer"); }
 
 </body>

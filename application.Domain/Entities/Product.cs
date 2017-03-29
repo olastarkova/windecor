@@ -13,10 +13,7 @@ namespace application.Domain.Enitites
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
-        //public string Category { get; set; }
-        //public int RolcategoryID { get; set; }
 
         public virtual Rolcategory CategoryEntity { get; set; }
-       // public virtual Rolcollection_colors Rolcollection_colorEntity { get; set; }
     }
 }

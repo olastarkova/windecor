@@ -84,7 +84,7 @@ namespace application.Domain.Concrete
             {
                 Id = 1,
                 Name = "16мм",
-                Details = "<strong>Металлические карнизы &Oslash;16мм</strong> отлично подойдут для небольших помещений с шириной стены и высотой потолка не более 3х метров. Диаметр трубы 16мм - идеальный выбор для кухни или небольшой жилой комнаты. Разнообразие цветов и видов труб, а также большое количество наконечников, позволит выбрать карниз, подходящий любому стилю интерьера: от классического и кантри до хай-тек. Установка данного типа карнизов может осуществляться как на стеновых, так и на потолочных кронштейнах. По количеству рядов, карнизы Ø16мм могут быть одинарными, двойными или тройными.< p > Все карнизы < strong > польской фабрики Marcin Dekor </ strong > проходят специальную обработку и имеют < strong > гальваническое покрытие.</ strong > Данный вид покрытия не только придает изделию определенный цвет, но и защищает его от окисления и коррозии.Кроме того, < strong > гальваническое покрытие </ strong > придает карнизу дополнительную прочность, износостойкость, декоративные и другие свойства.</ p >",
+                Details = "<strong>Металлические карнизы &Oslash;16мм</strong> отлично подойдут для небольших помещений с шириной стены и высотой потолка не более 3х метров. Диаметр трубы 16мм - идеальный выбор для кухни или небольшой жилой комнаты. Разнообразие цветов и видов труб, а также большое количество наконечников, позволит выбрать карниз, подходящий любому стилю интерьера: от классического и кантри до хай-тек. Установка данного типа карнизов может осуществляться как на стеновых, так и на потолочных кронштейнах. По количеству рядов, карнизы &Oslash;16мм могут быть одинарными, двойными или тройными.<p>Все карнизы <strong>польской фабрики Marcin Dekor</strong> проходят специальную обработку и имеют <strong>гальваническое покрытие</strong>. Данный вид покрытия не только придает изделию определенный цвет, но и защищает его от окисления и коррозии. Кроме того, <strong>гальваническое покрытие</strong> придает карнизу дополнительную прочность, износостойкость, декоративные и другие свойства.</p>",
                 eavesCategoriesEntity = eavesCategoty1,
                 eavesVendorsEntity = null
             };
@@ -92,7 +92,7 @@ namespace application.Domain.Concrete
             {
                 Id = 2,
                 Name = "19мм",
-                Details = "<strong>Кованые металлические карнизы Ø19мм</strong>  пользуются большой популярностью, благодаря своим универсальным свойствам. Данный диаметр карниза отлично подойдет как для больших, так и для маленьких комнат с небольшой высотой потолка. Многообразие форм, видов труб и наконечников позволит подобрать карниз для любого стиля интерьера: от классического до хай-тек.< p > Все карнизы < strong > польской фабрики Marcin Dekor </ strong > проходят специальную обработку и имеют < strong > гальваническое покрытие.</ strong > Данный вид покрытия не только придает изделию определенный цвет, но и защищает его от окисления и коррозии.Кроме того, < strong > гальваническое покрытие </ strong > придает карнизу дополнительную прочность, износостойкость, декоративные и другие свойства.</ p >",
+                Details = "<strong>Кованые металлические карнизы &Oslash;19мм</strong> пользуются большой популярностью, благодаря своим универсальным свойствам. Данный диаметр карниза отлично подойдет как для больших, так и для маленьких комнат с небольшой высотой потолка. Многообразие форм, видов труб и наконечников позволит подобрать карниз для любого стиля интерьера: от классического до хай-тек.<p>Все карнизы <strong> польской фабрики Marcin Dekor </strong> проходят специальную обработку и имеют <strong>гальваническое покрытие</strong>. Данный вид покрытия не только придает изделию определенный цвет, но и защищает его от окисления и коррозии.Кроме того, <strong>гальваническое покрытие</strong> придает карнизу дополнительную прочность, износостойкость, декоративные и другие свойства.</p>",
                 eavesCategoriesEntity = eavesCategoty1,
                 eavesVendorsEntity = null
             };
@@ -100,7 +100,7 @@ namespace application.Domain.Concrete
             {
                 Id = 3,
                 Name = "25мм",
-                Details = "Test details3",
+                Details = "<strong>Металлические карнизы &Oslash;25мм</strong> лучше всего подойдут для больших помещений с шириной стены и высотой потолка более 3х метров. Если Вы выбираете карниз в просторную гостиную, обратите внимание именно на диаметр труб 25мм, поскольку они достаточно объемны и массивны, чтобы не только прекрасно гармонировать с тяжелыми ночными шторами, но и без проблем выдержать их вес. Разнообразие цветов и видов труб, а также большое количество наконечников позволит выбрать карниз, подходящий любому стилю интерьера: от классического и кантри до хай-тек. По количеству рядов <strong>карнизы &Oslash;25мм</strong> могут быть <strong>одинарными</strong> или <strong>двойными</strong>, причем в качестве второго, дальнего, ряда используется труба диаметром 16мм, т.к. на ней будет располагаться легкая и невесомая тюль.<p>Все карнизы <strong>польской фабрики Marcin Dekor</strong> имеют <strong>гальваническое покрытие</strong>. Данный вид покрытия придает изделию определенный цвет, а также защищает карниз от окисления и коррозии.Кроме того, <strong>гальваническое покрытие</strong> придает изделию дополнительную прочность, износостойкость, декоративные и другие свойства.</p>",
                 eavesCategoriesEntity = eavesCategoty1,
                 eavesVendorsEntity = null
             };
@@ -108,7 +108,7 @@ namespace application.Domain.Concrete
             {
                 Id = 4,
                 Name = "Квадро",
-                Details = "Test details4",
+                Details = "<strong>Металлические карнизы Квадро</strong> это идеальный выбор для тех, кто стремится подчеркнуть эксклюзивность своего интерьера. Трубы этих карнизов имеют форму квадрата 20х20мм. По количеству рядов <strong>карнизы Квадро</strong> могут быть одинарными или двойными.<p>Все карнизы <strong> польской фабрики Marcin Dekor </strong> проходят специальную обработку и имеют <strong>гальваническое покрытие</strong>. Данный вид покрытия не только придает изделию определенный цвет, но и защищает его от окисления и коррозии.Кроме того, <strong>гальваническое покрытие</strong> придает карнизу дополнительную прочность, износостойкость, декоративные и другие свойства.</p>",
                 eavesCategoriesEntity = eavesCategory2,
                 eavesVendorsEntity = null
             };
@@ -116,23 +116,23 @@ namespace application.Domain.Concrete
             {
                 Id = 5,
                 Name = "Оникс 19мм",
-                Details = "Test details4",
-                eavesCategoriesEntity = eavesCategory2,
+                Details = "<strong>Металлические карнизы Оникс</strong> это отличное решение для современного интерьера. Необычный графитовый оттенок этих карнизов придаст любому интерьеру неповторимую индивидуальность. По количеству рядов <strong>карнизы Оникс</strong> могут быть одинарными или двойными. В комплект входят тихие кольца с зажимом или крючком.<p>Все карнизы <strong> польской фабрики Marcin Dekor </strong> проходят специальную обработку и имеют <strong>гальваническое покрытие</strong>. Данный вид покрытия не только придает изделию определенный цвет, но и защищает его от окисления и коррозии.Кроме того, <strong>гальваническое покрытие</strong> придает карнизу дополнительную прочность, износостойкость, декоративные и другие свойства.</p>",
+                eavesCategoriesEntity = eavesCategoty1,
                 eavesVendorsEntity = null
             };
             var series6 = new EavesCollection
             {
                 Id = 6,
                 Name = "Оникс 25мм",
-                Details = "Test details4",
-                eavesCategoriesEntity = eavesCategory2,
+                Details = "<strong>Металлические карнизы Оникс</strong> это отличное решение для современного интерьера. Необычный графитовый оттенок этих карнизов придаст любому интерьеру неповторимую индивидуальность. По количеству рядов <strong>карнизы Оникс</strong> могут быть одинарными или двойными. В комплект входят тихие кольца с зажимом или крючком.<p>Все карнизы <strong> польской фабрики Marcin Dekor </strong> проходят специальную обработку и имеют <strong>гальваническое покрытие</strong>. Данный вид покрытия не только придает изделию определенный цвет, но и защищает его от окисления и коррозии.Кроме того, <strong>гальваническое покрытие</strong> придает карнизу дополнительную прочность, износостойкость, декоративные и другие свойства.</p>",
+                eavesCategoriesEntity = eavesCategoty1,
                 eavesVendorsEntity = null
             };
             var series7 = new EavesCollection
             {
                 Id = 7,
-                Name = "Square Line (Свайер Лайн)",
-                Details = "",
+                Name = "Square Line (Сквайер Лайн)",
+                Details = "<strong>Металлические карнизы Square Line (Сквайер Лайн)</strong> относятся к <strong>профильным карнизам</strong>. Это значит, что они не имеют колец, а ткань штор крепится к зажимам, которые передвигаются внутри профиля. В отличие от классических карнизов, кронштейны этих карнизов крепятся сверху профиля. Благодаря этому, полотно ткани беспрепятственно можно передвигать по всей длине карниза. По количеству рядов <strong>карнизы Square Line (Сквайер Лайн)</strong> могут быть одинарными, двойными или тройными.<p>Все карнизы <strong> польской фабрики Marcin Dekor </strong> проходят специальную обработку и имеют <strong>гальваническое покрытие</strong>. Данный вид покрытия не только придает изделию определенный цвет, но и защищает его от окисления и коррозии.Кроме того, <strong>гальваническое покрытие</strong> придает карнизу дополнительную прочность, износостойкость, декоративные и другие свойства.</p>",
                 eavesCategoriesEntity = eavesCategory3,
                 eavesVendorsEntity = null
             };
@@ -3017,7 +3017,3721 @@ namespace application.Domain.Concrete
             context.EavesItemsColors.Add(collectionItemColor224);
             context.EavesItemsColors.Add(collectionItemColor225);
             context.SaveChanges();
-            
+            var pipeColor1 = new PipesColor
+            {
+                Id = 1,
+                pipesEntity = pipe1,
+                eavesCollectionEntity = series1,
+                eavesColorsEntity = color1
+            };
+            var pipeColor2 = new PipesColor
+            {
+                Id = 2,
+                pipesEntity = pipe1,
+                eavesCollectionEntity = series1,
+                eavesColorsEntity = color2
+            };
+            var pipeColor3 = new PipesColor
+            {
+                Id = 3,
+                pipesEntity = pipe1,
+                eavesCollectionEntity = series1,
+                eavesColorsEntity = color3
+            };
+            var pipeColor4 = new PipesColor
+            {
+                Id = 4,
+                pipesEntity = pipe1,
+                eavesCollectionEntity = series1,
+                eavesColorsEntity = color4
+            };
+            var pipeColor5 = new PipesColor
+            {
+                Id = 5,
+                pipesEntity = pipe1,
+                eavesCollectionEntity = series1,
+                eavesColorsEntity = color5
+            };
+            var pipeColor6 = new PipesColor
+            {
+                Id = 6,
+                pipesEntity = pipe1,
+                eavesCollectionEntity = series1,
+                eavesColorsEntity = color6
+            };
+            var pipeColor7 = new PipesColor
+            {
+                Id = 7,
+                pipesEntity = pipe2,
+                eavesCollectionEntity = series1,
+                eavesColorsEntity = color1
+            };
+            var pipeColor8 = new PipesColor
+            {
+                Id = 8,
+                pipesEntity = pipe2,
+                eavesCollectionEntity = series1,
+                eavesColorsEntity = color2
+            };
+            var pipeColor9 = new PipesColor
+            {
+                Id = 9,
+                pipesEntity = pipe3,
+                eavesCollectionEntity = series1,
+                eavesColorsEntity = color1
+            };
+            var pipeColor10 = new PipesColor
+            {
+                Id = 10,
+                pipesEntity = pipe3,
+                eavesCollectionEntity = series1,
+                eavesColorsEntity = color2
+            };
+            var pipeColor11 = new PipesColor
+            {
+                Id = 11,
+                pipesEntity = pipe5,
+                eavesCollectionEntity = series1,
+                eavesColorsEntity = color1
+            };
+            var pipeColor12 = new PipesColor
+            {
+                Id = 12,
+                pipesEntity = pipe5,
+                eavesCollectionEntity = series1,
+                eavesColorsEntity = color2
+            };
+            var pipeColor13 = new PipesColor
+            {
+                Id = 13,
+                pipesEntity = pipe5,
+                eavesCollectionEntity = series1,
+                eavesColorsEntity = color3
+            };
+            var pipeColor14 = new PipesColor
+            {
+                Id = 14,
+                pipesEntity = pipe5,
+                eavesCollectionEntity = series1,
+                eavesColorsEntity = color4
+            };
+            var pipeColor15 = new PipesColor
+            {
+                Id = 15,
+                pipesEntity = pipe5,
+                eavesCollectionEntity = series1,
+                eavesColorsEntity = color5
+            };
+            var pipeColor16 = new PipesColor
+            {
+                Id = 16,
+                pipesEntity = pipe5,
+                eavesCollectionEntity = series1,
+                eavesColorsEntity = color6
+            };
+            var pipeColor17 = new PipesColor
+            {
+                Id = 17,
+                pipesEntity = pipe1,
+                eavesCollectionEntity = series2,
+                eavesColorsEntity = color1
+            };
+            var pipeColor18 = new PipesColor
+            {
+                Id = 18,
+                pipesEntity = pipe1,
+                eavesCollectionEntity = series2,
+                eavesColorsEntity = color2
+            };
+            var pipeColor19 = new PipesColor
+            {
+                Id = 19,
+                pipesEntity = pipe1,
+                eavesCollectionEntity = series2,
+                eavesColorsEntity = color3
+            };
+            var pipeColor20 = new PipesColor
+            {
+                Id = 20,
+                pipesEntity = pipe2,
+                eavesCollectionEntity = series2,
+                eavesColorsEntity = color1
+            };
+            var pipeColor21 = new PipesColor
+            {
+                Id = 21,
+                pipesEntity = pipe3,
+                eavesCollectionEntity = series2,
+                eavesColorsEntity = color1
+            };
+            var pipeColor22 = new PipesColor
+            {
+                Id = 22,
+                pipesEntity = pipe4,
+                eavesCollectionEntity = series2,
+                eavesColorsEntity = color1
+            };
+            var pipeColor23 = new PipesColor
+            {
+                Id = 23,
+                pipesEntity = pipe1,
+                eavesCollectionEntity = series3,
+                eavesColorsEntity = color1
+            };
+            var pipeColor24 = new PipesColor
+            {
+                Id = 24,
+                pipesEntity = pipe1,
+                eavesCollectionEntity = series3,
+                eavesColorsEntity = color2
+            };
+            var pipeColor25 = new PipesColor
+            {
+                Id = 25,
+                pipesEntity = pipe1,
+                eavesCollectionEntity = series3,
+                eavesColorsEntity = color3
+            };
+            var pipeColor26 = new PipesColor
+            {
+                Id = 26,
+                pipesEntity = pipe2,
+                eavesCollectionEntity = series3,
+                eavesColorsEntity = color1
+            };
+            var pipeColor27 = new PipesColor
+            {
+                Id = 27,
+                pipesEntity = pipe2,
+                eavesCollectionEntity = series3,
+                eavesColorsEntity = color2
+            };
+            var pipeColor28 = new PipesColor
+            {
+                Id = 28,
+                pipesEntity = pipe3,
+                eavesCollectionEntity = series3,
+                eavesColorsEntity = color1
+            };
+            var pipeColor29 = new PipesColor
+            {
+                Id = 29,
+                pipesEntity = pipe3,
+                eavesCollectionEntity = series3,
+                eavesColorsEntity = color2
+            };
+            var pipeColor30 = new PipesColor
+            {
+                Id = 30,
+                pipesEntity = pipe5,
+                eavesCollectionEntity = series3,
+                eavesColorsEntity = color1
+            };
+            var pipeColor31 = new PipesColor
+            {
+                Id = 31,
+                pipesEntity = pipe5,
+                eavesCollectionEntity = series3,
+                eavesColorsEntity = color2
+            };
+            var pipeColor32 = new PipesColor
+            {
+                Id = 32,
+                pipesEntity = pipe5,
+                eavesCollectionEntity = series3,
+                eavesColorsEntity = color3
+            };
+            var pipeColor33 = new PipesColor
+            {
+                Id = 33,
+                pipesEntity = pipe6,
+                eavesCollectionEntity = series4,
+                eavesColorsEntity = color1
+            };
+            var pipeColor34 = new PipesColor
+            {
+                Id = 34,
+                pipesEntity = pipe6,
+                eavesCollectionEntity = series4,
+                eavesColorsEntity = color2
+            };
+            var pipeColor35 = new PipesColor
+            {
+                Id = 35,
+                pipesEntity = pipe6,
+                eavesCollectionEntity = series4,
+                eavesColorsEntity = color6
+            };
+            var pipeColor36 = new PipesColor
+            {
+                Id = 36,
+                pipesEntity = pipe7,
+                eavesCollectionEntity = series5,
+                eavesColorsEntity = color7
+            };
+            var pipeColor37 = new PipesColor
+            {
+                Id = 37,
+                pipesEntity = pipe7,
+                eavesCollectionEntity = series6,
+                eavesColorsEntity = color7
+            };
+            var pipeColor38 = new PipesColor
+            {
+                Id = 38,
+                pipesEntity = pipe8,
+                eavesCollectionEntity = series7,
+                eavesColorsEntity = color8
+            };
+            var pipeColor39 = new PipesColor
+            {
+                Id = 39,
+                pipesEntity = pipe8,
+                eavesCollectionEntity = series7,
+                eavesColorsEntity = color9
+            };
+            var pipeColor40 = new PipesColor
+            {
+                Id = 40,
+                pipesEntity = pipe8,
+                eavesCollectionEntity = series7,
+                eavesColorsEntity = color10
+            };
+            var pipeColor41 = new PipesColor
+            {
+                Id = 41,
+                pipesEntity = pipe8,
+                eavesCollectionEntity = series7,
+                eavesColorsEntity = color11
+            };
+            context.PipesColors.Add(pipeColor1);
+            context.PipesColors.Add(pipeColor2);
+            context.PipesColors.Add(pipeColor3);
+            context.PipesColors.Add(pipeColor4);
+            context.PipesColors.Add(pipeColor5);
+            context.PipesColors.Add(pipeColor6);
+            context.PipesColors.Add(pipeColor7);
+            context.PipesColors.Add(pipeColor8);
+            context.PipesColors.Add(pipeColor9);
+            context.PipesColors.Add(pipeColor10);
+            context.PipesColors.Add(pipeColor11);
+            context.PipesColors.Add(pipeColor12);
+            context.PipesColors.Add(pipeColor13);
+            context.PipesColors.Add(pipeColor14);
+            context.PipesColors.Add(pipeColor15);
+            context.PipesColors.Add(pipeColor16);
+            context.PipesColors.Add(pipeColor17);
+            context.PipesColors.Add(pipeColor18);
+            context.PipesColors.Add(pipeColor19);
+            context.PipesColors.Add(pipeColor20);
+            context.PipesColors.Add(pipeColor21);
+            context.PipesColors.Add(pipeColor22);
+            context.PipesColors.Add(pipeColor23);
+            context.PipesColors.Add(pipeColor24);
+            context.PipesColors.Add(pipeColor25);
+            context.PipesColors.Add(pipeColor26);
+            context.PipesColors.Add(pipeColor27);
+            context.PipesColors.Add(pipeColor28);
+            context.PipesColors.Add(pipeColor29);
+            context.PipesColors.Add(pipeColor30);
+            context.PipesColors.Add(pipeColor31);
+            context.PipesColors.Add(pipeColor32);
+            context.PipesColors.Add(pipeColor33);
+            context.PipesColors.Add(pipeColor34);
+            context.PipesColors.Add(pipeColor35);
+            context.PipesColors.Add(pipeColor36);
+            context.PipesColors.Add(pipeColor37);
+            context.PipesColors.Add(pipeColor38);
+            context.PipesColors.Add(pipeColor39);
+            context.PipesColors.Add(pipeColor40);
+            context.PipesColors.Add(pipeColor41);
+            context.SaveChanges();
+            var pipeSize1 = new PipesSize
+            {
+                Id = 1,
+                Size = 140
+            };
+            var pipeSize2 = new PipesSize
+            {
+                Id = 2,
+                Size = 160
+            };
+            var pipeSize3 = new PipesSize
+            {
+                Id = 3,
+                Size = 180
+            };
+            var pipeSize4 = new PipesSize
+            {
+                Id = 4,
+                Size = 200
+            };
+            var pipeSize5 = new PipesSize
+            {
+                Id = 5,
+                Size = 240
+            };
+            var pipeSize6 = new PipesSize
+            {
+                Id = 6,
+                Size = 280
+            };
+            var pipeSize7 = new PipesSize
+            {
+                Id = 7,
+                Size = 300
+            };
+            var pipeSize8 = new PipesSize
+            {
+                Id = 8,
+                Size = 320
+            };
+            var pipeSize9 = new PipesSize
+            {
+                Id = 9,
+                Size = 360
+            };
+            var pipeSize10= new PipesSize
+            {
+                Id = 10,
+                Size = 400
+            };
+            var pipeSize11 = new PipesSize
+            {
+                Id = 11,
+                Size = 480
+            };
+            var pipeSize12 = new PipesSize
+            {
+                Id = 12,
+                Size = 600
+            };
+            context.PipesSizes.Add(pipeSize1);
+            context.PipesSizes.Add(pipeSize2);
+            context.PipesSizes.Add(pipeSize3);
+            context.PipesSizes.Add(pipeSize4);
+            context.PipesSizes.Add(pipeSize5);
+            context.PipesSizes.Add(pipeSize6);
+            context.PipesSizes.Add(pipeSize7);
+            context.PipesSizes.Add(pipeSize8);
+            context.PipesSizes.Add(pipeSize9);
+            context.PipesSizes.Add(pipeSize10);
+            context.PipesSizes.Add(pipeSize11);
+            context.PipesSizes.Add(pipeSize12);
+            context.SaveChanges();
+            var eavesSize1 = new EavesSize
+            {
+                Id = 1,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize1
+            };
+            var eavesSize2 = new EavesSize
+            {
+                Id = 2,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize2
+            };
+            var eavesSize3 = new EavesSize
+            {
+                Id = 3,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize3
+            };
+            var eavesSize4 = new EavesSize
+            {
+                Id = 4,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize4
+            };
+            var eavesSize5 = new EavesSize
+            {
+                Id = 5,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize5
+            };
+            var eavesSize6 = new EavesSize
+            {
+                Id = 6,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize6
+            };
+            var eavesSize7 = new EavesSize
+            {
+                Id = 7,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize7
+            };
+            var eavesSize8 = new EavesSize
+            {
+                Id = 8,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize8
+            };
+            var eavesSize9 = new EavesSize
+            {
+                Id = 9,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize9
+            };
+            var eavesSize10 = new EavesSize
+            {
+                Id = 10,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe1                                                          ,
+                pipesSizeEntity = pipeSize10
+            };
+            var eavesSize11 = new EavesSize
+            {
+                Id = 11,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize11
+            };
+            var eavesSize12 = new EavesSize
+            {
+                Id = 12,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize12
+            };
+            var eavesSize13 = new EavesSize
+            {
+                Id = 13,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize1
+            };
+            var eavesSize14 = new EavesSize
+            {
+                Id = 14,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize2
+            };
+            var eavesSize15 = new EavesSize
+            {
+                Id = 15,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize3
+            };
+            var eavesSize16 = new EavesSize
+            {
+                Id = 16,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize4
+            };
+            var eavesSize17 = new EavesSize
+            {
+                Id = 17,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize5
+            };
+            var eavesSize18 = new EavesSize
+            {
+                Id = 18,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize6
+            };
+            var eavesSize19 = new EavesSize
+            {
+                Id = 19,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize7
+            };
+            var eavesSize20 = new EavesSize
+            {
+                Id = 20,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize8
+            };
+            var eavesSize21 = new EavesSize
+            {
+                Id = 21,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize9
+            };
+            var eavesSize22 = new EavesSize
+            {
+                Id = 22,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize10
+            };
+            var eavesSize23 = new EavesSize
+            {
+                Id = 23,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize11
+            };
+            var eavesSize24 = new EavesSize
+            {
+                Id = 24,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize12
+            };
+            var eavesSize25 = new EavesSize
+            {
+                Id = 25,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize1
+            };
+            var eavesSize26 = new EavesSize
+            {
+                Id = 26,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize2
+            };
+            var eavesSize27 = new EavesSize
+            {
+                Id = 27,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize3
+            };
+            var eavesSize28 = new EavesSize
+            {
+                Id = 28,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize4
+            };
+            var eavesSize29 = new EavesSize
+            {
+                Id = 29,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize5
+            };
+            var eavesSize30 = new EavesSize
+            {
+                Id = 30,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize6
+            };
+            var eavesSize31 = new EavesSize
+            {
+                Id = 31,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize7
+            };
+            var eavesSize32 = new EavesSize
+            {
+                Id = 32,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize8
+            };
+            var eavesSize33 = new EavesSize
+            {
+                Id = 33,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize9
+            };
+            var eavesSize34 = new EavesSize
+            {
+                Id = 34,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize10
+            };
+            var eavesSize35 = new EavesSize
+            {
+                Id = 35,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize11
+            };
+            var eavesSize36 = new EavesSize
+            {
+                Id = 36,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize12
+            };
+            var eavesSize37 = new EavesSize
+            {
+                Id = 37,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize1
+            };
+            var eavesSize38 = new EavesSize
+            {
+                Id = 38,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize2
+            };
+            var eavesSize39 = new EavesSize
+            {
+                Id = 39,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize3
+            };
+            var eavesSize40 = new EavesSize
+            {
+                Id = 40,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize4
+            };
+            var eavesSize41 = new EavesSize
+            {
+                Id = 41,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize5
+            };
+            var eavesSize42 = new EavesSize
+            {
+                Id = 42,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize6
+            };
+            var eavesSize43 = new EavesSize
+            {
+                Id = 43,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize7
+            };
+            var eavesSize44 = new EavesSize
+            {
+                Id = 44,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize8
+            };
+            var eavesSize45 = new EavesSize
+            {
+                Id = 45,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize9
+            };
+            var eavesSize46 = new EavesSize
+            {
+                Id = 46,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize10
+            };
+            var eavesSize47 = new EavesSize
+            {
+                Id = 47,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize11
+            };
+            var eavesSize48 = new EavesSize
+            {
+                Id = 48,
+                eavesCollectionEntity = series1,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize12
+            };
+            var eavesSize49 = new EavesSize
+            {
+                Id = 49,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize1
+            };
+            var eavesSize50 = new EavesSize
+            {
+                Id = 50,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize2
+            };
+            var eavesSize51 = new EavesSize
+            {
+                Id = 51,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize3
+            };
+            var eavesSize52 = new EavesSize
+            {
+                Id = 52,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize4
+            };
+            var eavesSize53 = new EavesSize
+            {
+                Id = 53,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize5
+            };
+            var eavesSize54 = new EavesSize
+            {
+                Id = 54,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize6
+            };
+            var eavesSize55 = new EavesSize
+            {
+                Id = 55,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize7
+            };
+            var eavesSize56 = new EavesSize
+            {
+                Id = 56,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize8
+            };
+            var eavesSize57 = new EavesSize
+            {
+                Id = 57,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize9
+            };
+            var eavesSize58 = new EavesSize
+            {
+                Id = 58,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize10
+            };
+            var eavesSize59 = new EavesSize
+            {
+                Id = 59,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize11
+            };
+            var eavesSize60 = new EavesSize
+            {
+                Id = 60,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize12
+            };
+            var eavesSize61 = new EavesSize
+            {
+                Id = 61,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize2
+            };
+            var eavesSize62 = new EavesSize
+            {
+                Id = 62,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize3
+            };
+            var eavesSize63 = new EavesSize
+            {
+                Id = 63,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize4
+            };
+            var eavesSize64 = new EavesSize
+            {
+                Id = 64,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize5
+            };
+            var eavesSize65 = new EavesSize
+            {
+                Id = 65,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize7
+            };
+            var eavesSize66 = new EavesSize
+            {
+                Id = 66,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize8
+            };
+            var eavesSize67 = new EavesSize
+            {
+                Id = 67,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize9
+            };
+            var eavesSize68 = new EavesSize
+            {
+                Id = 68,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize10
+            };
+            var eavesSize69 = new EavesSize
+            {
+                Id = 69,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize11
+            };
+            var eavesSize70 = new EavesSize
+            {
+                Id = 70,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize12
+            };
+            var eavesSize71 = new EavesSize
+            {
+                Id = 71,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize2
+            };
+            var eavesSize72 = new EavesSize
+            {
+                Id = 72,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize3
+            };
+            var eavesSize73 = new EavesSize
+            {
+                Id = 73,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize4
+            };
+            var eavesSize74 = new EavesSize
+            {
+                Id = 74,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize5
+            };
+            var eavesSize75 = new EavesSize
+            {
+                Id = 75,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize7
+            };
+            var eavesSize76 = new EavesSize
+            {
+                Id = 76,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize8
+            };
+            var eavesSize77 = new EavesSize
+            {
+                Id = 77,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize9
+            };
+            var eavesSize78 = new EavesSize
+            {
+                Id = 78,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize10
+            };
+            var eavesSize79 = new EavesSize
+            {
+                Id = 79,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize11
+            };
+            var eavesSize80 = new EavesSize
+            {
+                Id = 80,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize12
+            };
+            var eavesSize81 = new EavesSize
+            {
+                Id = 81,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe4,
+                pipesSizeEntity = pipeSize2
+            };
+            var eavesSize82 = new EavesSize
+            {
+                Id = 82,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe4,
+                pipesSizeEntity = pipeSize3
+            };
+            var eavesSize83 = new EavesSize
+            {
+                Id = 83,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe4,
+                pipesSizeEntity = pipeSize4
+            };
+            var eavesSize84 = new EavesSize
+            {
+                Id = 84,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe4,
+                pipesSizeEntity = pipeSize5
+            };
+            var eavesSize85 = new EavesSize
+            {
+                Id = 85,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe4,
+                pipesSizeEntity = pipeSize7
+            };
+            var eavesSize86 = new EavesSize
+            {
+                Id = 86,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe4,
+                pipesSizeEntity = pipeSize8
+            };
+            var eavesSize87 = new EavesSize
+            {
+                Id = 87,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe4,
+                pipesSizeEntity = pipeSize9
+            };
+            var eavesSize88 = new EavesSize
+            {
+                Id = 88,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe4,
+                pipesSizeEntity = pipeSize10
+            };
+            var eavesSize89 = new EavesSize
+            {
+                Id = 89,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe4,
+                pipesSizeEntity = pipeSize11
+            };
+            var eavesSize90 = new EavesSize
+            {
+                Id = 90,
+                eavesCollectionEntity = series2,
+                pipesEntity = pipe4,
+                pipesSizeEntity = pipeSize12
+            };
+            var eavesSize91 = new EavesSize
+            {
+                Id = 91,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize2
+            };
+            var eavesSize92 = new EavesSize
+            {
+                Id = 92,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize3
+            };
+            var eavesSize93 = new EavesSize
+            {
+                Id = 93,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize4
+            };
+            var eavesSize94 = new EavesSize
+            {
+                Id = 94,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize5
+            };
+            var eavesSize95 = new EavesSize
+            {
+                Id = 95,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize7
+            };
+            var eavesSize96 = new EavesSize
+            {
+                Id = 96,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize8
+            };
+            var eavesSize97 = new EavesSize
+            {
+                Id = 97,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize9
+            };
+            var eavesSize98 = new EavesSize
+            {
+                Id = 98,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize10
+            };
+            var eavesSize99 = new EavesSize
+            {
+                Id = 99,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize11
+            };
+            var eavesSize100 = new EavesSize
+            {
+                Id = 100,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe1,
+                pipesSizeEntity = pipeSize12
+            };
+            var eavesSize101 = new EavesSize
+            {
+                Id = 101,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize2
+            };
+            var eavesSize102 = new EavesSize
+            {
+                Id = 102,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize3
+            };
+            var eavesSize103 = new EavesSize
+            {
+                Id = 103,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize4
+            };
+            var eavesSize104 = new EavesSize
+            {
+                Id = 104,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize5
+            };
+            var eavesSize105 = new EavesSize
+            {
+                Id = 105,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize7
+            };
+            var eavesSize106 = new EavesSize
+            {
+                Id = 106,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize8
+            };
+            var eavesSize107 = new EavesSize
+            {
+                Id = 107,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize9
+            };
+            var eavesSize108 = new EavesSize
+            {
+                Id = 108,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize10
+            };
+            var eavesSize109 = new EavesSize
+            {
+                Id = 109,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize11
+            };
+            var eavesSize110 = new EavesSize
+            {
+                Id = 110,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe2,
+                pipesSizeEntity = pipeSize12
+            };
+            var eavesSize111 = new EavesSize
+            {
+                Id = 111,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize2
+            };
+            var eavesSize112 = new EavesSize
+            {
+                Id = 112,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize3
+            };
+            var eavesSize113 = new EavesSize
+            {
+                Id = 113,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize4
+            };
+            var eavesSize114 = new EavesSize
+            {
+                Id = 114,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize5
+            };
+            var eavesSize115 = new EavesSize
+            {
+                Id = 115,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize7
+            };
+            var eavesSize116 = new EavesSize
+            {
+                Id = 116,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize8
+            };
+            var eavesSize117 = new EavesSize
+            {
+                Id = 117,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize9
+            };
+            var eavesSize118 = new EavesSize
+            {
+                Id = 118,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize10
+            };
+            var eavesSize119 = new EavesSize
+            {
+                Id = 119,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize11
+            };
+            var eavesSize120 = new EavesSize
+            {
+                Id = 120,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe3,
+                pipesSizeEntity = pipeSize12
+            };
+            var eavesSize121 = new EavesSize
+            {
+                Id = 121,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize2
+            };
+            var eavesSize122 = new EavesSize
+            {
+                Id = 122,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize4
+            };
+            var eavesSize123 = new EavesSize
+            {
+                Id = 123,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize5
+            };
+            var eavesSize124 = new EavesSize
+            {
+                Id = 124,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize7
+            };
+            var eavesSize126 = new EavesSize
+            {
+                Id = 126,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize8
+            };
+            var eavesSize127 = new EavesSize
+            {
+                Id = 127,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize10
+            };
+            var eavesSize128 = new EavesSize
+            {
+                Id = 128,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize11
+            };
+            var eavesSize129 = new EavesSize
+            {
+                Id = 129,
+                eavesCollectionEntity = series3,
+                pipesEntity = pipe5,
+                pipesSizeEntity = pipeSize12
+            };
+            var eavesSize130 = new EavesSize
+            {
+                Id = 130,
+                eavesCollectionEntity = series4,
+                pipesEntity = pipe6,
+                pipesSizeEntity = pipeSize1
+            };
+            var eavesSize131 = new EavesSize
+            {
+                Id = 131,
+                eavesCollectionEntity = series4,
+                pipesEntity = pipe6,
+                pipesSizeEntity = pipeSize2
+            };
+            var eavesSize132 = new EavesSize
+            {
+                Id = 132,
+                eavesCollectionEntity = series4,
+                pipesEntity = pipe6,
+                pipesSizeEntity = pipeSize3
+            };
+            var eavesSize133 = new EavesSize
+            {
+                Id = 133,
+                eavesCollectionEntity = series4,
+                pipesEntity = pipe6,
+                pipesSizeEntity = pipeSize4
+            };
+            var eavesSize134 = new EavesSize
+            {
+                Id = 134,
+                eavesCollectionEntity = series4,
+                pipesEntity = pipe6,
+                pipesSizeEntity = pipeSize5
+            };
+            var eavesSize135 = new EavesSize
+            {
+                Id = 135,
+                eavesCollectionEntity = series4,
+                pipesEntity = pipe6,
+                pipesSizeEntity = pipeSize6
+            };
+            var eavesSize136 = new EavesSize
+            {
+                Id = 136,
+                eavesCollectionEntity = series4,
+                pipesEntity = pipe6,
+                pipesSizeEntity = pipeSize7
+            };
+            var eavesSize137 = new EavesSize
+            {
+                Id = 137,
+                eavesCollectionEntity = series4,
+                pipesEntity = pipe6,
+                pipesSizeEntity = pipeSize8
+            };
+            var eavesSize138 = new EavesSize
+            {
+                Id = 138,
+                eavesCollectionEntity = series4,
+                pipesEntity = pipe6,
+                pipesSizeEntity = pipeSize9
+            };
+            var eavesSize139 = new EavesSize
+            {
+                Id = 139,
+                eavesCollectionEntity = series4,
+                pipesEntity = pipe6,
+                pipesSizeEntity = pipeSize10
+            };
+            var eavesSize140 = new EavesSize
+            {
+                Id = 140,
+                eavesCollectionEntity = series4,
+                pipesEntity = pipe6,
+                pipesSizeEntity = pipeSize11
+            };
+            var eavesSize141 = new EavesSize
+            {
+                Id = 141,
+                eavesCollectionEntity = series4,
+                pipesEntity = pipe6,
+                pipesSizeEntity = pipeSize12
+            };
+            var eavesSize142 = new EavesSize
+            {
+                Id = 142,
+                eavesCollectionEntity = series5,
+                pipesEntity = pipe7,
+                pipesSizeEntity = pipeSize3
+            };
+            var eavesSize143 = new EavesSize
+            {
+                Id = 143,
+                eavesCollectionEntity = series5,
+                pipesEntity = pipe7,
+                pipesSizeEntity = pipeSize5
+            };
+            var eavesSize144 = new EavesSize
+            {
+                Id = 144,
+                eavesCollectionEntity = series5,
+                pipesEntity = pipe7,
+                pipesSizeEntity = pipeSize7
+            };
+            var eavesSize145 = new EavesSize
+            {
+                Id = 145,
+                eavesCollectionEntity = series5,
+                pipesEntity = pipe7,
+                pipesSizeEntity = pipeSize9
+            };
+            var eavesSize146 = new EavesSize
+            {
+                Id = 146,
+                eavesCollectionEntity = series5,
+                pipesEntity = pipe7,
+                pipesSizeEntity = pipeSize11
+            };
+            var eavesSize147 = new EavesSize
+            {
+                Id = 147,
+                eavesCollectionEntity = series5,
+                pipesEntity = pipe7,
+                pipesSizeEntity = pipeSize12
+            };
+            var eavesSize148 = new EavesSize
+            {
+                Id = 148,
+                eavesCollectionEntity = series6,
+                pipesEntity = pipe7,
+                pipesSizeEntity = pipeSize3
+            };
+            var eavesSize161 = new EavesSize
+            {
+                Id = 161,
+                eavesCollectionEntity = series6,
+                pipesEntity = pipe7,
+                pipesSizeEntity = pipeSize5
+            };
+            var eavesSize149 = new EavesSize
+            {
+                Id = 149,
+                eavesCollectionEntity = series6,
+                pipesEntity = pipe7,
+                pipesSizeEntity = pipeSize7
+            };
+            var eavesSize150 = new EavesSize
+            {
+                Id = 150,
+                eavesCollectionEntity = series6,
+                pipesEntity = pipe7,
+                pipesSizeEntity = pipeSize9
+            };
+            var eavesSize151 = new EavesSize
+            {
+                Id = 151,
+                eavesCollectionEntity = series6,
+                pipesEntity = pipe7,
+                pipesSizeEntity = pipeSize11
+            };
+            var eavesSize152 = new EavesSize
+            {
+                Id = 152,
+                eavesCollectionEntity = series6,
+                pipesEntity = pipe7,
+                pipesSizeEntity = pipeSize12
+            };
+            var eavesSize153 = new EavesSize
+            {
+                Id = 153,
+                eavesCollectionEntity = series7,
+                pipesEntity = pipe8,
+                pipesSizeEntity = pipeSize2
+            };
+            var eavesSize154 = new EavesSize
+            {
+                Id = 154,
+                eavesCollectionEntity = series7,
+                pipesEntity = pipe8,
+                pipesSizeEntity = pipeSize4
+            };
+            var eavesSize155 = new EavesSize
+            {
+                Id = 155,
+                eavesCollectionEntity = series7,
+                pipesEntity = pipe8,
+                pipesSizeEntity = pipeSize5
+            };
+            var eavesSize156 = new EavesSize
+            {
+                Id = 156,
+                eavesCollectionEntity = series7,
+                pipesEntity = pipe8,
+                pipesSizeEntity = pipeSize7
+            };
+            var eavesSize157 = new EavesSize
+            {
+                Id = 157,
+                eavesCollectionEntity = series7,
+                pipesEntity = pipe8,
+                pipesSizeEntity = pipeSize8
+            };
+            var eavesSize158 = new EavesSize
+            {
+                Id = 158,
+                eavesCollectionEntity = series7,
+                pipesEntity = pipe8,
+                pipesSizeEntity = pipeSize10
+            };
+            var eavesSize159 = new EavesSize
+            {
+                Id = 159,
+                eavesCollectionEntity = series7,
+                pipesEntity = pipe8,
+                pipesSizeEntity = pipeSize11
+            };
+            var eavesSize160 = new EavesSize
+            {
+                Id = 160,
+                eavesCollectionEntity = series7,
+                pipesEntity = pipe8,
+                pipesSizeEntity = pipeSize12
+            };
+            context.EavesSizes.Add(eavesSize1);
+            context.EavesSizes.Add(eavesSize2);
+            context.EavesSizes.Add(eavesSize3);
+            context.EavesSizes.Add(eavesSize4);
+            context.EavesSizes.Add(eavesSize5);
+            context.EavesSizes.Add(eavesSize6);
+            context.EavesSizes.Add(eavesSize7);
+            context.EavesSizes.Add(eavesSize8);
+            context.EavesSizes.Add(eavesSize9);
+            context.EavesSizes.Add(eavesSize10);
+            context.EavesSizes.Add(eavesSize11);
+            context.EavesSizes.Add(eavesSize12);
+            context.EavesSizes.Add(eavesSize13);
+            context.EavesSizes.Add(eavesSize14);
+            context.EavesSizes.Add(eavesSize15);
+            context.EavesSizes.Add(eavesSize16);
+            context.EavesSizes.Add(eavesSize17);
+            context.EavesSizes.Add(eavesSize18);
+            context.EavesSizes.Add(eavesSize19);
+            context.EavesSizes.Add(eavesSize20);
+            context.EavesSizes.Add(eavesSize21);
+            context.EavesSizes.Add(eavesSize22);
+            context.EavesSizes.Add(eavesSize23);
+            context.EavesSizes.Add(eavesSize24);
+            context.EavesSizes.Add(eavesSize25);
+            context.EavesSizes.Add(eavesSize26);
+            context.EavesSizes.Add(eavesSize27);
+            context.EavesSizes.Add(eavesSize28);
+            context.EavesSizes.Add(eavesSize29);
+            context.EavesSizes.Add(eavesSize30);
+            context.EavesSizes.Add(eavesSize31);
+            context.EavesSizes.Add(eavesSize32);
+            context.EavesSizes.Add(eavesSize33);
+            context.EavesSizes.Add(eavesSize34);
+            context.EavesSizes.Add(eavesSize35);
+            context.EavesSizes.Add(eavesSize36);
+            context.EavesSizes.Add(eavesSize37);
+            context.EavesSizes.Add(eavesSize38);
+            context.EavesSizes.Add(eavesSize39);
+            context.EavesSizes.Add(eavesSize40);
+            context.EavesSizes.Add(eavesSize41);
+            context.EavesSizes.Add(eavesSize42);
+            context.EavesSizes.Add(eavesSize43);
+            context.EavesSizes.Add(eavesSize44);
+            context.EavesSizes.Add(eavesSize45);
+            context.EavesSizes.Add(eavesSize46);
+            context.EavesSizes.Add(eavesSize47);
+            context.EavesSizes.Add(eavesSize48);
+            context.EavesSizes.Add(eavesSize49);
+            context.EavesSizes.Add(eavesSize50);
+            context.EavesSizes.Add(eavesSize51);
+            context.EavesSizes.Add(eavesSize52);
+            context.EavesSizes.Add(eavesSize53);
+            context.EavesSizes.Add(eavesSize54);
+            context.EavesSizes.Add(eavesSize55);
+            context.EavesSizes.Add(eavesSize56);
+            context.EavesSizes.Add(eavesSize57);
+            context.EavesSizes.Add(eavesSize58);
+            context.EavesSizes.Add(eavesSize59);
+            context.EavesSizes.Add(eavesSize60);
+            context.EavesSizes.Add(eavesSize61);
+            context.EavesSizes.Add(eavesSize62);
+            context.EavesSizes.Add(eavesSize63);
+            context.EavesSizes.Add(eavesSize64);
+            context.EavesSizes.Add(eavesSize65);
+            context.EavesSizes.Add(eavesSize66);
+            context.EavesSizes.Add(eavesSize67);
+            context.EavesSizes.Add(eavesSize68);
+            context.EavesSizes.Add(eavesSize69);
+            context.EavesSizes.Add(eavesSize70);
+            context.EavesSizes.Add(eavesSize71);
+            context.EavesSizes.Add(eavesSize72);
+            context.EavesSizes.Add(eavesSize73);
+            context.EavesSizes.Add(eavesSize74);
+            context.EavesSizes.Add(eavesSize75);
+            context.EavesSizes.Add(eavesSize76);
+            context.EavesSizes.Add(eavesSize77);
+            context.EavesSizes.Add(eavesSize78);
+            context.EavesSizes.Add(eavesSize79);
+            context.EavesSizes.Add(eavesSize80);
+            context.EavesSizes.Add(eavesSize81);
+            context.EavesSizes.Add(eavesSize82);
+            context.EavesSizes.Add(eavesSize83);
+            context.EavesSizes.Add(eavesSize84);
+            context.EavesSizes.Add(eavesSize85);
+            context.EavesSizes.Add(eavesSize86);
+            context.EavesSizes.Add(eavesSize87);
+            context.EavesSizes.Add(eavesSize88);
+            context.EavesSizes.Add(eavesSize89);
+            context.EavesSizes.Add(eavesSize90);
+            context.EavesSizes.Add(eavesSize91);
+            context.EavesSizes.Add(eavesSize92);
+            context.EavesSizes.Add(eavesSize93);
+            context.EavesSizes.Add(eavesSize94);
+            context.EavesSizes.Add(eavesSize95);
+            context.EavesSizes.Add(eavesSize96);
+            context.EavesSizes.Add(eavesSize97);
+            context.EavesSizes.Add(eavesSize98);
+            context.EavesSizes.Add(eavesSize99);
+            context.EavesSizes.Add(eavesSize100);
+            context.EavesSizes.Add(eavesSize101);
+            context.EavesSizes.Add(eavesSize102);
+            context.EavesSizes.Add(eavesSize103);
+            context.EavesSizes.Add(eavesSize104);
+            context.EavesSizes.Add(eavesSize105);
+            context.EavesSizes.Add(eavesSize106);
+            context.EavesSizes.Add(eavesSize107);
+            context.EavesSizes.Add(eavesSize108);
+            context.EavesSizes.Add(eavesSize109);
+            context.EavesSizes.Add(eavesSize110);
+            context.EavesSizes.Add(eavesSize111);
+            context.EavesSizes.Add(eavesSize112);
+            context.EavesSizes.Add(eavesSize113);
+            context.EavesSizes.Add(eavesSize114);
+            context.EavesSizes.Add(eavesSize115);
+            context.EavesSizes.Add(eavesSize116);
+            context.EavesSizes.Add(eavesSize117);
+            context.EavesSizes.Add(eavesSize118);
+            context.EavesSizes.Add(eavesSize119);
+            context.EavesSizes.Add(eavesSize120);
+            context.EavesSizes.Add(eavesSize121);
+            context.EavesSizes.Add(eavesSize122);
+            context.EavesSizes.Add(eavesSize123);
+            context.EavesSizes.Add(eavesSize124);
+            context.EavesSizes.Add(eavesSize126);
+            context.EavesSizes.Add(eavesSize127);
+            context.EavesSizes.Add(eavesSize128);
+            context.EavesSizes.Add(eavesSize129);
+            context.EavesSizes.Add(eavesSize130);
+            context.EavesSizes.Add(eavesSize131);
+            context.EavesSizes.Add(eavesSize132);
+            context.EavesSizes.Add(eavesSize133);
+            context.EavesSizes.Add(eavesSize134);
+            context.EavesSizes.Add(eavesSize135);
+            context.EavesSizes.Add(eavesSize136);
+            context.EavesSizes.Add(eavesSize137);
+            context.EavesSizes.Add(eavesSize138);
+            context.EavesSizes.Add(eavesSize139);
+            context.EavesSizes.Add(eavesSize140);
+            context.EavesSizes.Add(eavesSize141);
+            context.EavesSizes.Add(eavesSize142);
+            context.EavesSizes.Add(eavesSize143);
+            context.EavesSizes.Add(eavesSize144);
+            context.EavesSizes.Add(eavesSize145);
+            context.EavesSizes.Add(eavesSize146);
+            context.EavesSizes.Add(eavesSize147);
+            context.EavesSizes.Add(eavesSize148);
+            context.EavesSizes.Add(eavesSize149);
+            context.EavesSizes.Add(eavesSize150);
+            context.EavesSizes.Add(eavesSize151);
+            context.EavesSizes.Add(eavesSize152);
+            context.EavesSizes.Add(eavesSize153);
+            context.EavesSizes.Add(eavesSize154);
+            context.EavesSizes.Add(eavesSize155);
+            context.EavesSizes.Add(eavesSize156);
+            context.EavesSizes.Add(eavesSize157);
+            context.EavesSizes.Add(eavesSize158);
+            context.EavesSizes.Add(eavesSize159);
+            context.EavesSizes.Add(eavesSize160);
+            context.EavesSizes.Add(eavesSize161);
+            context.SaveChanges();
+            var eaveType1 = new EavesType
+            {
+                Id = 1,
+                Type = "Одинарный"
+            };
+             var eaveType2 = new EavesType
+            {
+                Id = 2,
+                Type = "Двойной"
+            };
+            var eaveType3 = new EavesType
+            {
+                Id = 3,
+                Type = "Тройной"
+            };
+            context.EavesTypes.Add(eaveType1);
+            context.EavesTypes.Add(eaveType2);
+            context.EavesTypes.Add(eaveType3);
+            context.SaveChanges();
+            var eaveCollectionType1 = new EavesCollectionType
+            {
+                Id = 1,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color1
+               
+            };
+            var eaveCollectionType2 = new EavesCollectionType
+            {
+                Id = 2,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color2
+
+            };
+            var eaveCollectionType3 = new EavesCollectionType
+            {
+                Id = 3,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color3
+
+            };
+            var eaveCollectionType4 = new EavesCollectionType
+            {
+                Id = 4,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color4
+
+            };
+            var eaveCollectionType5 = new EavesCollectionType
+            {
+                Id = 5,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color5
+
+            };
+            var eaveCollectionType6 = new EavesCollectionType
+            {
+                Id = 6,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color6
+
+            };
+            var eaveCollectionType7 = new EavesCollectionType
+            {
+                Id = 7,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color1
+            };
+            var eaveCollectionType8 = new EavesCollectionType
+            {
+                Id = 8,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color2
+            };
+            var eaveCollectionType9 = new EavesCollectionType
+            {
+                Id = 9,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color3
+            };
+            var eaveCollectionType10 = new EavesCollectionType
+            {
+                Id = 10,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color4
+            };
+            var eaveCollectionType11 = new EavesCollectionType
+            {
+                Id = 11,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color5
+            };
+            var eaveCollectionType12 = new EavesCollectionType
+            {
+                Id = 12,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color6
+            };
+            var eaveCollectionType13 = new EavesCollectionType
+            {
+                Id = 13,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType3,
+                eavesColorsEntity = color1
+            };
+            var eaveCollectionType14 = new EavesCollectionType
+            {
+                Id = 14,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType3,
+                eavesColorsEntity = color2
+            };
+            var eaveCollectionType15 = new EavesCollectionType
+            {
+                Id = 15,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType3,
+                eavesColorsEntity = color3
+            };
+            var eaveCollectionType16 = new EavesCollectionType
+            {
+                Id = 16,
+                eavesCollectionEntity = series2,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color1
+            };
+            var eaveCollectionType17 = new EavesCollectionType
+            {
+                Id = 17,
+                eavesCollectionEntity = series2,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color2
+
+            };
+            var eaveCollectionType18 = new EavesCollectionType
+            {
+                Id = 18,
+                eavesCollectionEntity = series2,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color3
+
+            };
+            var eaveCollectionType19 = new EavesCollectionType
+            {
+                Id = 19,
+                eavesCollectionEntity = series2,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color1
+            };
+            var eaveCollectionType20 = new EavesCollectionType
+            {
+                Id = 20,
+                eavesCollectionEntity = series2,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color2
+            };
+            var eaveCollectionType21 = new EavesCollectionType
+            {
+                Id = 21,
+                eavesCollectionEntity = series2,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color3
+            };
+            var eaveCollectionType22 = new EavesCollectionType
+            {
+                Id = 22,
+                eavesCollectionEntity = series3,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color1
+            };
+            var eaveCollectionType23 = new EavesCollectionType
+            {
+                Id = 23,
+                eavesCollectionEntity = series3,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color2
+            };
+            var eaveCollectionType24 = new EavesCollectionType
+            {
+                Id = 24,
+                eavesCollectionEntity = series3,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color3
+            };
+            var eaveCollectionType25 = new EavesCollectionType
+            {
+                Id = 25,
+                eavesCollectionEntity = series3,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color1
+            };
+            var eaveCollectionType26 = new EavesCollectionType
+            {
+                Id = 26,
+                eavesCollectionEntity = series3,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color2
+            };
+            var eaveCollectionType27 = new EavesCollectionType
+            {
+                Id = 27,
+                eavesCollectionEntity = series3,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color3
+            };
+            var eaveCollectionType28 = new EavesCollectionType
+            {
+                Id = 28,
+                eavesCollectionEntity = series4,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color1
+            };
+            var eaveCollectionType29 = new EavesCollectionType
+            {
+                Id = 29,
+                eavesCollectionEntity = series4,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color2
+            };
+            var eaveCollectionType30 = new EavesCollectionType
+            {
+                Id =30,
+                eavesCollectionEntity = series4,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color3
+            };
+            var eaveCollectionType31 = new EavesCollectionType
+            {
+                Id = 31,
+                eavesCollectionEntity = series4,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color1
+            };
+            var eaveCollectionType32 = new EavesCollectionType
+            {
+                Id = 32,
+                eavesCollectionEntity = series4,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color2
+            };
+            var eaveCollectionType33 = new EavesCollectionType
+            {
+                Id = 33,
+                eavesCollectionEntity = series4,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color3
+            };
+            var eaveCollectionType34 = new EavesCollectionType
+            {
+                Id = 34,
+                eavesCollectionEntity = series5,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color7
+            };
+            var eaveCollectionType35 = new EavesCollectionType
+            {
+                Id = 35,
+                eavesCollectionEntity = series5,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color7
+            };
+            var eaveCollectionType36 = new EavesCollectionType
+            {
+                Id = 36,
+                eavesCollectionEntity = series6,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color7
+            };
+            var eaveCollectionType37 = new EavesCollectionType
+            {
+                Id = 37,
+                eavesCollectionEntity = series6,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color7
+            };
+            var eaveCollectionType38 = new EavesCollectionType
+            {
+                Id = 38,
+                eavesCollectionEntity = series7,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color8
+            };
+            var eaveCollectionType39 = new EavesCollectionType
+            {
+                Id = 39,
+                eavesCollectionEntity = series7,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color9
+            };
+            var eaveCollectionType40 = new EavesCollectionType
+            {
+                Id = 40,
+                eavesCollectionEntity = series7,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color10
+            };
+            var eaveCollectionType41 = new EavesCollectionType
+            {
+                Id = 41,
+                eavesCollectionEntity = series7,
+                eavesTypesEntity = eaveType1,
+                eavesColorsEntity = color11
+            };
+            var eaveCollectionType42 = new EavesCollectionType
+            {
+                Id = 42,
+                eavesCollectionEntity = series7,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color8
+
+            };
+            var eaveCollectionType43 = new EavesCollectionType
+            {
+                Id = 43,
+                eavesCollectionEntity = series7,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color9
+
+            };
+            var eaveCollectionType44 = new EavesCollectionType
+            {
+                Id = 44,
+                eavesCollectionEntity = series7,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color10
+
+            };
+            var eaveCollectionType45 = new EavesCollectionType
+            {
+                Id = 45,
+                eavesCollectionEntity = series7,
+                eavesTypesEntity = eaveType2,
+                eavesColorsEntity = color11
+
+            };
+            var eaveCollectionType46 = new EavesCollectionType
+            {
+                Id = 46,
+                eavesCollectionEntity = series7,
+                eavesTypesEntity = eaveType3,
+                eavesColorsEntity = color8
+            };
+            var eaveCollectionType47 = new EavesCollectionType
+            {
+                Id = 47,
+                eavesCollectionEntity = series7,
+                eavesTypesEntity = eaveType3,
+                eavesColorsEntity = color9
+            };
+            var eaveCollectionType48 = new EavesCollectionType
+            {
+                Id = 48,
+                eavesCollectionEntity = series7,
+                eavesTypesEntity = eaveType3,
+                eavesColorsEntity = color10
+            };
+            var eaveCollectionType49 = new EavesCollectionType
+            {
+                Id = 49,
+                eavesCollectionEntity = series7,
+                eavesTypesEntity = eaveType3,
+                eavesColorsEntity = color11
+            };
+            context.EavesCollectionTypes.Add(eaveCollectionType1);
+            context.EavesCollectionTypes.Add(eaveCollectionType2);
+            context.EavesCollectionTypes.Add(eaveCollectionType3);
+            context.EavesCollectionTypes.Add(eaveCollectionType4);
+            context.EavesCollectionTypes.Add(eaveCollectionType5);
+            context.EavesCollectionTypes.Add(eaveCollectionType6);
+            context.EavesCollectionTypes.Add(eaveCollectionType7);
+            context.EavesCollectionTypes.Add(eaveCollectionType8);
+            context.EavesCollectionTypes.Add(eaveCollectionType9);
+            context.EavesCollectionTypes.Add(eaveCollectionType10);
+            context.EavesCollectionTypes.Add(eaveCollectionType11);
+            context.EavesCollectionTypes.Add(eaveCollectionType12);
+            context.EavesCollectionTypes.Add(eaveCollectionType13);
+            context.EavesCollectionTypes.Add(eaveCollectionType14);
+            context.EavesCollectionTypes.Add(eaveCollectionType15);
+            context.EavesCollectionTypes.Add(eaveCollectionType16);
+            context.EavesCollectionTypes.Add(eaveCollectionType17);
+            context.EavesCollectionTypes.Add(eaveCollectionType18);
+            context.EavesCollectionTypes.Add(eaveCollectionType19);
+            context.EavesCollectionTypes.Add(eaveCollectionType20);
+            context.EavesCollectionTypes.Add(eaveCollectionType21);
+            context.EavesCollectionTypes.Add(eaveCollectionType22);
+            context.EavesCollectionTypes.Add(eaveCollectionType23);
+            context.EavesCollectionTypes.Add(eaveCollectionType24);
+            context.EavesCollectionTypes.Add(eaveCollectionType25);
+            context.EavesCollectionTypes.Add(eaveCollectionType26);
+            context.EavesCollectionTypes.Add(eaveCollectionType27);
+            context.EavesCollectionTypes.Add(eaveCollectionType28);
+            context.EavesCollectionTypes.Add(eaveCollectionType29);
+            context.EavesCollectionTypes.Add(eaveCollectionType30);
+            context.EavesCollectionTypes.Add(eaveCollectionType31);
+            context.EavesCollectionTypes.Add(eaveCollectionType32);
+            context.EavesCollectionTypes.Add(eaveCollectionType33);
+            context.EavesCollectionTypes.Add(eaveCollectionType34);
+            context.EavesCollectionTypes.Add(eaveCollectionType35);
+            context.EavesCollectionTypes.Add(eaveCollectionType36);
+            context.EavesCollectionTypes.Add(eaveCollectionType37);
+            context.EavesCollectionTypes.Add(eaveCollectionType38);
+            context.EavesCollectionTypes.Add(eaveCollectionType39);
+            context.EavesCollectionTypes.Add(eaveCollectionType40);
+            context.EavesCollectionTypes.Add(eaveCollectionType41);
+            context.EavesCollectionTypes.Add(eaveCollectionType42);
+            context.EavesCollectionTypes.Add(eaveCollectionType43);
+            context.EavesCollectionTypes.Add(eaveCollectionType44);
+            context.EavesCollectionTypes.Add(eaveCollectionType45);
+            context.EavesCollectionTypes.Add(eaveCollectionType46);
+            context.EavesCollectionTypes.Add(eaveCollectionType47);
+            context.EavesCollectionTypes.Add(eaveCollectionType48);
+            context.EavesCollectionTypes.Add(eaveCollectionType49);
+            context.SaveChanges();
+            var fastening1 = new EavesFastening
+            {
+                Id = 1,
+                Name = "Стеновое"
+            };
+            var fastening2 = new EavesFastening
+            {
+                Id = 2,
+                Name = "Потолочное"
+
+            };
+            var fastening3 = new EavesFastening
+            {
+                Id = 3,
+                Name = "Боковое"
+            };
+            context.EavesFastenings.Add(fastening1);
+            context.EavesFastenings.Add(fastening2);
+            context.EavesFastenings.Add(fastening3);
+            context.SaveChanges();
+            var collectionFastening1 = new EavesCollectionFastenings
+            {
+                Id = 1,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType1,
+                eavesFasteningsEntity = fastening1
+            };
+            var collectionFastening2 = new EavesCollectionFastenings
+            {
+                Id = 2,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType1,
+                eavesFasteningsEntity = fastening2
+            };
+            var collectionFastening3 = new EavesCollectionFastenings
+            {
+                Id = 3,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType2,
+                eavesFasteningsEntity = fastening1
+            };
+            var collectionFastening4 = new EavesCollectionFastenings
+            {
+                Id = 4,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType2,
+                eavesFasteningsEntity = fastening2
+            };
+            var collectionFastening5 = new EavesCollectionFastenings
+            {
+                Id = 5,
+                eavesCollectionEntity = series1,
+                eavesTypesEntity = eaveType3,
+                eavesFasteningsEntity = fastening1
+            };
+            var collectionFastening6 = new EavesCollectionFastenings
+            {
+                Id = 6,
+                eavesCollectionEntity = series2,
+                eavesTypesEntity = eaveType1,
+                eavesFasteningsEntity = fastening1
+            };
+            var collectionFastening7 = new EavesCollectionFastenings
+            {
+                Id = 7,
+                eavesCollectionEntity = series2,
+                eavesTypesEntity = eaveType2,
+                eavesFasteningsEntity = fastening1
+            };
+            var collectionFastening8 = new EavesCollectionFastenings
+            {
+                Id = 8,
+                eavesCollectionEntity = series3,
+                eavesTypesEntity = eaveType1,
+                eavesFasteningsEntity = fastening1
+            };
+            var collectionFastening9 = new EavesCollectionFastenings
+            {
+                Id = 9,
+                eavesCollectionEntity = series3,
+                eavesTypesEntity = eaveType2,
+                eavesFasteningsEntity = fastening1
+            };
+            var collectionFastening10 = new EavesCollectionFastenings
+            {
+                Id = 10,
+                eavesCollectionEntity = series4,
+                eavesTypesEntity = eaveType1,
+                eavesFasteningsEntity = fastening1
+            };
+            var collectionFastening11 = new EavesCollectionFastenings
+            {
+                Id = 11,
+                eavesCollectionEntity = series4,
+                eavesTypesEntity = eaveType2,
+                eavesFasteningsEntity = fastening1
+            };
+            var collectionFastening12 = new EavesCollectionFastenings
+            {
+                Id = 12,
+                eavesCollectionEntity = series5,
+                eavesTypesEntity = eaveType1,
+                eavesFasteningsEntity = fastening1
+            };
+            var collectionFastening13 = new EavesCollectionFastenings
+            {
+                Id = 13,
+                eavesCollectionEntity = series5,
+                eavesTypesEntity = eaveType2,
+                eavesFasteningsEntity = fastening1
+            };
+            var collectionFastening14 = new EavesCollectionFastenings
+            {
+                Id = 14,
+                eavesCollectionEntity = series6,
+                eavesTypesEntity = eaveType1,
+                eavesFasteningsEntity = fastening1
+            };
+            var collectionFastening15 = new EavesCollectionFastenings
+            {
+                Id = 15,
+                eavesCollectionEntity = series6,
+                eavesTypesEntity = eaveType2,
+                eavesFasteningsEntity = fastening1
+            };
+            var collectionFastening16 = new EavesCollectionFastenings
+            {
+                Id = 16,
+                eavesCollectionEntity = series7,
+                eavesTypesEntity = eaveType1,
+                eavesFasteningsEntity = fastening1
+            };
+            var collectionFastening17 = new EavesCollectionFastenings
+            {
+                Id = 17,
+                eavesCollectionEntity = series7,
+                eavesTypesEntity = eaveType2,
+                eavesFasteningsEntity = fastening1
+            };
+            var collectionFastening18 = new EavesCollectionFastenings
+            {
+                Id = 18,
+                eavesCollectionEntity = series7,
+                eavesTypesEntity = eaveType3,
+                eavesFasteningsEntity = fastening1
+            };
+            context.EavesCollectionFastenings.Add(collectionFastening1);
+            context.EavesCollectionFastenings.Add(collectionFastening2);
+            context.EavesCollectionFastenings.Add(collectionFastening3);
+            context.EavesCollectionFastenings.Add(collectionFastening4);
+            context.EavesCollectionFastenings.Add(collectionFastening5);
+            context.EavesCollectionFastenings.Add(collectionFastening6);
+            context.EavesCollectionFastenings.Add(collectionFastening7);
+            context.EavesCollectionFastenings.Add(collectionFastening8);
+            context.EavesCollectionFastenings.Add(collectionFastening9);
+            context.EavesCollectionFastenings.Add(collectionFastening10);
+            context.EavesCollectionFastenings.Add(collectionFastening11);
+            context.EavesCollectionFastenings.Add(collectionFastening12);
+            context.EavesCollectionFastenings.Add(collectionFastening13);
+            context.EavesCollectionFastenings.Add(collectionFastening14);
+            context.EavesCollectionFastenings.Add(collectionFastening15);
+            context.EavesCollectionFastenings.Add(collectionFastening16);
+            context.EavesCollectionFastenings.Add(collectionFastening17);
+            context.EavesCollectionFastenings.Add(collectionFastening18);
+            context.SaveChanges();
+            var collectionFasteningColor1 = new EavesCollectionFasteningsByColor
+            {
+                Id = 1,
+                eavesCollectionFasteningsEntity = collectionFastening1,
+                eavesColors = color1
+            };
+            var collectionFasteningColor2 = new EavesCollectionFasteningsByColor
+            {
+                Id = 2,
+                eavesCollectionFasteningsEntity = collectionFastening1,
+                eavesColors = color2
+            };
+            var collectionFasteningColor3 = new EavesCollectionFasteningsByColor
+            {
+                Id = 3,
+                eavesCollectionFasteningsEntity = collectionFastening1,
+                eavesColors = color3
+            };
+            var collectionFasteningColor4 = new EavesCollectionFasteningsByColor
+            {
+                Id = 4,
+                eavesCollectionFasteningsEntity = collectionFastening1,
+                eavesColors = color4
+            };
+            var collectionFasteningColor5 = new EavesCollectionFasteningsByColor
+            {
+                Id = 5,
+                eavesCollectionFasteningsEntity = collectionFastening1,
+                eavesColors = color5
+            };
+            var collectionFasteningColor6 = new EavesCollectionFasteningsByColor
+            {
+                Id = 6,
+                eavesCollectionFasteningsEntity = collectionFastening1,
+                eavesColors = color6
+            };
+            var collectionFasteningColor7 = new EavesCollectionFasteningsByColor
+            {
+                Id = 7,
+                eavesCollectionFasteningsEntity = collectionFastening2,
+                eavesColors = color1
+            };
+            var collectionFasteningColor8 = new EavesCollectionFasteningsByColor
+            {
+                Id = 8,
+                eavesCollectionFasteningsEntity = collectionFastening2,
+                eavesColors = color2
+            };
+            var collectionFasteningColor9 = new EavesCollectionFasteningsByColor
+            {
+                Id = 9,
+                eavesCollectionFasteningsEntity = collectionFastening2,
+                eavesColors = color3
+            };
+            var collectionFasteningColor10 = new EavesCollectionFasteningsByColor
+            {
+                Id = 10,
+                eavesCollectionFasteningsEntity = collectionFastening3,
+                eavesColors = color1
+            };
+            var collectionFasteningColor11 = new EavesCollectionFasteningsByColor
+            {
+                Id = 11,
+                eavesCollectionFasteningsEntity = collectionFastening3,
+                eavesColors = color2
+            };
+            var collectionFasteningColor12 = new EavesCollectionFasteningsByColor
+            {
+                Id = 12,
+                eavesCollectionFasteningsEntity = collectionFastening3,
+                eavesColors = color3
+            };
+            var collectionFasteningColor13 = new EavesCollectionFasteningsByColor
+            {
+                Id = 13,
+                eavesCollectionFasteningsEntity = collectionFastening3,
+                eavesColors = color4
+            };
+            var collectionFasteningColor14 = new EavesCollectionFasteningsByColor
+            {
+                Id = 14,
+                eavesCollectionFasteningsEntity = collectionFastening3,
+                eavesColors = color5
+            };
+            var collectionFasteningColor15 = new EavesCollectionFasteningsByColor
+            {
+                Id = 15,
+                eavesCollectionFasteningsEntity = collectionFastening3,
+                eavesColors = color6
+            };
+            var collectionFasteningColor16 = new EavesCollectionFasteningsByColor
+            {
+                Id = 16,
+                eavesCollectionFasteningsEntity = collectionFastening4,
+                eavesColors = color1
+            };
+            var collectionFasteningColor17 = new EavesCollectionFasteningsByColor
+            {
+                Id = 17,
+                eavesCollectionFasteningsEntity = collectionFastening4,
+                eavesColors = color2
+            };
+            var collectionFasteningColor18 = new EavesCollectionFasteningsByColor
+            {
+                Id = 18,
+                eavesCollectionFasteningsEntity = collectionFastening4,
+                eavesColors = color3
+            };
+            var collectionFasteningColor19 = new EavesCollectionFasteningsByColor
+            {
+                Id = 19,
+                eavesCollectionFasteningsEntity = collectionFastening5,
+                eavesColors = color1
+            };
+            var collectionFasteningColor20 = new EavesCollectionFasteningsByColor
+            {
+                Id = 20,
+                eavesCollectionFasteningsEntity = collectionFastening5,
+                eavesColors = color2
+            };
+            var collectionFasteningColor21 = new EavesCollectionFasteningsByColor
+            {
+                Id = 21,
+                eavesCollectionFasteningsEntity = collectionFastening5,
+                eavesColors = color3
+            };
+            var collectionFasteningColor22 = new EavesCollectionFasteningsByColor
+            {
+                Id = 22,
+                eavesCollectionFasteningsEntity = collectionFastening6,
+                eavesColors = color1
+            };
+            var collectionFasteningColor23 = new EavesCollectionFasteningsByColor
+            {
+                Id = 23,
+                eavesCollectionFasteningsEntity = collectionFastening6,
+                eavesColors = color2
+            };
+            var collectionFasteningColor24 = new EavesCollectionFasteningsByColor
+            {
+                Id = 24,
+                eavesCollectionFasteningsEntity = collectionFastening6,
+                eavesColors = color3
+            };
+            var collectionFasteningColor25 = new EavesCollectionFasteningsByColor
+            {
+                Id = 25,
+                eavesCollectionFasteningsEntity = collectionFastening7,
+                eavesColors = color1
+            };
+            var collectionFasteningColor26 = new EavesCollectionFasteningsByColor
+            {
+                Id = 26,
+                eavesCollectionFasteningsEntity = collectionFastening7,
+                eavesColors = color2
+            };
+            var collectionFasteningColor28 = new EavesCollectionFasteningsByColor
+            {
+                Id = 28,
+                eavesCollectionFasteningsEntity = collectionFastening7,
+                eavesColors = color3
+            };
+            var collectionFasteningColor29 = new EavesCollectionFasteningsByColor
+            {
+                Id = 29,
+                eavesCollectionFasteningsEntity = collectionFastening8,
+                eavesColors = color1
+            };
+            var collectionFasteningColor30 = new EavesCollectionFasteningsByColor
+            {
+                Id = 30,
+                eavesCollectionFasteningsEntity = collectionFastening8,
+                eavesColors = color2
+            };
+            var collectionFasteningColor31 = new EavesCollectionFasteningsByColor
+            {
+                Id = 31,
+                eavesCollectionFasteningsEntity = collectionFastening8,
+                eavesColors = color3
+            };
+            var collectionFasteningColor32 = new EavesCollectionFasteningsByColor
+            {
+                Id = 32,
+                eavesCollectionFasteningsEntity = collectionFastening9,
+                eavesColors = color1
+            };
+            var collectionFasteningColor33 = new EavesCollectionFasteningsByColor
+            {
+                Id = 33,
+                eavesCollectionFasteningsEntity = collectionFastening9,
+                eavesColors = color2
+            };
+            var collectionFasteningColor34 = new EavesCollectionFasteningsByColor
+            {
+                Id = 34,
+                eavesCollectionFasteningsEntity = collectionFastening9,
+                eavesColors = color3
+            };
+            var collectionFasteningColor35 = new EavesCollectionFasteningsByColor
+            {
+                Id = 35,
+                eavesCollectionFasteningsEntity = collectionFastening10,
+                eavesColors = color1
+            };
+            var collectionFasteningColor36 = new EavesCollectionFasteningsByColor
+            {
+                Id = 36,
+                eavesCollectionFasteningsEntity = collectionFastening10,
+                eavesColors = color2
+            };
+            var collectionFasteningColor37 = new EavesCollectionFasteningsByColor
+            {
+                Id = 37,
+                eavesCollectionFasteningsEntity = collectionFastening10,
+                eavesColors = color3
+            };
+            var collectionFasteningColor38 = new EavesCollectionFasteningsByColor
+            {
+                Id = 38,
+                eavesCollectionFasteningsEntity = collectionFastening11,
+                eavesColors = color1
+            };
+            var collectionFasteningColor39 = new EavesCollectionFasteningsByColor
+            {
+                Id = 39,
+                eavesCollectionFasteningsEntity = collectionFastening11,
+                eavesColors = color2
+            };
+            var collectionFasteningColor40 = new EavesCollectionFasteningsByColor
+            {
+                Id = 40,
+                eavesCollectionFasteningsEntity = collectionFastening11,
+                eavesColors = color3
+            };
+            var collectionFasteningColor41 = new EavesCollectionFasteningsByColor
+            {
+                Id = 41,
+                eavesCollectionFasteningsEntity = collectionFastening12,
+                eavesColors = color7
+            };
+            var collectionFasteningColor42 = new EavesCollectionFasteningsByColor
+            {
+                Id = 42,
+                eavesCollectionFasteningsEntity = collectionFastening13,
+                eavesColors = color7
+            };
+            var collectionFasteningColor43 = new EavesCollectionFasteningsByColor
+            {
+                Id = 43,
+                eavesCollectionFasteningsEntity = collectionFastening14,
+                eavesColors = color7
+            };
+            var collectionFasteningColor44 = new EavesCollectionFasteningsByColor
+            {
+                Id = 44,
+                eavesCollectionFasteningsEntity = collectionFastening15,
+                eavesColors = color7
+            };
+            var collectionFasteningColor45 = new EavesCollectionFasteningsByColor
+            {
+                Id = 45,
+                eavesCollectionFasteningsEntity = collectionFastening16,
+                eavesColors = color8
+            };
+            var collectionFasteningColor46 = new EavesCollectionFasteningsByColor
+            {
+                Id = 46,
+                eavesCollectionFasteningsEntity = collectionFastening16,
+                eavesColors = color9
+            };
+            var collectionFasteningColor47 = new EavesCollectionFasteningsByColor
+            {
+                Id = 47,
+                eavesCollectionFasteningsEntity = collectionFastening16,
+                eavesColors = color10
+            };
+            var collectionFasteningColor48 = new EavesCollectionFasteningsByColor
+            {
+                Id = 48,
+                eavesCollectionFasteningsEntity = collectionFastening16,
+                eavesColors = color11
+            };
+            var collectionFasteningColor49 = new EavesCollectionFasteningsByColor
+            {
+                Id = 49,
+                eavesCollectionFasteningsEntity = collectionFastening17,
+                eavesColors = color8
+            };
+            var collectionFasteningColor50 = new EavesCollectionFasteningsByColor
+            {
+                Id = 50,
+                eavesCollectionFasteningsEntity = collectionFastening17,
+                eavesColors = color9
+            };
+            var collectionFasteningColor51 = new EavesCollectionFasteningsByColor
+            {
+                Id = 51,
+                eavesCollectionFasteningsEntity = collectionFastening17,
+                eavesColors = color10
+            };
+            var collectionFasteningColor52 = new EavesCollectionFasteningsByColor
+            {
+                Id = 52,
+                eavesCollectionFasteningsEntity = collectionFastening17,
+                eavesColors = color11
+            };
+            var collectionFasteningColor53 = new EavesCollectionFasteningsByColor
+            {
+                Id = 53,
+                eavesCollectionFasteningsEntity = collectionFastening18,
+                eavesColors = color8
+            };
+            var collectionFasteningColor54 = new EavesCollectionFasteningsByColor
+            {
+                Id = 54,
+                eavesCollectionFasteningsEntity = collectionFastening18,
+                eavesColors = color9
+            };
+            var collectionFasteningColor55 = new EavesCollectionFasteningsByColor
+            {
+                Id = 55,
+                eavesCollectionFasteningsEntity = collectionFastening18,
+                eavesColors = color10
+            };
+            var collectionFasteningColor56 = new EavesCollectionFasteningsByColor
+            {
+                Id = 56,
+                eavesCollectionFasteningsEntity = collectionFastening18,
+                eavesColors = color11
+            };
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor1);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor2);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor3);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor4);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor5);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor6);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor7);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor8);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor9);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor10);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor11);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor12);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor13);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor14);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor15);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor16);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor17);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor18);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor19);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor20);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor21);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor22);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor23);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor24);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor25);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor26);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor28);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor29);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor30);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor31);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor32);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor33);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor34);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor35);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor36);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor37);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor38);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor39);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor40);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor41);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor42);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor43);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor44);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor45);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor46);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor47);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor48);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor49);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor50);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor51);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor52);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor53);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor54);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor55);
+            context.EavesCollectionFasteningsByColors.Add(collectionFasteningColor56);
+            context.SaveChanges();
+            var ring1 = new Ring
+            {
+                Id = 1,
+                RingName = "Обычное с зажимом"
+            };
+            var ring2 = new Ring
+            {
+                Id = 2,
+                RingName = "Обычное с крючком"
+            };
+            var ring3 = new Ring
+            {
+                Id = 3,
+                RingName = "Обычное"
+            };
+            var ring4 = new Ring
+            {
+                Id = 4,
+                RingName = "Тихое округлое с зажимом"
+            };
+            var ring5 = new Ring
+            {
+                Id = 5,
+                RingName = "Тихое округлое с крючком"
+            };
+            var ring6 = new Ring
+            {
+                Id = 6,
+                RingName = "Тихое округлое"
+            };
+            var ring7 = new Ring
+            {
+                Id = 7,
+                RingName = "Тихое плоское с зажимом"
+            };
+            var ring8 = new Ring
+            {
+                Id = 8,
+                RingName = "Тихое плоское с крючком"
+            };
+            var ring9 = new Ring
+            {
+                Id = 9,
+                RingName = "Тихое плоское"
+            };
+            var ring10 = new Ring
+            {
+                Id = 10,
+                RingName = "Обычное Квадро с зажимом"
+            };
+            var ring11 = new Ring
+            {
+                Id = 11,
+                RingName = "Обычное Квадро с крючком"
+            };
+            var ring12 = new Ring
+            {
+                Id = 12,
+                RingName = "Обычное Квадро"
+            };
+            var ring13 = new Ring
+            {
+                Id = 13,
+                RingName = "Тихое Квадро с зажимом"
+            };
+            var ring14 = new Ring
+            {
+                Id = 14,
+                RingName = "Тихое Квадро с крючком"
+            };
+            var ring15 = new Ring
+            {
+                Id = 15,
+                RingName = "Тихое Квадро"
+            };
+            var ring16 = new Ring
+            {
+                Id = 16,
+                RingName = "Тихое плосткое Оникс с зажимом"
+            };
+            var ring17 = new Ring
+            {
+                Id = 17,
+                RingName = "Тихое плоское Оникс с крючком"
+            };
+            var ring18 = new Ring
+            {
+                Id = 18,
+                RingName = "Тихое плоское Оникс"
+            };
+            var ring19 = new Ring
+            {
+                Id = 19,
+                RingName = "Без колец"
+            };
+            var ring20 = new Ring
+            {
+                Id = 20,
+                RingName = "Зажим профильный"
+            };
+            var ring21 = new Ring
+            {
+                Id = 21,
+                RingName = "Крючок профильный"
+            };
+            context.Rings.Add(ring1);
+            context.Rings.Add(ring2);
+            context.Rings.Add(ring3);
+            context.Rings.Add(ring4);
+            context.Rings.Add(ring5);
+            context.Rings.Add(ring6);
+            context.Rings.Add(ring7);
+            context.Rings.Add(ring8);
+            context.Rings.Add(ring9);
+            context.Rings.Add(ring10);
+            context.Rings.Add(ring11);
+            context.Rings.Add(ring12);
+            context.Rings.Add(ring13);
+            context.Rings.Add(ring14);
+            context.Rings.Add(ring15);
+            context.Rings.Add(ring16);
+            context.Rings.Add(ring17);
+            context.Rings.Add(ring17);
+            context.Rings.Add(ring18);
+            context.Rings.Add(ring19);
+            context.Rings.Add(ring20);
+            context.Rings.Add(ring21);
+            context.SaveChanges();
+            var collectionRing1 = new EavesCollectionRing
+            {
+                Id = 1,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring1,
+                eavesColorsEntity = color1
+            };
+            var collectionRing2 = new EavesCollectionRing
+            {
+                Id = 2,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring1,
+                eavesColorsEntity = color2
+            };
+            var collectionRing3 = new EavesCollectionRing
+            {
+                Id = 3,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring1,
+                eavesColorsEntity = color3
+            };
+            var collectionRing4 = new EavesCollectionRing
+            {
+                Id = 4,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring1,
+                eavesColorsEntity = color4
+            };
+            var collectionRing5 = new EavesCollectionRing
+            {
+                Id = 5,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring1,
+                eavesColorsEntity = color5
+            };
+            var collectionRing6 = new EavesCollectionRing
+            {
+                Id = 6,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring1,
+                eavesColorsEntity = color6
+            };
+            var collectionRing7 = new EavesCollectionRing
+            {
+                Id = 7,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring2,
+                eavesColorsEntity = color1
+            };
+            var collectionRing8 = new EavesCollectionRing
+            {
+                Id = 8,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring2,
+                eavesColorsEntity = color2
+            };
+            var collectionRing9 = new EavesCollectionRing
+            {
+                Id = 9,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring2,
+                eavesColorsEntity = color3
+            };
+            var collectionRing10 = new EavesCollectionRing
+            {
+                Id = 10,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring2,
+                eavesColorsEntity = color4
+            };
+            var collectionRing11 = new EavesCollectionRing
+            {
+                Id = 11,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring2,
+                eavesColorsEntity = color5
+            };
+            var collectionRing12 = new EavesCollectionRing
+            {
+                Id = 12,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring2,
+                eavesColorsEntity = color6
+            };
+            var collectionRing13 = new EavesCollectionRing
+            {
+                Id = 13,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring3,
+                eavesColorsEntity = color1
+            };
+            var collectionRing14 = new EavesCollectionRing
+            {
+                Id = 14,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring3,
+                eavesColorsEntity = color2
+            };
+            var collectionRing15= new EavesCollectionRing
+            {
+                Id = 15,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring3,
+                eavesColorsEntity = color3
+            };
+            var collectionRing16 = new EavesCollectionRing
+            {
+                Id = 16,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring3,
+                eavesColorsEntity = color4
+            };
+            var collectionRing17 = new EavesCollectionRing
+            {
+                Id = 17,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring3,
+                eavesColorsEntity = color5
+            };
+            var collectionRing18 = new EavesCollectionRing
+            {
+                Id = 18,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring3,
+                eavesColorsEntity = color6
+            };
+            var collectionRing19 = new EavesCollectionRing
+            {
+                Id = 19,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring4,
+                eavesColorsEntity = color1
+            };
+            var collectionRing20 = new EavesCollectionRing
+            {
+                Id = 20,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring4,
+                eavesColorsEntity = color2
+            };
+            var collectionRing21 = new EavesCollectionRing
+            {
+                Id = 21,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring4,
+                eavesColorsEntity = color3
+            };
+            var collectionRing22 = new EavesCollectionRing
+            {
+                Id = 22,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring5,
+                eavesColorsEntity = color1
+            };
+            var collectionRing23 = new EavesCollectionRing
+            {
+                Id = 23,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring5,
+                eavesColorsEntity = color2
+            };
+            var collectionRing24 = new EavesCollectionRing
+            {
+                Id = 24,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring5,
+                eavesColorsEntity = color3
+            };
+            var collectionRing25 = new EavesCollectionRing
+            {
+                Id = 25,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring6,
+                eavesColorsEntity = color1
+            };
+            var collectionRing26 = new EavesCollectionRing
+            {
+                Id = 26,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring6,
+                eavesColorsEntity = color2
+            };
+            var collectionRing27 = new EavesCollectionRing
+            {
+                Id = 27,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring6,
+                eavesColorsEntity = color3
+            };
+            var collectionRing28 = new EavesCollectionRing
+            {
+                Id = 28,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring7,
+                eavesColorsEntity = color1
+            };
+            var collectionRing29 = new EavesCollectionRing
+            {
+                Id = 29,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring7,
+                eavesColorsEntity = color2
+            };
+            var collectionRing30 = new EavesCollectionRing
+            {
+                Id = 30,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring8,
+                eavesColorsEntity = color1
+            };
+            var collectionRing31 = new EavesCollectionRing
+            {
+                Id = 31,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring8,
+                eavesColorsEntity = color2
+            };
+            var collectionRing32 = new EavesCollectionRing
+            {
+                Id = 32,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring9,
+                eavesColorsEntity = color1
+            };
+            var collectionRing33 = new EavesCollectionRing
+            {
+                Id = 33,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring9,
+                eavesColorsEntity = color2
+            };
+            var collectionRing34 = new EavesCollectionRing
+            {
+                Id = 34,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring1,
+                eavesColorsEntity = color1
+            };
+            var collectionRing35 = new EavesCollectionRing
+            {
+                Id = 35,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring1,
+                eavesColorsEntity = color2
+            };
+            var collectionRing36 = new EavesCollectionRing
+            {
+                Id = 36,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring1,
+                eavesColorsEntity = color3
+            };
+            var collectionRing37 = new EavesCollectionRing
+            {
+                Id = 37,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring2,
+                eavesColorsEntity = color1
+            };
+            var collectionRing38 = new EavesCollectionRing
+            {
+                Id = 38,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring2,
+                eavesColorsEntity = color2
+            };
+            var collectionRing39 = new EavesCollectionRing
+            {
+                Id = 39,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring2,
+                eavesColorsEntity = color3
+            };
+            var collectionRing40 = new EavesCollectionRing
+            {
+                Id = 40,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring3,
+                eavesColorsEntity = color1
+            };
+            var collectionRing41 = new EavesCollectionRing
+            {
+                Id = 41,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring3,
+                eavesColorsEntity = color2
+            };
+            var collectionRing42 = new EavesCollectionRing
+            {
+                Id = 42,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring3,
+                eavesColorsEntity = color3
+            };
+            var collectionRing43 = new EavesCollectionRing
+            {
+                Id = 43,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring4,
+                eavesColorsEntity = color1
+            };
+            var collectionRing44 = new EavesCollectionRing
+            {
+                Id = 44,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring4,
+                eavesColorsEntity = color2
+            };
+            var collectionRing45 = new EavesCollectionRing
+            {
+                Id = 45,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring4,
+                eavesColorsEntity = color3
+            };
+            var collectionRing46 = new EavesCollectionRing
+            {
+                Id = 46,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring5,
+                eavesColorsEntity = color1
+            };
+            var collectionRing47 = new EavesCollectionRing
+            {
+                Id = 47,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring5,
+                eavesColorsEntity = color2
+            };
+            var collectionRing48 = new EavesCollectionRing
+            {
+                Id = 48,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring5,
+                eavesColorsEntity = color3
+            };
+            var collectionRing49 = new EavesCollectionRing
+            {
+                Id = 49,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring6,
+                eavesColorsEntity = color1
+            };
+            var collectionRing50 = new EavesCollectionRing
+            {
+                Id = 50,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring6,
+                eavesColorsEntity = color2
+            };
+            var collectionRing51 = new EavesCollectionRing
+            {
+                Id = 51,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring6,
+                eavesColorsEntity = color3
+            };
+            var collectionRing52 = new EavesCollectionRing
+            {
+                Id = 52,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring7,
+                eavesColorsEntity = color3
+            };
+            var collectionRing53 = new EavesCollectionRing
+            {
+                Id = 53,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring8,
+                eavesColorsEntity = color3
+            };
+            var collectionRing54 = new EavesCollectionRing
+            {
+                Id = 54,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring9,
+                eavesColorsEntity = color3
+            };
+            var collectionRing55 = new EavesCollectionRing
+            {
+                Id = 55,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring1,
+                eavesColorsEntity = color1
+            };
+            var collectionRing56 = new EavesCollectionRing
+            {
+                Id = 56,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring1,
+                eavesColorsEntity = color2
+            };
+            var collectionRing57 = new EavesCollectionRing
+            {
+                Id = 57,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring1,
+                eavesColorsEntity = color3
+            };
+            var collectionRing58 = new EavesCollectionRing
+            {
+                Id = 58,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring2,
+                eavesColorsEntity = color1
+            };
+            var collectionRing59 = new EavesCollectionRing
+            {
+                Id = 59,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring2,
+                eavesColorsEntity = color2
+            };
+            var collectionRing60 = new EavesCollectionRing
+            {
+                Id = 60,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring2,
+                eavesColorsEntity = color3
+            };
+            var collectionRing61 = new EavesCollectionRing
+            {
+                Id = 61,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring3,
+                eavesColorsEntity = color1
+            };
+            var collectionRing62 = new EavesCollectionRing
+            {
+                Id = 62,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring3,
+                eavesColorsEntity = color2
+            };
+            var collectionRing63 = new EavesCollectionRing
+            {
+                Id = 63,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring3,
+                eavesColorsEntity = color3
+            };
+            var collectionRing64 = new EavesCollectionRing
+            {
+                Id = 64,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring4,
+                eavesColorsEntity = color1
+            };
+            var collectionRing65 = new EavesCollectionRing
+            {
+                Id = 65,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring4,
+                eavesColorsEntity = color2
+            };
+            var collectionRing66 = new EavesCollectionRing
+            {
+                Id = 66,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring4,
+                eavesColorsEntity = color3
+            };
+            var collectionRing67 = new EavesCollectionRing
+            {
+                Id = 67,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring5,
+                eavesColorsEntity = color1
+            };
+            var collectionRing68 = new EavesCollectionRing
+            {
+                Id = 68,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring5,
+                eavesColorsEntity = color2
+            };
+            var collectionRing69 = new EavesCollectionRing
+            {
+                Id = 69,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring5,
+                eavesColorsEntity = color3
+            };
+            var collectionRing70 = new EavesCollectionRing
+            {
+                Id = 70,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring6,
+                eavesColorsEntity = color1
+            };
+            var collectionRing71 = new EavesCollectionRing
+            {
+                Id = 71,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring6,
+                eavesColorsEntity = color2
+            };
+            var collectionRing72 = new EavesCollectionRing
+            {
+                Id = 72,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring6,
+                eavesColorsEntity = color3
+            };
+            var collectionRing73 = new EavesCollectionRing
+            {
+                Id = 73,
+                eavesCollectionEntity = series4,
+                ringsEntity = ring13,
+                eavesColorsEntity = color1
+            };
+            var collectionRing74 = new EavesCollectionRing
+            {
+                Id = 74,
+                eavesCollectionEntity = series4,
+                ringsEntity = ring13,
+                eavesColorsEntity = color2
+            };
+            var collectionRing75 = new EavesCollectionRing
+            {
+                Id = 75,
+                eavesCollectionEntity = series4,
+                ringsEntity = ring13,
+                eavesColorsEntity = color3
+            };
+            var collectionRing76 = new EavesCollectionRing
+            {
+                Id = 76,
+                eavesCollectionEntity = series4,
+                ringsEntity = ring14,
+                eavesColorsEntity = color1
+            };
+            var collectionRing77 = new EavesCollectionRing
+            {
+                Id = 77,
+                eavesCollectionEntity = series4,
+                ringsEntity = ring14,
+                eavesColorsEntity = color2
+            };
+            var collectionRing78 = new EavesCollectionRing
+            {
+                Id = 78,
+                eavesCollectionEntity = series4,
+                ringsEntity = ring14,
+                eavesColorsEntity = color3
+            };
+            var collectionRing79 = new EavesCollectionRing
+            {
+                Id = 79,
+                eavesCollectionEntity = series4,
+                ringsEntity = ring15,
+                eavesColorsEntity = color1
+            };
+            var collectionRing80 = new EavesCollectionRing
+            {
+                Id = 80,
+                eavesCollectionEntity = series4,
+                ringsEntity = ring15,
+                eavesColorsEntity = color2
+            };
+            var collectionRing81 = new EavesCollectionRing
+            {
+                Id = 81,
+                eavesCollectionEntity = series4,
+                ringsEntity = ring15,
+                eavesColorsEntity = color3
+            };
+            var collectionRing82 = new EavesCollectionRing
+            {
+                Id = 82,
+                eavesCollectionEntity = series5,
+                ringsEntity = ring16,
+                eavesColorsEntity = color7
+            };
+            var collectionRing83 = new EavesCollectionRing
+            {
+                Id = 83,
+                eavesCollectionEntity = series5,
+                ringsEntity = ring17,
+                eavesColorsEntity = color7
+            };
+            var collectionRing84 = new EavesCollectionRing
+            {
+                Id = 84,
+                eavesCollectionEntity = series5,
+                ringsEntity = ring18,
+                eavesColorsEntity = color7
+            };
+            var collectionRing85 = new EavesCollectionRing
+            {
+                Id = 85,
+                eavesCollectionEntity = series6,
+                ringsEntity = ring16,
+                eavesColorsEntity = color7
+            };
+            var collectionRing86 = new EavesCollectionRing
+            {
+                Id = 86,
+                eavesCollectionEntity = series6,
+                ringsEntity = ring17,
+                eavesColorsEntity = color7
+            };
+            var collectionRing87 = new EavesCollectionRing
+            {
+                Id = 87,
+                eavesCollectionEntity = series6,
+                ringsEntity = ring18,
+                eavesColorsEntity = color7
+            };
+            var collectionRing88 = new EavesCollectionRing
+            {
+                Id = 88,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring19,
+                eavesColorsEntity = color1
+            };
+            var collectionRing89 = new EavesCollectionRing
+            {
+                Id = 89,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring19,
+                eavesColorsEntity = color2
+            };
+            var collectionRing90 = new EavesCollectionRing
+            {
+                Id = 90,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring19,
+                eavesColorsEntity = color3
+            };
+            var collectionRing91 = new EavesCollectionRing
+            {
+                Id = 91,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring19,
+                eavesColorsEntity = color4
+            };
+            var collectionRing92 = new EavesCollectionRing
+            {
+                Id = 92,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring19,
+                eavesColorsEntity = color5
+            };
+            var collectionRing93 = new EavesCollectionRing
+            {
+                Id = 93,
+                eavesCollectionEntity = series1,
+                ringsEntity = ring19,
+                eavesColorsEntity = color6
+            };
+            var collectionRing94 = new EavesCollectionRing
+            {
+                Id = 94,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring19,
+                eavesColorsEntity = color1
+            };
+            var collectionRing95 = new EavesCollectionRing
+            {
+                Id = 95,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring19,
+                eavesColorsEntity = color2
+            };
+            var collectionRing96 = new EavesCollectionRing
+            {
+                Id = 96,
+                eavesCollectionEntity = series2,
+                ringsEntity = ring19,
+                eavesColorsEntity = color3
+            };
+            var collectionRing97 = new EavesCollectionRing
+            {
+                Id = 97,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring19,
+                eavesColorsEntity = color1
+            };
+            var collectionRing98 = new EavesCollectionRing
+            {
+                Id = 98,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring19,
+                eavesColorsEntity = color2
+            };
+            var collectionRing99 = new EavesCollectionRing
+            {
+                Id = 99,
+                eavesCollectionEntity = series3,
+                ringsEntity = ring19,
+                eavesColorsEntity = color3
+            };
+            var collectionRing100 = new EavesCollectionRing
+            {
+                Id = 100,
+                eavesCollectionEntity = series4,
+                ringsEntity = ring19,
+                eavesColorsEntity = color1
+            };
+            var collectionRing101 = new EavesCollectionRing
+            {
+                Id = 101,
+                eavesCollectionEntity = series4,
+                ringsEntity = ring19,
+                eavesColorsEntity = color2
+            };
+            var collectionRing102 = new EavesCollectionRing
+            {
+                Id = 102,
+                eavesCollectionEntity = series4,
+                ringsEntity = ring19,
+                eavesColorsEntity = color3
+            };
+            var collectionRing103 = new EavesCollectionRing
+            {
+                Id = 103,
+                eavesCollectionEntity = series5,
+                ringsEntity = ring19,
+                eavesColorsEntity = color7
+            };
+            var collectionRing104 = new EavesCollectionRing
+            {
+                Id = 104,
+                eavesCollectionEntity = series6,
+                ringsEntity = ring19,
+                eavesColorsEntity = color7
+            };
+            var collectionRing105 = new EavesCollectionRing
+            {
+                Id = 105,
+                eavesCollectionEntity = series7,
+                ringsEntity = ring20,
+                eavesColorsEntity = color8
+            };
+            var collectionRing106 = new EavesCollectionRing
+            {
+                Id = 106,
+                eavesCollectionEntity = series7,
+                ringsEntity = ring20,
+                eavesColorsEntity = color9
+            };
+            var collectionRing107 = new EavesCollectionRing
+            {
+                Id = 107,
+                eavesCollectionEntity = series7,
+                ringsEntity = ring20,
+                eavesColorsEntity = color10
+            };
+            var collectionRing108 = new EavesCollectionRing
+            {
+                Id = 108,
+                eavesCollectionEntity = series7,
+                ringsEntity = ring20,
+                eavesColorsEntity = color11
+            };
+            var collectionRing109 = new EavesCollectionRing
+            {
+                Id = 109,
+                eavesCollectionEntity = series7,
+                ringsEntity = ring21,
+                eavesColorsEntity = color8
+            };
+            var collectionRing110 = new EavesCollectionRing
+            {
+                Id = 110,
+                eavesCollectionEntity = series7,
+                ringsEntity = ring21,
+                eavesColorsEntity = color9
+            };
+            var collectionRing111 = new EavesCollectionRing
+            {
+                Id = 111,
+                eavesCollectionEntity = series7,
+                ringsEntity = ring21,
+                eavesColorsEntity = color10
+            };
+            var collectionRing112 = new EavesCollectionRing
+            {
+                Id = 112,
+                eavesCollectionEntity = series7,
+                ringsEntity = ring21,
+                eavesColorsEntity = color11
+            };
+            var collectionRing113 = new EavesCollectionRing
+            {
+                Id = 113,
+                eavesCollectionEntity = series7,
+                ringsEntity = ring19,
+                eavesColorsEntity = color8
+            };
+            var collectionRing114 = new EavesCollectionRing
+            {
+                Id = 114,
+                eavesCollectionEntity = series7,
+                ringsEntity = ring19,
+                eavesColorsEntity = color9
+            };
+            var collectionRing115 = new EavesCollectionRing
+            {
+                Id = 115,
+                eavesCollectionEntity = series7,
+                ringsEntity = ring19,
+                eavesColorsEntity = color10
+            };
+            var collectionRing116 = new EavesCollectionRing
+            {
+                Id = 116,
+                eavesCollectionEntity = series7,
+                ringsEntity = ring19,
+                eavesColorsEntity = color11
+            };
+            context.EavesCollectionRings.Add(collectionRing1);
+            context.EavesCollectionRings.Add(collectionRing2);
+            context.EavesCollectionRings.Add(collectionRing3);
+            context.EavesCollectionRings.Add(collectionRing4);
+            context.EavesCollectionRings.Add(collectionRing5);
+            context.EavesCollectionRings.Add(collectionRing6);
+            context.EavesCollectionRings.Add(collectionRing7);
+            context.EavesCollectionRings.Add(collectionRing8);
+            context.EavesCollectionRings.Add(collectionRing9);
+            context.EavesCollectionRings.Add(collectionRing10);
+            context.EavesCollectionRings.Add(collectionRing11);
+            context.EavesCollectionRings.Add(collectionRing12);
+            context.EavesCollectionRings.Add(collectionRing13);
+            context.EavesCollectionRings.Add(collectionRing14);
+            context.EavesCollectionRings.Add(collectionRing15);
+            context.EavesCollectionRings.Add(collectionRing16);
+            context.EavesCollectionRings.Add(collectionRing17);
+            context.EavesCollectionRings.Add(collectionRing18);
+            context.EavesCollectionRings.Add(collectionRing19);
+            context.EavesCollectionRings.Add(collectionRing20);
+            context.EavesCollectionRings.Add(collectionRing21);
+            context.EavesCollectionRings.Add(collectionRing22);
+            context.EavesCollectionRings.Add(collectionRing23);
+            context.EavesCollectionRings.Add(collectionRing24);
+            context.EavesCollectionRings.Add(collectionRing25);
+            context.EavesCollectionRings.Add(collectionRing26);
+            context.EavesCollectionRings.Add(collectionRing27);
+            context.EavesCollectionRings.Add(collectionRing28);
+            context.EavesCollectionRings.Add(collectionRing29);
+            context.EavesCollectionRings.Add(collectionRing30);
+            context.EavesCollectionRings.Add(collectionRing31);
+            context.EavesCollectionRings.Add(collectionRing32);
+            context.EavesCollectionRings.Add(collectionRing33);
+            context.EavesCollectionRings.Add(collectionRing34);
+            context.EavesCollectionRings.Add(collectionRing35);
+            context.EavesCollectionRings.Add(collectionRing36);
+            context.EavesCollectionRings.Add(collectionRing37);
+            context.EavesCollectionRings.Add(collectionRing38);
+            context.EavesCollectionRings.Add(collectionRing39);
+            context.EavesCollectionRings.Add(collectionRing40);
+            context.EavesCollectionRings.Add(collectionRing41);
+            context.EavesCollectionRings.Add(collectionRing42);
+            context.EavesCollectionRings.Add(collectionRing43);
+            context.EavesCollectionRings.Add(collectionRing44);
+            context.EavesCollectionRings.Add(collectionRing45);
+            context.EavesCollectionRings.Add(collectionRing46);
+            context.EavesCollectionRings.Add(collectionRing47);
+            context.EavesCollectionRings.Add(collectionRing48);
+            context.EavesCollectionRings.Add(collectionRing49);
+            context.EavesCollectionRings.Add(collectionRing50);
+            context.EavesCollectionRings.Add(collectionRing51);
+            context.EavesCollectionRings.Add(collectionRing52);
+            context.EavesCollectionRings.Add(collectionRing53);
+            context.EavesCollectionRings.Add(collectionRing54);
+            context.EavesCollectionRings.Add(collectionRing55);
+            context.EavesCollectionRings.Add(collectionRing56);
+            context.EavesCollectionRings.Add(collectionRing57);
+            context.EavesCollectionRings.Add(collectionRing58);
+            context.EavesCollectionRings.Add(collectionRing59);
+            context.EavesCollectionRings.Add(collectionRing60);
+            context.EavesCollectionRings.Add(collectionRing61);
+            context.EavesCollectionRings.Add(collectionRing62);
+            context.EavesCollectionRings.Add(collectionRing63);
+            context.EavesCollectionRings.Add(collectionRing64);
+            context.EavesCollectionRings.Add(collectionRing65);
+            context.EavesCollectionRings.Add(collectionRing66);
+            context.EavesCollectionRings.Add(collectionRing67);
+            context.EavesCollectionRings.Add(collectionRing68);
+            context.EavesCollectionRings.Add(collectionRing69);
+            context.EavesCollectionRings.Add(collectionRing70);
+            context.EavesCollectionRings.Add(collectionRing71);
+            context.EavesCollectionRings.Add(collectionRing72);
+            context.EavesCollectionRings.Add(collectionRing73);
+            context.EavesCollectionRings.Add(collectionRing74);
+            context.EavesCollectionRings.Add(collectionRing75);
+            context.EavesCollectionRings.Add(collectionRing76);
+            context.EavesCollectionRings.Add(collectionRing77);
+            context.EavesCollectionRings.Add(collectionRing78);
+            context.EavesCollectionRings.Add(collectionRing79);
+            context.EavesCollectionRings.Add(collectionRing80);
+            context.EavesCollectionRings.Add(collectionRing81);
+            context.EavesCollectionRings.Add(collectionRing82);
+            context.EavesCollectionRings.Add(collectionRing83);
+            context.EavesCollectionRings.Add(collectionRing84);
+            context.EavesCollectionRings.Add(collectionRing85);
+            context.EavesCollectionRings.Add(collectionRing86);
+            context.EavesCollectionRings.Add(collectionRing87);
+            context.EavesCollectionRings.Add(collectionRing88);
+            context.EavesCollectionRings.Add(collectionRing89);
+            context.EavesCollectionRings.Add(collectionRing90);
+            context.EavesCollectionRings.Add(collectionRing91);
+            context.EavesCollectionRings.Add(collectionRing92);
+            context.EavesCollectionRings.Add(collectionRing93);
+            context.EavesCollectionRings.Add(collectionRing94);
+            context.EavesCollectionRings.Add(collectionRing95);
+            context.EavesCollectionRings.Add(collectionRing96);
+            context.EavesCollectionRings.Add(collectionRing97);
+            context.EavesCollectionRings.Add(collectionRing98);
+            context.EavesCollectionRings.Add(collectionRing99);
+            context.EavesCollectionRings.Add(collectionRing100);
+            context.EavesCollectionRings.Add(collectionRing101);
+            context.EavesCollectionRings.Add(collectionRing102);
+            context.EavesCollectionRings.Add(collectionRing103);
+            context.EavesCollectionRings.Add(collectionRing104);
+            context.EavesCollectionRings.Add(collectionRing105);
+            context.EavesCollectionRings.Add(collectionRing106);
+            context.EavesCollectionRings.Add(collectionRing107);
+            context.EavesCollectionRings.Add(collectionRing108);
+            context.EavesCollectionRings.Add(collectionRing109);
+            context.EavesCollectionRings.Add(collectionRing110);
+            context.EavesCollectionRings.Add(collectionRing111);
+            context.EavesCollectionRings.Add(collectionRing112);
+            context.EavesCollectionRings.Add(collectionRing113);
+            context.EavesCollectionRings.Add(collectionRing114);
+            context.EavesCollectionRings.Add(collectionRing115);
+            context.EavesCollectionRings.Add(collectionRing116);
+            context.SaveChanges();
         }
     }
 }
