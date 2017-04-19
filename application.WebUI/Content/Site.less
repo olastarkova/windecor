@@ -90,6 +90,14 @@ label {
     position: relative;
 }
 
+.glyphicon-info-sign {
+    float: left;
+    font-size: 24px;
+    color: #2f79ff;
+    margin-right: 15px;
+    line-height: 1.5;
+}
+
 
 /* ------- Common Functions End --------- */
 * {
@@ -415,6 +423,19 @@ footer {
     padding-top: 35px;
     padding-bottom: 35px;
 
+    .info {
+        background-color: #d9edf7;
+        font-size: 14px;
+        padding: 21px;
+        border-radius: 4px;
+        text-align: justify;
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+
     input[type=radio] + label {
         padding: 5px;
         width: 100%;
@@ -479,7 +500,6 @@ footer {
     }
 
     p {
-        margin-top: 10px;
         color: @lighter-grey;
         text-align: justify;
         text-indent: 30px;
@@ -637,6 +657,7 @@ footer {
             }
 
             &:hover {
+                border-bottom-color: @red;
 
                 .collectionName {
                     color: @red !important;

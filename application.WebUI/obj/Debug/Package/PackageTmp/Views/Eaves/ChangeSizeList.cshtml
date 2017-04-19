@@ -1,0 +1,15 @@
+﻿
+@model IEnumerable<application.Domain.Enitites.EavesSize>
+@{
+    Layout = null;
+}
+
+@foreach (var size in Model)
+{
+    <div class='col-xs-3 col-md-2'>
+        <input type="radio" name="size" id="size-@size.pipesSizeEntity.Id" value="@size.pipesSizeEntity.Id"/>
+        <label for="size-@size.pipesSizeEntity.Id">
+            <span>@size.pipesSizeEntity.Size</span>
+        </label>
+    </div>
+}

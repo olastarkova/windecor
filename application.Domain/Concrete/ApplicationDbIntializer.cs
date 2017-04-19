@@ -8,7 +8,7 @@ using application.Domain.Enitites;
 
 namespace application.Domain.Concrete
 {
-    class ApplicationDbIntializer : DropCreateDatabaseAlways<EFDbContext>
+    class ApplicationDbIntializer : CreateDatabaseIfNotExists<EFDbContext>
     {
         protected override void Seed(EFDbContext context)
         {

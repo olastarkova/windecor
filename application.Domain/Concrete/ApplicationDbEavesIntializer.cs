@@ -8,7 +8,7 @@ using application.Domain.Enitites;
 
 namespace application.Domain.Concrete
 {
-    class ApplicationDbEavesIntializer : DropCreateDatabaseAlways<EFDbEavesContex>
+    class ApplicationDbEavesIntializer : CreateDatabaseIfNotExists<EFDbEavesContex>
     {
         protected override void Seed(EFDbEavesContex context)
         {
@@ -616,35 +616,35 @@ namespace application.Domain.Concrete
             var collectionItem1 = new EavesCollectionItem
             {
                 Id = 1,
-                Description = "Test description",
+                Description = "",
                 eavesCollectionEntity = series1,
                 eavesItemsEntity = item1
             };
             var collectionItem2 = new EavesCollectionItem
             {
                 Id = 2,
-                Description = "Test description",
+                Description = "",
                 eavesCollectionEntity = series1,
                 eavesItemsEntity = item2
             };
             var collectionItem3 = new EavesCollectionItem
             {
                 Id = 3,
-                Description = "Test description",
+                Description = "",
                 eavesCollectionEntity = series1,
                 eavesItemsEntity = item3
             };
             var collectionItem4 = new EavesCollectionItem
             {
                 Id = 4,
-                Description = "Test description",
+                Description = "",
                 eavesCollectionEntity = series1,
                 eavesItemsEntity = item4
             };
             var collectionItem5 = new EavesCollectionItem
             {
                 Id = 5,
-                Description = "Test description",
+                Description = "",
                 eavesCollectionEntity = series1,
                 eavesItemsEntity = item5
             };

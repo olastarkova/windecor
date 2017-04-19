@@ -1,0 +1,25 @@
+﻿@model List<application.Domain.Enitites.EavesCollectionFasteningsByColor>
+
+@{var i = 0; }
+@foreach (var pipeFastening in Model)
+{
+    if (i == 0)
+    {
+        <div class='col-xs-6 col-md-3 krepleniya'>
+            <input type='radio' id='fastening-@pipeFastening.eavesCollectionFasteningsEntity.Id' value="@pipeFastening.eavesCollectionFasteningsEntity.Id" name='fastenings' checked />
+            <label for='fastening-@pipeFastening.eavesCollectionFasteningsEntity.Id' class='imageWraper truba'>
+                <img src='~/Content/img/karnizy/krepleniya/@(pipeFastening.eavesCollectionFasteningsEntity.Id).jpg' />
+            </label>
+        </div>
+    }
+    else
+    {
+        <div class='col-xs-6 col-md-3 krepleniya'>
+            <input type='radio' id='fastening-@pipeFastening.eavesCollectionFasteningsEntity.Id' value="@pipeFastening.eavesCollectionFasteningsEntity.Id" name='fastenings' />
+            <label for='fastening-@pipeFastening.eavesCollectionFasteningsEntity.Id' class='imageWraper truba'>
+                <img src='~/Content/img/karnizy/krepleniya/@(pipeFastening.eavesCollectionFasteningsEntity.Id).jpg' />
+            </label>
+        </div>
+    }
+    i++;
+}

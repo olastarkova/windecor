@@ -1,0 +1,28 @@
+﻿@model IEnumerable<application.Domain.Enitites.PipesColor>
+
+@{var i = 0; }
+@foreach (var pipeAllColor in Model)
+{
+
+
+    if (i == 0)
+    {
+        <div class='col-xs-3 col-md-2 trubyColor'>
+            <input type='radio' id='pipe-@pipeAllColor.pipesEntity.Id' value='@pipeAllColor.pipesEntity.Id' name='pipes' checked />
+            <label for='pipe-@pipeAllColor.pipesEntity.Id' class='imageWraper truba'>
+                <img src='~/Content/img/karnizy/truby/@(pipeAllColor.pipesEntity.Id).jpg' />
+            </label>
+        </div>
+    }
+    else
+    {
+        <div class='col-xs-3 col-md-2 trubyColor'>
+            <input type='radio' id='pipe-@pipeAllColor.pipesEntity.Id' value='@pipeAllColor.pipesEntity.Id' name='pipes' />
+            <label for='pipe-@pipeAllColor.pipesEntity.Id' class='imageWraper truba'>
+                <img src='~/Content/img/karnizy/truby/@(pipeAllColor.pipesEntity.Id).jpg' />
+            </label>
+        </div>
+    }
+    i++;
+
+}

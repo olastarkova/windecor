@@ -245,10 +245,7 @@
     <Content Include="Content\img\karnizy\items\76.jpg" />
     <Content Include="Content\img\karnizy\items\77.jpg" />
     <Content Include="Content\img\karnizy\items\78.jpg" />
-    <Content Include="Content\img\karnizy\items\79.jpg" />
     <Content Include="Content\img\karnizy\items\8.jpg" />
-    <Content Include="Content\img\karnizy\items\80.jpg" />
-    <Content Include="Content\img\karnizy\items\81.jpg" />
     <Content Include="Content\img\karnizy\items\9.jpg" />
     <Content Include="Content\img\karnizy\kolca\1.jpg" />
     <Content Include="Content\img\karnizy\kolca\13.jpg" />
@@ -324,7 +321,6 @@
     <Content Include="Content\img\slide6.jpg" />
     <Content Include="Content\img\slide2.jpg" />
     <Content Include="Content\img\slide4.jpg" />
-    <Content Include="Content\img\slider.jpg" />
     <Content Include="Content\Site.css">
       <DependentUpon>Site.less</DependentUpon>
     </Content>
@@ -377,6 +373,8 @@
     <Content Include="scripts\angular-cookies.min.js.map" />
     <Content Include="scripts\angular-aria.min.js.map" />
     <Content Include="scripts\angular-animate.min.js.map" />
+    <None Include="Properties\PublishProfiles\windecor.pubxml" />
+    <None Include="Properties\PublishProfiles\windecor1.pubxml" />
     <None Include="scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="scripts\i18n\angular-locale_af-na.js" />
     <Content Include="scripts\i18n\angular-locale_af-za.js" />
@@ -1172,8 +1170,6 @@
     <Content Include="Views\Eaves\EavesItems.cshtml" />
     <Content Include="Views\Eaves\ItemDetails.cshtml" />
     <Content Include="Views\Eaves\EavesColor.cshtml" />
-    <Content Include="Views\Eaves\FirstEavesColor.cshtml" />
-    <Content Include="Views\Eaves\PipeEaves.cshtml" />
     <Content Include="Views\Eaves\PipeEavesAllColors.cshtml" />
     <Content Include="Views\Eaves\ChangePipeEavesAllColors.cshtml" />
     <Content Include="Views\Eaves\ChangePipeList.cshtml" />
@@ -1182,10 +1178,8 @@
     <Content Include="Views\Eaves\PipeSizeAll.cshtml" />
     <Content Include="Views\Eaves\PipeItemAll.cshtml" />
     <Content Include="Views\Eaves\PipeFasteningAll.cshtml" />
-    <Content Include="Views\Eaves\PipeFasteningNameAll.cshtml" />
     <Content Include="Views\Eaves\ChangeFasteningName.cshtml" />
     <Content Include="Views\Eaves\PipeRingAll.cshtml" />
-    <Content Include="Views\Eaves\PipeRingNameAll.cshtml" />
     <Content Include="scripts\version.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

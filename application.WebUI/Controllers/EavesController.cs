@@ -53,34 +53,35 @@ namespace application.WebUI.Controllers
             var eavesColor = _repository.EavesItemsColors.Where(e => e.eavesCollectionItemsEntity.Id == id).ToList();
             return PartialView(eavesColor);
         }
-        public PartialViewResult FirstEavesColor(int? id)
+        public string FirstEavesColor(int? id)
         {
-            var firstEavesColor = _repository.EavesItemsColors.Where(e => e.eavesCollectionItemsEntity.Id == id).ToList().Take(1);
-            return PartialView(firstEavesColor);
+            var firstEavesColor = _repository.EavesItemsColors.Where(e => e.eavesCollectionItemsEntity.Id == id).ToList().Take(1).FirstOrDefault();
+            return firstEavesColor.eavesColorsEntity.ColorName;
         }
-        public PartialViewResult PipeEaves(int? id)
+        public string PipeEaves(int? id, int? id2)
         {
-            var pipeEaves = _repository.PipesColors.Where(p => p.eavesCollectionEntity.Id == id).ToList().Take(1);
-            return PartialView(pipeEaves);
+            var pipeEavesAdditional = _repository.EavesItemsColors.Where(q => q.eavesCollectionItemsEntity.Id == id2).FirstOrDefault();
+            var pipeEaves = _repository.PipesColors.Where(p => p.eavesCollectionEntity.Id == id && p.eavesColorsEntity.Id == pipeEavesAdditional.eavesColorsEntity.Id).ToList().Take(1).FirstOrDefault();
+            return pipeEaves.pipesEntity.PipesName;
         }
         public PartialViewResult PipeEavesAllColors(int? id, int? id2)
         {
-            var pipeEavesAllColorsAdditional = _repository.EavesItemsColors.Where(q => q.eavesCollectionItemsEntity.Id ==id2).FirstOrDefault();
-           
-            var pipeEavesAllColors = _repository.PipesColors.Where(p => p.eavesCollectionEntity.Id == id && p.eavesColorsEntity.Id == pipeEavesAllColorsAdditional.eavesColorsEntity.Id).GroupBy(p => p.pipesEntity.Id).Select(s=>s.FirstOrDefault()).ToList();
+            var pipeEavesAllColorsAdditional = _repository.EavesItemsColors.Where(q => q.eavesCollectionItemsEntity.Id == id2).FirstOrDefault();
+
+            var pipeEavesAllColors = _repository.PipesColors.Where(p => p.eavesCollectionEntity.Id == id && p.eavesColorsEntity.Id == pipeEavesAllColorsAdditional.eavesColorsEntity.Id).GroupBy(p => p.pipesEntity.Id).Select(s => s.FirstOrDefault()).ToList();
             return PartialView(pipeEavesAllColors);
         }
-        public PartialViewResult PipeSizeAll (int? id)
+        public PartialViewResult PipeSizeAll(int? id)
         {
             var pipeSizeAllAdditional = _repository.PipesColors.Where(p => p.eavesCollectionEntity.Id == id).First();
 
             var pipeSizeAll = _repository.EavesSizes.Where(p => p.eavesCollectionEntity.Id == id && p.pipesEntity.Id == pipeSizeAllAdditional.pipesEntity.Id).OrderBy(p => p.pipesSizeEntity.Id).ToList();
             return PartialView(pipeSizeAll);
         }
-        public PartialViewResult PipeItemAll(int? id, int?id2)
+        public PartialViewResult PipeItemAll(int? id, int? id2)
         {
             var pipeItemAllAdditional = _repository.EavesItemsColors.Where(p => p.eavesCollectionItemsEntity.Id == id2).First();
-            
+
             var pipeItemAll = _repository.EavesCollectionTypes.Where(p => p.eavesCollectionEntity.Id == id && p.eavesColorsEntity.Id == pipeItemAllAdditional.eavesColorsEntity.Id).ToList();
             return PartialView(pipeItemAll);
         }
@@ -91,13 +92,13 @@ namespace application.WebUI.Controllers
             var pipeFasteningAll = _repository.EavesCollectionFasteningsByColors.Where(p => p.eavesCollectionFasteningsEntity.eavesCollectionEntity.Id == id && p.eavesCollectionFasteningsEntity.eavesTypesEntity.Id == pipeFasteningAllAdditional2.eavesTypesEntity.Id && p.eavesColors.Id == pipeFasteningAllAdditional.eavesColorsEntity.Id).ToList();
             return PartialView(pipeFasteningAll);
         }
-        public PartialViewResult PipeFasteningNameAll(int? id, int? id2)
+        public string PipeFasteningNameAll(int? id, int? id2)
         {
             var pipeFasteningAllAdditional = _repository.EavesItemsColors.Where(p => p.eavesCollectionItemsEntity.Id == id2).FirstOrDefault();
             var pipeFasteningAllAdditional2 = _repository.EavesCollectionTypes.Where(p => p.eavesCollectionEntity.Id == id).FirstOrDefault();
-            var pipeFasteningNameAll = _repository.EavesCollectionFasteningsByColors.Where(p => p.eavesCollectionFasteningsEntity.eavesCollectionEntity.Id == id && p.eavesCollectionFasteningsEntity.eavesTypesEntity.Id == pipeFasteningAllAdditional2.eavesTypesEntity.Id && p.eavesColors.Id == pipeFasteningAllAdditional.eavesColorsEntity.Id).Take(1).ToList();
+            var pipeFasteningNameAll = _repository.EavesCollectionFasteningsByColors.Where(p => p.eavesCollectionFasteningsEntity.eavesCollectionEntity.Id == id && p.eavesCollectionFasteningsEntity.eavesTypesEntity.Id == pipeFasteningAllAdditional2.eavesTypesEntity.Id && p.eavesColors.Id == pipeFasteningAllAdditional.eavesColorsEntity.Id).Take(1).ToList().FirstOrDefault();
 
-            return PartialView(pipeFasteningNameAll);
+            return pipeFasteningNameAll.eavesCollectionFasteningsEntity.eavesFasteningsEntity.Name;
         }
         public PartialViewResult PipeRingAll(int? id, int? id2)
         {
@@ -105,11 +106,11 @@ namespace application.WebUI.Controllers
             var pipeRingAll = _repository.EavesCollectionRings.Where(p => p.eavesCollectionEntity.Id == id && p.eavesColorsEntity.Id == pipeRingAllAdditional.eavesColorsEntity.Id).ToList();
             return PartialView(pipeRingAll);
         }
-        public PartialViewResult PipeRingNameAll(int? id, int? id2)
+        public string PipeRingNameAll(int? id, int? id2)
         {
             var pipeRingNameAllAdditional = _repository.EavesItemsColors.Where(p => p.eavesCollectionItemsEntity.Id == id2).FirstOrDefault();
-            var pipeRingNameAll = _repository.EavesCollectionRings.Where(p => p.eavesCollectionEntity.Id == id && p.eavesColorsEntity.Id == pipeRingNameAllAdditional.eavesColorsEntity.Id).Take(1).ToList();
-            return PartialView(pipeRingNameAll);
+            var pipeRingNameAll = _repository.EavesCollectionRings.Where(p => p.eavesCollectionEntity.Id == id && p.eavesColorsEntity.Id == pipeRingNameAllAdditional.eavesColorsEntity.Id).Take(1).ToList().FirstOrDefault();
+            return pipeRingNameAll.ringsEntity.RingName;
         }
         [HttpPost]
         public PartialViewResult ChangePipeEavesAllColors(int? id)
@@ -131,16 +132,48 @@ namespace application.WebUI.Controllers
             return PartialView(changeName);
         }
         [HttpPost]
-        public ActionResult ChangeSizeList(int? id, int? idcol)
+        public PartialViewResult ChangeFasteningList(int? id, int? idcol, int? id2)
         {
-            var query = _repository.EavesSizes.Where(c => c.pipesEntity.Id == id && c.eavesCollectionEntity.Id == idcol).ToList();
-            return PartialView(query);
+            var fasteningList = _repository.EavesCollectionFasteningsByColors.Where(p => p.eavesCollectionFasteningsEntity.eavesCollectionEntity.Id == idcol && p.eavesCollectionFasteningsEntity.eavesTypesEntity.Id == id && p.eavesColors.Id == id2).ToList();
+            return PartialView("PipeFasteningAll", fasteningList);
         }
+
         [HttpPost]
         public ActionResult ChangeFasteningName(int? id)
         {
             var changeName = _repository.EavesCollectionFastenings.Where(c => c.Id == id).ToList();
             return PartialView(changeName);
+        }
+        [HttpPost]
+        public string ChangeRingName(int? id)
+        {
+            var changeRingName = _repository.Rings.Where(p => p.Id == id).FirstOrDefault();
+
+            return changeRingName.RingName;
+        }
+        [HttpPost]
+        public PartialViewResult ChangeRingList(int? id, int? idcol)
+        {
+            var pipeRingAll = _repository.EavesCollectionRings.Where(p => p.eavesCollectionEntity.Id == idcol && p.eavesColorsEntity.Id == id).ToList();
+            return PartialView("PipeRingAll", pipeRingAll);
+        }
+        [HttpPost]
+        public PartialViewResult ChangeItemTypeList(int? id, int? idcol)
+        {
+            var changeItemTypeList = _repository.EavesCollectionTypes.Where(p => p.eavesCollectionEntity.Id == idcol && p.eavesColorsEntity.Id == id).ToList();
+            return PartialView("PipeItemAll", changeItemTypeList);
+        }
+        [HttpPost]
+        public PartialViewResult ChangeSizeList(int? id, int? idcol)
+        {
+            var changeSizeList = _repository.EavesSizes.Where(p => p.eavesCollectionEntity.Id == idcol && p.pipesEntity.Id == id).OrderBy(p => p.pipesSizeEntity.Id).ToList();
+            return PartialView("PipeSizeAll", changeSizeList);
+        }
+        [HttpPost]
+        public PartialViewResult ChangePipiItem(int? id, int? idcol)
+        {
+            var pipeItemAll = _repository.EavesCollectionTypes.Where(p => p.eavesCollectionEntity.Id == idcol && p.eavesColorsEntity.Id == id).ToList();
+            return PartialView(pipeItemAll);
         }
     }
 }

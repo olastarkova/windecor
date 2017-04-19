@@ -1,0 +1,14 @@
+﻿@model application.Domain.Enitites.EavesCollection
+
+<div class='col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6'>
+    <div class='karnizyCollection'>
+        <a id='@Model.Id' href='~/Eaves/Details/@Model.Id'>
+            <div class='imageWrapper'>
+                <img src='~/Content/img/karnizy/@(Model.Id).jpg' alt='@Model.Name' />
+            </div>
+            <div class='collectionName'>
+                Карнизы @Model.Name
+            </div>
+        </a>
+    </div>
+</div>

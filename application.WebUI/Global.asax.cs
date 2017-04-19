@@ -13,7 +13,7 @@ namespace application.WebUI
     {
         protected void Application_Start()
         {
-            System.Data.Entity.Database.SetInitializer<EFDbContext>(null);
+            //System.Data.Entity.Database.SetInitializer<EFDbContext>(null);
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             ControllerBuilder.Current.SetControllerFactory(new NinjectControllerFactory());
