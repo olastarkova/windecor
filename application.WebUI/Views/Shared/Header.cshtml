@@ -1,21 +1,51 @@
 ﻿@{
     Layout = null;
 }
-<header class="top_line">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12 col-sm-5 col-md-4">
-                <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-                +375(29)3115153, +375(33)6869687
-            </div>
-            <div class="hidden-xs col-sm-7 col-md-5">
-                <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-                ул.Уручская, 13, пом.109А <span>Стройрынок Уручье</span>
-            </div>
-            <div class="hidden-xs hidden-sm col-md-2">
-                <span class="myGlyphicon glyphicon glyphicon-time " aria-hidden="true"></span>
-                Вт-Вс: 10:00 - 16:30
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter42872629 = new Ya.Metrika({ id:42872629, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true, ecommerce:"dataLayer" }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/42872629" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+<header @*class="top_line"*@>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top_menu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <a href="~/Home/Index" class="navbar-brand logo">
+                            <img src="~/Content/img/logo.png" alt="Логотип WinDecor" />
+                        </a>
+                    </div>
+                    <div class="hidden-xs snav navbar-nav navbar-right">
+                        <div class="nav navbar-nav phoneIcon">
+                            <img src="~/Content/img/phone.png" alt="WinDecor телефон" />
+                        </div>
+                        <div class="nav navbar-nav phone">+375<span>(29)</span>3115153</div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </nav>
+    <nav class="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-offset-2 col-md-8">
+                    <div class="collapse navbar-collapse" id="top_menu">
+                        <ul class="navbar-nav">
+                            <li @*class="active"*@><a href="~/Home/Index">Главная</a></li>
+                            <li><a href="~/Eaves/Series">Карнизы</a></li>
+                            <li><a href="~/Product/List">Рольшторы</a></li>
+                            <!-- <li><a href="#">Статьи</a></li>-->
+                            <li><a href="~/Contacts/Contacts">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
 </header>

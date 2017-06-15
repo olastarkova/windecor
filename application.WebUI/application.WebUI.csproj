@@ -138,8 +138,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Admin.css" />
+    <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\address.png" />
     <Content Include="Content\img\checkbox_checked.png" />
     <Content Include="Content\img\checkbox_checked2.png" />
     <Content Include="Content\img\checkbox_unchecked.png" />
@@ -152,6 +154,11 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="Content\img\shtapik.jpg" />
+    <Content Include="Content\media.css">
+      <DependentUpon>media.less</DependentUpon>
+    </Content>
+    <Content Include="Content\media.less" />
     <None Include="Content\Site.less" />
     <Content Include="Content\img\bg.png" />
     <Content Include="Content\img\karnizy\1.jpg" />
@@ -294,6 +301,7 @@
     <Content Include="Content\img\karnizy_img.jpg" />
     <Content Include="Content\img\logo.png" />
     <Content Include="Content\img\mobile_menu.png" />
+    <Content Include="Content\img\phone.png" />
     <Content Include="Content\img\RolCollections\1.jpg" />
     <Content Include="Content\img\RolCollections\10.jpg" />
     <Content Include="Content\img\RolCollections\11.jpg" />
@@ -321,6 +329,10 @@
     <Content Include="Content\img\slide6.jpg" />
     <Content Include="Content\img\slide2.jpg" />
     <Content Include="Content\img\slide4.jpg" />
+    <Content Include="Content\img\time.png" />
+    <Content Include="Content\media.min.css">
+      <DependentUpon>media.css</DependentUpon>
+    </Content>
     <Content Include="Content\Site.css">
       <DependentUpon>Site.less</DependentUpon>
     </Content>

@@ -15,45 +15,58 @@
 </head>
 <body>
     @{ Html.RenderPartial("Header");
-        Html.RenderPartial("TopMenu");
     }
-    <section class="rolCollections content">
+    <section class="content">
         <div class="container">
             <div class="row">
-                <div class="hidden-xs col-sm-3 col-md-3  sideBar">
-                    <div class="col-xs-12">
-                        <div class="panel panel-default">
-                            <div class="panel-heading text-uppercase">Категории</div>
-                            <div class="panel-body">
-                                <div id="karnizyCategories">
-                                    <ul class="firstLevel karnizyCategoriesFL">
-                                        <li>
-                                            <a data-vendorId='1'>@{ Html.RenderAction("EavesMenu", "EavesNav"); }</a>
-                                            <ul class="secondLevel karnizyCategoriesSL"></ul>
-                                        </li>
-                                    </ul>
+                <div class="col-xs-12 rolCollections">
+                    <div class="col-xs-12 description">
+                        <div class="col-xs-6">
+                            <h1>Где купить карниз?</h1>
+                            <p>В интернет-магазине <strong>WinDecor.by</strong> представлен широкий выбор карнизов <strong>польских фабрик Marcin Dekor и Karten</strong>. Всем известно, что именно <strong>польские карнизы</strong> славятся своим качеством и долговечностью. И наши карнизы не исключение, ведь фабрики <strong>Marcin Dekor</strong> и <strong>Karten</strong> уже более 20 лет производят металлические карнизы самого высокого качества.</p>
+                            <p>Купить карниз Вы можете в нашем магазине по адресу: <strong><a href="~/Contacts/Contacts" target="_blank" title="WinDecor.by - адрес">г. Минск, ул. Уручская 19 (Стройрынок «Уручье»), пом. 109А </a></strong>.  У нас Вы найдете карнизы, подходящие любому стилю интерьера, от классики до кантри и хай-тек. </p>
+                        </div>
+                        <div class="col-xs-6">
+                            <img src="~/Content/img/karnizy-1.jpg" alt="Купить карниз в Минске" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3  sideBar">
+                        <div class="col-xs-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading text-uppercase">Категории</div>
+                                <div class="panel-body">
+                                    <div id="karnizyCategories">
+                                        <ul class="firstLevel karnizyCategoriesFL">
+                                            @{ Html.RenderAction("EavesMenu", "EavesNav"); }
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading text-uppercase">Производители</div>
+                                <div class="panel-body">
+                                    <div id="vendors">
+                                        <ul class="firstLevel rolCategoriesFL">
+                                            <li>
+                                                <a>Marcin Dekor (Польша)</a>
+                                                @*<input type="checkbox" checked id="vendor1" />
+                                                    <label for="vendor1">Marcin Dekor (Польша)</label>*@
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12">
-                        <div class="panel panel-default">
-                            <div class="panel-heading text-uppercase">Производители</div>
-                            <div class="panel-body">
-                                <div id="vendors">
-                                    <ul class="firstLevel rolCategoriesFL">
-                                        <li><a>Marcin Dekor (Польша)</a>
-                                            @*<input type="checkbox" checked id="vendor1" />
-                                            <label for="vendor1">Marcin Dekor (Польша)</label>*@
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+
+                    <div class="col-xs-12  col-sm-9 col-md-9  productContent" id="products">
+                        @RenderBody()
                     </div>
                 </div>
-                <div class="col-xs-12  col-sm-9 col-md-9  productContent" id="products">
-                    @RenderBody()
+                <div class="col-xs-12 description">
+                    
                 </div>
             </div>
         </div>

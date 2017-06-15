@@ -18,17 +18,109 @@
 @lighter-grey: #666;
 @light-grey: #d2d2d2;
 @baseFontSize: 14px;
+@red-grey: #f7ecec;
 
 
 /*------- -Variables End ----------------------*/
 
+.simple_transition {
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+//HEADER
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    border: none;
+
+    .navbar-brand {
+        padding: 0;
+        line-height: 60px;
+
+        img {
+            width: 250px;
+        }
+    }
+
+    .phoneIcon {
+        width: 40px;
+        line-height: 60px;
+        margin-right: 10px;
+    }
+
+    .phone {
+        color: #fff;
+        font-size: 24px;
+        line-height: 60px;
+
+        span {
+            color: @red;
+        }
+    }
+
+    .nav {
+        li {
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.navigation {
+    text-transform: uppercase;
+
+    .container {
+        border-bottom: 1px solid @light-grey;
+
+        ul {
+            width: 100%;
+            list-style-type: none;
+
+            li {
+                width: 25%;
+                margin: auto;
+                text-align: center;
+
+                a {
+                    color: @lighter-grey;
+                    font-size: 18px;
+                    display: inline-block;
+                    width: 100%;
+                    padding: 0;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: @red-grey;
+                    .simple_transition;
+                }
+
+                &:hover a {
+                    color: @red;
+                }
+            }
+
+            li.active {
+                a {
+                    color: @red;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
 
 /*------------Common Functions Start----------*/
 
-
-.simple_transition {
-    transition: all 0.3s ease-in-out;
+img {
+    width: 100%;
 }
+
 
 .shadow {
     filter: drop-shadow(2px 2px 2px @lighter-grey);
@@ -97,8 +189,6 @@ label {
     margin-right: 15px;
     line-height: 1.5;
 }
-
-
 /* ------- Common Functions End --------- */
 * {
     font-family: 'Roboto', sans-serif;
@@ -124,21 +214,30 @@ a {
     text-decoration: none;
 
     &:hover {
-        text-decoration: none !important;
+        text-decoration: none;
     }
 
     &:link {
-        text-decoration: none !important;
+        text-decoration: none;
     }
 }
 
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
 h1, h2, h3 {
-    line-height: 40px !important;
+    /*line-height: 40px !important;*/
     text-align: center;
-    font-family: 'Ubuntu Mono', monospace !important;
+    /* font-family: 'Ubuntu Mono', monospace !important;
     font-weight: 700 !important;
     color: @grey !important;
-    border-bottom: 4px solid @light-grey;
+    border-bottom: 4px solid @light-grey;*/
 }
 
 h4 {
@@ -158,8 +257,7 @@ h4 {
     padding-right: 15px;
     margin-bottom: 16px;
 }
-
-.top_line {
+/*.top_line {
     position: relative;
     width: 100%;
     min-height: 40px;
@@ -174,9 +272,8 @@ h4 {
         text-align: right;
         padding: 0px;
     }
-}
-
-.top_menu {
+}*/
+/*.top_menu {
     height: 70px;
     background-color: @grey;
     position: relative;
@@ -220,9 +317,8 @@ h4 {
             }
         }
     }
-}
-
-#mobile_menu {
+}*/
+/*#mobile_menu {
     position: absolute;
     z-index: 16;
     background-color: #373737;
@@ -247,8 +343,7 @@ h4 {
             }
         }
     }
-}
-
+}*/
 .slide1 {
     position: relative;
     width: 100%;
@@ -534,7 +629,8 @@ footer {
 }
 
 .rolCollections {
-    padding-top: 40px;
+    padding: 30px 0px;
+    border-bottom: 1px solid @light-grey;
 
     .panel-default {
         border-radius: 0px;
@@ -671,6 +767,18 @@ footer {
     }
 }
 
+.description {
+    margin-bottom: 40px;
+
+    a {
+    color: @red;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+}
+
 .karnizySerii {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -693,123 +801,3 @@ footer {
         }
     }
 }
-
-
-
-/*-----------Media Queries Start-----------*/
-
-
-
-@media screen and (max-width: 991px) {
-
-
-
-    .glyphicon {
-        font-size: 20px;
-    }
-
-    .slider .slider_info {
-        div {
-            font-size: 33px;
-
-            &:last-of-type {
-                font-size: 24px;
-            }
-        }
-
-        .btn {
-            font-size: 14px !important;
-            width: 150px;
-        }
-    }
-
-    .map .container .row {
-        h4 {
-            font-size: 16px;
-        }
-
-
-        div {
-            text-align: center;
-            font-size: 16px;
-            line-height: 34px;
-        }
-    }
-
-    .catalogue .image_wraper .masking span {
-        font-size: 18px;
-    }
-
-    footer {
-        height: 70px;
-        line-height: 40px;
-
-        #copyright {
-            text-align: center;
-            font-size: 12px;
-        }
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .top_menu {
-        height: 50px;
-        line-height: 50px;
-
-        .image_wraper img {
-            height: 30px;
-        }
-
-        .logo {
-            height: 40px;
-        }
-
-        #mobile_menu {
-            position: absolute;
-            z-index: 16;
-            background-color: #373737;
-            width: 100%;
-            top: 50px;
-            left: 0;
-            border-top: 1px solid #d2d2d2;
-        }
-    }
-
-    h2, h3 {
-        font-size: 20px !important;
-    }
-
-    .catalogue .image_wraper {
-        width: 70%;
-        margin: 0 auto 20px;
-    }
-
-    .contacts {
-        div {
-            font-size: 14px;
-            line-height: 30px;
-        }
-    }
-
-    .itemDetails {
-        h2 {
-            margin-top: 24px;
-            text-align: center;
-        }
-    }
-
-    .catalogue {
-        .image_wraper {
-            .masking {
-                padding: 0 10%;
-
-                span {
-                    font-size: 16px;
-                }
-            }
-        }
-    }
-}
-
-/*-----------Media Queries End-----------*/
-

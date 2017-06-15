@@ -1,4 +1,14 @@
-﻿//AJAX TEMPLATE
+﻿$(function () {
+    ////HEADER
+    //$(".navigation a").click(function(){
+    //    $(this).closest("li").addClass("active");
+    //    $(".navigation li.active").removeClass("active");
+
+    //});
+
+});
+
+//AJAX TEMPLATE
 function sendData(sendUrl, target, value1, value2, value3) {
     $.ajax({
         url: sendUrl,
