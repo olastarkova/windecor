@@ -255,7 +255,7 @@ h4 {
 .block_header {
     padding-left: 15px;
     padding-right: 15px;
-    margin-bottom: 16px;
+    /*margin-bottom: 30px;*/
 }
 /*.top_line {
     position: relative;
@@ -395,6 +395,8 @@ h4 {
 
 .catalogue {
 
+    padding: 40px;
+
     .image_wraper {
         position: relative;
 
@@ -438,35 +440,16 @@ h4 {
 }
 
 .map {
-    padding-top: 40px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 2;
+    background-color: @red-grey;
 
     .container {
         margin-bottom: 30px;
 
-        .glyphicon {
-            vertical-align: sub;
-        }
-
-        .glyphicon-map-marker {
-            vertical-align: initial;
-        }
-
-
-        .row {
-
-            div {
-                font-size: @baseFontSize + 6px;
-                line-height: 52px;
-            }
-
-            .right {
-                text-align: right;
-            }
-
-            .time {
-                text-align: center;
-            }
-        }
+        
     }
 }
 
@@ -771,12 +754,12 @@ footer {
     margin-bottom: 40px;
 
     a {
-    color: @red;
+        color: @red;
 
-    &:hover {
-        text-decoration: underline;
+        &:hover {
+            text-decoration: underline;
+        }
     }
-}
 }
 
 .karnizySerii {

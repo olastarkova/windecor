@@ -187,7 +187,7 @@ h4 span {
 .block_header {
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 16px;
+  /*margin-bottom: 30px;*/
 }
 /*.top_line {
     position: relative;
@@ -314,6 +314,9 @@ h4 span {
   font-size: 30px;
   font-weight: 700;
 }
+.catalogue {
+  padding: 40px;
+}
 .catalogue .image_wraper {
   position: relative;
 }
@@ -349,26 +352,14 @@ h4 span {
   transition: all 0.2s ease-in-out;
 }
 .map {
-  padding-top: 40px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 2;
+  background-color: #f7ecec;
 }
 .map .container {
   margin-bottom: 30px;
-}
-.map .container .glyphicon {
-  vertical-align: sub;
-}
-.map .container .glyphicon-map-marker {
-  vertical-align: initial;
-}
-.map .container .row div {
-  font-size: 20px;
-  line-height: 52px;
-}
-.map .container .row .right {
-  text-align: right;
-}
-.map .container .row .time {
-  text-align: center;
 }
 footer {
   width: 100%;

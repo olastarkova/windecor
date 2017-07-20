@@ -16,7 +16,7 @@
 <body>
     @{ Html.RenderPartial("Header");
     }
-    <section class="contacts content">
+    <section class="contacts content map">
         <div class="container">
             <div class="row">
                 <header class="block_header">
@@ -24,21 +24,32 @@
                 </header>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-9 col-sm-offset-3 col-md-6 col-md-offset-4">
-                    <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-                    Стройрынок Уручье, ул.Уручская, 13, пом.109А
+                <div class="col-xs-12 col-sm-4 address">
+                    <div class="col-xs-3 col-sm-12 imageWraper">
+                        <img src="~/Content/img/address.png" />
+                    </div>
+                    <div class="col-xs-9 col-sm-12">
+                        <strong>Стройрынок "Уручье"</strong> <br />
+                        Минск, ул.Уручская, 19, пом.109А
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-9 col-sm-offset-3 col-md-6 col-md-offset-4">
-                    <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-                    Вт-Вс: 10:00 - 16:30
+                <div class="col-xs-12 col-sm-4 time">
+                    <div class="col-xs-3 col-sm-12 imageWraper">
+                        <img src="~/Content/img/time.png" />
+                    </div>
+                    <div class="col-xs-9 col-sm-12">
+                        Вторник - Воскресенье <br />
+                        <span>10:00 - 16:30</span>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-9 col-sm-offset-3 col-md-6 col-md-offset-4">
-                    <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-                    +375(29)3115153, +375(33)6869687
+                <div class="col-xs-12 col-sm-4 phone">
+                    <div class="col-xs-3 col-sm-12 imageWraper">
+                        <img src="~/Content/img/phone.png" />
+                    </div>
+                    <div class="col-xs-9 col-sm-12">
+                        +375(29) <strong>3115153</strong> <br />
+                        +375(33) <strong>6869687</strong>
+                    </div>
                 </div>
             </div>
         </div>
